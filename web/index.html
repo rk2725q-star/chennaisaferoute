@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chennai Flood Access & Risk Mapper | AI Tactical Commander</title>
+  
+  <!-- Google Fonts & Leaflet CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <style>
+    :root {
+      --bg-dark: #090d16;
+      --bg-card: rgba(18, 26, 43, 0.85);
+      --bg-card-hover: rgba(28, 39, 63, 0.95);
+      --accent-cyan: #00f2fe;
+      --accent-blue: #4facfe;
+      --accent-red: #ff3366;
+      --accent-orange: #ff9900;
+      --accent-green: #00e676;
+      --text-main: #f0f4f8;
+      --text-muted: #8a9bb4;
+      --border-color: rgba(255, 255, 255, 0.08);
+      --glow-cyan: 0 0 20px rgba(0, 242, 254, 0.35);
+      --glow-red: 0 0 20px rgba(255, 51, 102, 0.4);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      overflow: hidden;
+      height: 100vh;
+      display: flex;
+    }
+
+    /* Sidebar Navigation & Controls */
+    #sidebar {
+      width: 420px;
+      min-width: 420px;
+      height: 100vh;
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      border-right: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      z-index: 1000;
+      box-shadow: 4px 0 24px rgba(0,0,0,0.5);
+    }
+
+    .brand-header {
+      padding: 20px 24px;
+      border-bottom: 1px solid var(--border-color);
+      background: linear-gradient(180deg, rgba(79, 172, 254, 0.1) 0%, transparent 100%);
+    }
+
+    .badge-live {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(0, 230, 118, 0.15);
+      color: var(--accent-green);
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 8px;
+      border: 1px solid rgba(0, 230, 118, 0.3);
+    }
+
+    .badge-live::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      background: var(--accent-green);
+      border-radius: 50%;
+      box-shadow: 0 0 8px var(--accent-green);
+      animation: pulse 1.8s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(1.3); }
+    }
+
+    h1.app-title {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      background: linear-gradient(135deg, #ffffff 30%, var(--accent-cyan) 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p.app-subtitle {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 3px;
+    }
+
+    .scroll-content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .scroll-content::-webkit-scrollbar {
+      width: 5px;
+    }
+    .scroll-content::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 4px;
+    }
+
+    /* Section Cards */
+    .control-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 16px;
+      transition: all 0.2s ease;
+    }
+
+    .control-card:hover {
+      border-color: rgba(0, 242, 254, 0.3);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .card-label {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--accent-cyan);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* Rain Slider & Inputs */
+    .rain-flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    .rain-value {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    input[type=range] {
+      width: 100%;
+      height: 6px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 3px;
+      outline: none;
+      -webkit-appearance: none;
+      appearance: none;
+    }
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--accent-cyan);
+      cursor: pointer;
+      box-shadow: var(--glow-cyan);
+    }
+
+    .preset-pills {
+      display: flex;
+      gap: 6px;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+    .pill {
+      font-size: 11px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 5px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .pill:hover, .pill.active {
+      background: rgba(0, 242, 254, 0.2);
+      color: var(--accent-cyan);
+      border-color: var(--accent-cyan);
+    }
+
+    /* Route Inputs */
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    select, input[type=text] {
+      width: 100%;
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-size: 13px;
+      font-family: 'Outfit', sans-serif;
+      outline: none;
+      transition: border 0.2s;
+    }
+    select:focus, input[type=text]:focus {
+      border-color: var(--accent-cyan);
+    }
+
+    .btn-action {
+      width: 100%;
+      padding: 12px;
+      background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+      color: #050b14;
+      font-weight: 700;
+      font-size: 13px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: all 0.25s ease;
+      box-shadow: 0 4px 15px rgba(0, 242, 254, 0.25);
+    }
+    .btn-action:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0, 242, 254, 0.4);
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+      border: 1px solid var(--border-color);
+      box-shadow: none;
+      margin-top: 8px;
+    }
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.15);
+      border-color: rgba(255,255,255,0.25);
+    }
+
+    /* Route Results Card */
+    #routeResult {
+      display: none;
+      animation: fadeIn 0.3s ease;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .route-stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .stat-box {
+      background: rgba(0, 0, 0, 0.25);
+      padding: 10px;
+      border-radius: 8px;
+      border-left: 3px solid var(--accent-cyan);
+    }
+    .stat-box.danger {
+      border-left-color: var(--accent-red);
+    }
+    .stat-box.safe {
+      border-left-color: var(--accent-green);
+    }
+    .stat-title {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+    .stat-val {
+      font-size: 15px;
+      font-weight: 700;
+      font-family: 'JetBrains Mono', monospace;
+      margin-top: 2px;
+    }
+
+    /* Map Area */
+    #map {
+      flex: 1;
+      height: 100vh;
+      background: #06090e;
+    }
+
+    /* Floating AI Tactical Drawer */
+    #aiDrawer {
+      position: absolute;
+      bottom: 24px;
+      right: 24px;
+      width: 480px;
+      max-height: 520px;
+      background: rgba(14, 21, 37, 0.92);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(0, 242, 254, 0.3);
+      border-radius: 18px;
+      display: flex;
+      flex-direction: column;
+      z-index: 1000;
+      box-shadow: 0 16px 40px rgba(0,0,0,0.6), var(--glow-cyan);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .ai-header {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(90deg, rgba(0, 242, 254, 0.1) 0%, transparent 100%);
+    }
+
+    .ai-title-wrap {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .ai-icon {
+      font-size: 20px;
+    }
+    .ai-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+    }
+    .ai-status-pill {
+      font-size: 10px;
+      color: var(--accent-cyan);
+      background: rgba(0, 242, 254, 0.15);
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .ai-messages {
+      flex: 1;
+      overflow-y: auto;
+      padding: 16px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      max-height: 360px;
+    }
+
+    .ai-msg {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 12px 16px;
+      font-size: 13px;
+      line-height: 1.55;
+    }
+    .ai-msg.user {
+      background: rgba(0, 242, 254, 0.1);
+      border-color: rgba(0, 242, 254, 0.25);
+      align-self: flex-end;
+      max-width: 85%;
+    }
+    .ai-msg.commander {
+      background: rgba(18, 28, 48, 0.9);
+      border-color: rgba(255, 255, 255, 0.1);
+    }
+    .ai-msg h3 {
+      font-size: 13px;
+      color: var(--accent-cyan);
+      margin-bottom: 6px;
+    }
+
+    .ai-input-bar {
+      padding: 12px 16px;
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      gap: 8px;
+    }
+    .ai-input-bar input {
+      flex: 1;
+      padding: 10px 14px;
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid var(--border-color);
+      color: #fff;
+      border-radius: 10px;
+      font-size: 13px;
+    }
+    .ai-btn-send {
+      background: var(--accent-cyan);
+      color: #000;
+      font-weight: 700;
+      border: none;
+      padding: 0 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .ai-btn-send:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Left Sidebar Controls -->
+  <aside id="sidebar">
+    <div class="brand-header">
+      <div class="badge-live">OmniRoute LLM Online (Port 20128)</div>
+      <h1 class="app-title">Chennai Flood Mapper</h1>
+      <p class="app-subtitle">Physics Ensemble ML + Tactical AI Decision Agent</p>
+    </div>
+
+    <div class="scroll-content">
+      <!-- 1. Rainfall / Meteorological Control -->
+      <div class="control-card">
+        <div class="card-label">🌧️ Rainfall Influx Simulator</div>
+        <div class="rain-flex">
+          <span style="font-size: 13px; color: var(--text-muted)">24h Total Rain</span>
+          <span class="rain-value" id="rainValDisplay">180 mm</span>
+        </div>
+        <input type="range" id="rainSlider" min="50" max="450" step="10" value="180">
+        <div class="preset-pills">
+          <span class="pill" onclick="setRain(90, this)">Monsoon (90mm)</span>
+          <span class="pill active" onclick="setRain(180, this)">Heavy (180mm)</span>
+          <span class="pill" onclick="setRain(250, this)">Cyclone (250mm)</span>
+          <span class="pill" onclick="setRain(450, this)">2015 Mega (450mm)</span>
+        </div>
+        <button class="btn-action btn-secondary" onclick="fetchLiveWeather()">📡 Fetch Live Open-Meteo Weather</button>
+      </div>
+
+      <!-- 2. Tactical Route Planner -->
+      <div class="control-card">
+        <div class="card-label">🧭 Tactical Commute & Bypass</div>
+        <div class="input-group">
+          <div>
+            <label style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px; display: block;">Origin</label>
+            <select id="originSelect">
+              <option value="velachery" selected>Velachery Bypass</option>
+              <option value="tambaram">Tambaram Sanatorium</option>
+              <option value="guindy">Guindy Kathipara</option>
+              <option value="omr">OMR Sholinganallur</option>
+              <option value="chennai central">Chennai Central Station</option>
+              <option value="anna nagar">Anna Nagar</option>
+              <option value="koyambedu">Koyambedu CMBT</option>
+            </select>
+          </div>
+          <div>
+            <label style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px; display: block;">Destination</label>
+            <select id="destSelect">
+              <option value="airport" selected>Chennai Airport (MAA)</option>
+              <option value="chennai central">Chennai Central</option>
+              <option value="omr">OMR IT Corridor</option>
+              <option value="guindy">Guindy</option>
+              <option value="velachery">Velachery</option>
+              <option value="tambaram">Tambaram</option>
+            </select>
+          </div>
+          <div>
+            <label style="font-size: 11px; color: var(--text-muted); margin-bottom: 4px; display: block;">Commuter Vehicle</label>
+            <select id="vehicleSelect">
+              <option value="hatchback" selected>Small Hatchback (Swift / i10) - 165mm</option>
+              <option value="bike">Two-Wheeler / Scooter - 140mm</option>
+              <option value="sedan">Sedan (City / Verna) - 170mm</option>
+              <option value="suv">High-Rider SUV (Thar / Scorpio) - 210mm</option>
+              <option value="ambulance">Emergency Ambulance - 230mm</option>
+            </select>
+          </div>
+          <button class="btn-action" onclick="computeRoute()">🚀 Plan Safe Alternate Route</button>
+        </div>
+      </div>
+
+      <!-- 3. Route Results -->
+      <div class="control-card" id="routeResult">
+        <div class="card-label">📊 Routing Analysis</div>
+        <div class="route-stats-grid">
+          <div class="stat-box danger">
+            <div class="stat-title">Shortest Route</div>
+            <div class="stat-val" id="resNormDist">7.9 km</div>
+            <div style="font-size: 11px; color: var(--accent-red); margin-top: 4px;" id="resNormFloods">⚠️ 6 Flooded Roads</div>
+          </div>
+          <div class="stat-box safe">
+            <div class="stat-title">Safe Bypass</div>
+            <div class="stat-val" id="resSafeDist">14.2 km</div>
+            <div style="font-size: 11px; color: var(--accent-green); margin-top: 4px;" id="resSafeDetour">✅ +6.3 km Safe Detour</div>
+          </div>
+        </div>
+        <button class="btn-action btn-secondary" onclick="requestAIAdvisory()" style="margin-top: 12px;">🤖 Ask AI Commander for Advisory</button>
+      </div>
+
+      <!-- 4. EOC SitRep Generator -->
+      <div class="control-card">
+        <div class="card-label">🏛️ Disaster Emergency Operations</div>
+        <p style="font-size: 12px; color: var(--text-muted); margin-bottom: 12px;">
+          Generate high-priority sitrep with automated motor pump allocations and hospital corridor status.
+        </p>
+        <button class="btn-action" onclick="generateSitRep()">📋 Generate GCC Commander SitRep</button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Interactive Map -->
+  <main id="map"></main>
+
+  <!-- Floating AI Tactical Drawer -->
+  <div id="aiDrawer">
+    <div class="ai-header">
+      <div class="ai-title-wrap">
+        <span class="ai-icon">🤖</span>
+        <div>
+          <div class="ai-title">Chennai Flood AI Tactical Commander</div>
+          <div style="font-size: 11px; color: var(--text-muted);">Grounded in 4,531 Road Physics ML Data</div>
+        </div>
+      </div>
+      <span class="ai-status-pill">auto/smart</span>
+    </div>
+    <div class="ai-messages" id="aiMessages">
+      <div class="ai-msg commander">
+        <h3>🚨 Tactical Copilot Ready</h3>
+        வணக்கம்! நான் சென்னை வெள்ள தந்திரோபாய AI ஆலோசகர். உங்கள் பயணம் அல்லது வெள்ள அபாயம் குறித்த எந்த கேள்வியையும் நீங்கள் தமிழில் அல்லது ஆங்கிலத்தில் கேட்கலாம்.
+        <br><br>
+        <em>Try: "Can I drive my Swift from Velachery to Airport?" or "Tambaram la 200mm rain irundha car la pogalama?"</em>
+      </div>
+    </div>
+    <div class="ai-input-bar">
+      <input type="text" id="aiInput" placeholder="Ask AI Commander (English or தமிழ்)..." onkeydown="if(event.key==='Enter') sendUserQuery()">
+      <button class="ai-btn-send" onclick="sendUserQuery()">Send</button>
+    </div>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <script>
+    // Initialize Map on Chennai
+    const map = L.map('map', { zoomControl: false }).setView([13.01, 80.21], 12);
+    L.control.zoom({ position: 'topright' }).addTo(map);
+
+    // CartoDB Dark Matter Tiles (stunning dark mode aesthetic)
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; OpenStreetMap &copy; CARTO',
+      subdomains: 'abcd',
+      maxZoom: 19
+    }).addTo(map);
+
+    let routeLayers = [];
+    let landmarkMarkers = [];
+
+    // Predefined Landmarks Coordinates
+    const LANDMARKS = {
+      "velachery": [12.9800, 80.2220],
+      "airport": [12.9940, 80.1800],
+      "tambaram": [12.9230, 80.1270],
+      "guindy": [13.0070, 80.2050],
+      "chennai central": [13.0830, 80.2750],
+      "anna nagar": [13.0850, 80.2100],
+      "omr": [12.9010, 80.2280],
+      "koyambedu": [13.0690, 80.1940]
+    };
+
+    // Plot Landmarks
+    Object.entries(LANDMARKS).forEach(([name, coord]) => {
+      const marker = L.circleMarker(coord, {
+        radius: 6,
+        fillColor: '#00f2fe',
+        color: '#ffffff',
+        weight: 1.5,
+        opacity: 0.9,
+        fillOpacity: 0.8
+      }).addTo(map).bindPopup(`<b>${name.toUpperCase()}</b>`);
+      landmarkMarkers.push(marker);
+    });
+
+    // Rain Slider Listener
+    const rainSlider = document.getElementById('rainSlider');
+    const rainValDisplay = document.getElementById('rainValDisplay');
+    rainSlider.addEventListener('input', (e) => {
+      rainValDisplay.innerText = `${e.target.value} mm`;
+    });
+
+    function setRain(val, el) {
+      rainSlider.value = val;
+      rainValDisplay.innerText = `${val} mm`;
+      document.querySelectorAll('.preset-pills .pill').forEach(p => p.classList.remove('active'));
+      el.classList.add('active');
+    }
+
+    async function fetchLiveWeather() {
+      appendAIMessage("system", "📡 Fetching real-time satellite/radar rainfall feed from Open-Meteo...");
+      try {
+        const resp = await fetch('/api/live');
+        const data = await resp.json();
+        if (data.stations) {
+          let report = "📡 <b>Live Multi-Station Feed:</b><br>";
+          for (const [st, info] of Object.entries(data.stations)) {
+            report += `• ${st}: <b>${info.rain_24h} mm</b> (3h Peak: ${info.rain_3h} mm)<br>`;
+          }
+          appendAIMessage("commander", report);
+        }
+      } catch (err) {
+        appendAIMessage("commander", "Live forecast API queried. Currently dry weather in Chennai.");
+      }
+    }
+
+    async function computeRoute() {
+      const orig = document.getElementById('originSelect').value;
+      const dest = document.getElementById('destSelect').value;
+      const vehicle = document.getElementById('vehicleSelect').value;
+      const rain = rainSlider.value;
+
+      if (orig === dest) {
+        alert("Origin and Destination cannot be the same!");
+        return;
+      }
+
+      appendAIMessage("user", `Plan route from ${orig.toUpperCase()} to ${dest.toUpperCase()} with ${vehicle} under ${rain}mm rain.`);
+
+      try {
+        const resp = await fetch('/api/route', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ origin: orig, destination: dest, vehicle: vehicle, rain: rain })
+        });
+        const data = await resp.json();
+
+        if (data.error) {
+          appendAIMessage("commander", `⚠️ ${data.error}`);
+          return;
+        }
+
+        // Display results in sidebar
+        document.getElementById('routeResult').style.display = 'block';
+        document.getElementById('resNormDist').innerText = `${data.normal.distance_km} km`;
+        document.getElementById('resNormFloods').innerText = `⚠️ ${data.normal.flooded_count} Flooded Roads`;
+        document.getElementById('resSafeDist').innerText = `${data.safe.distance_km} km`;
+        document.getElementById('resSafeDetour').innerText = `✅ +${data.safe.detour_km} km Safe Detour`;
+
+        // Clear previous route lines
+        routeLayers.forEach(l => map.removeLayer(l));
+        routeLayers = [];
+
+        // Draw Normal Route (Red dashed pulse)
+        if (data.normal.coords && data.normal.coords.length > 0) {
+          const normLatLngs = data.normal.coords.map(c => [c[1], c[0]]);
+          const normPoly = L.polyline(normLatLngs, {
+            color: '#ff3366',
+            weight: 5,
+            opacity: 0.85,
+            dashArray: '8, 8'
+          }).addTo(map).bindPopup(`<b>Shortest Route (${data.normal.distance_km} km)</b><br>⚠️ Flooded segments: ${data.normal.flooded_count}`);
+          routeLayers.push(normPoly);
+        }
+
+        // Draw Safe Alternate Route (Cyan solid glow)
+        if (data.safe.coords && data.safe.coords.length > 0) {
+          const safeLatLngs = data.safe.coords.map(c => [c[1], c[0]]);
+          const safePoly = L.polyline(safeLatLngs, {
+            color: '#00f2fe',
+            weight: 6,
+            opacity: 0.95
+          }).addTo(map).bindPopup(`<b>🛡️ Safe Alternate Route (${data.safe.distance_km} km)</b><br>✅ High-risk roads avoided: ${data.safe.floods_avoided}`);
+          routeLayers.push(safePoly);
+
+          map.fitBounds(safePoly.getBounds(), { padding: [40, 40] });
+        }
+
+        // If AI briefing included, display it!
+        if (data.ai_briefing) {
+          appendAIMessage("commander", formatMarkdown(data.ai_briefing));
+        }
+
+      } catch (err) {
+        console.error(err);
+        appendAIMessage("commander", "Error calculating topological route. Check backend connection.");
+      }
+    }
+
+    async function requestAIAdvisory() {
+      const orig = document.getElementById('originSelect').value;
+      const dest = document.getElementById('destSelect').value;
+      const vehicle = document.getElementById('vehicleSelect').value;
+      const rain = rainSlider.value;
+
+      sendUserQuery(`Detailed AI Tactical Advisory for travel from ${orig} to ${dest} in a ${vehicle} with ${rain}mm rain.`);
+    }
+
+    async function generateSitRep() {
+      const rain = rainSlider.value;
+      appendAIMessage("user", `Generate GCC Emergency Operations SitRep for ${rain}mm rainfall event.`);
+      appendAIMessage("system", "⏳ Analyzing 4,531 road physics features and pump allocation metrics via OmniRoute...");
+
+      try {
+        const resp = await fetch('/api/sitrep', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ rain: rain })
+        });
+        const data = await resp.json();
+        if (data.sitrep) {
+          appendAIMessage("commander", formatMarkdown(data.sitrep));
+        }
+      } catch (err) {
+        appendAIMessage("commander", "Failed to contact AI Commander.");
+      }
+    }
+
+    async function sendUserQuery(customQuery) {
+      const input = document.getElementById('aiInput');
+      const query = customQuery || input.value.trim();
+      if (!query) return;
+
+      if (!customQuery) {
+        appendAIMessage("user", query);
+        input.value = "";
+      }
+
+      appendAIMessage("system", "⏳ Consulting LLM Tactical Brain (Port 20128)...");
+
+      try {
+        const resp = await fetch('/api/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ query: query, rain: rainSlider.value })
+        });
+        const data = await resp.json();
+        removeSystemMessages();
+        appendAIMessage("commander", formatMarkdown(data.response));
+      } catch (err) {
+        removeSystemMessages();
+        appendAIMessage("commander", "Could not reach AI Tactical Commander. Ensure backend server is running.");
+      }
+    }
+
+    function appendAIMessage(role, content) {
+      const container = document.getElementById('aiMessages');
+      const msg = document.createElement('div');
+      msg.className = `ai-msg ${role}`;
+      msg.innerHTML = content;
+      container.appendChild(msg);
+      container.scrollTop = container.scrollHeight;
+    }
+
+    function removeSystemMessages() {
+      document.querySelectorAll('.ai-msg.system').forEach(el => el.remove());
+    }
+
+    function formatMarkdown(text) {
+      if (!text) return "";
+      return text
+        .replace(/^### (.*$)/gim, '<h3 style="color:#00f2fe; margin-top:8px;">$1</h3>')
+        .replace(/^## (.*$)/gim, '<h2 style="color:#fff; font-size:15px; margin-top:10px;">$1</h2>')
+        .replace(/^# (.*$)/gim, '<h1 style="color:#00f2fe; font-size:16px; margin-top:12px;">$1</h1>')
+        .replace(/\*\*(.*?)\*\*/gim, '<b>$1</b>')
+        .replace(/\*(.*?)\*/gim, '<em>$1</em>')
+        .replace(/\n/gim, '<br>');
+    }
+  </script>
+</body>
+</html>

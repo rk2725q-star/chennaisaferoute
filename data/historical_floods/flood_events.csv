@@ -1,0 +1,58 @@
+event_id,event_date,event_name,location_name,zone_no,zone_name,latitude,longitude,flood_occurred,water_level_m,water_level_feet,rainfall_24h_mm,peak_intensity_mm_hr,severity_class,source_reference
+CHE-FLD-001,2023-12-04,Cyclone Michaung,Velachery (Ram Nagar & AGS Colony),13,Adyar,12.982,80.219,1,1.95,6.4,468.0,55.0,Catastrophic,GCC Disaster Cell / TNSDMA Michaung Report 2023
+CHE-FLD-002,2023-12-04,Cyclone Michaung,Velachery 100-ft Bypass Road (Phoenix Mall Basin),13,Adyar,12.991,80.217,1,1.6,5.25,468.0,55.0,Catastrophic,GCC Ward 177 Disaster Assessment
+CHE-FLD-003,2023-12-04,Cyclone Michaung,Velachery (Tansi Nagar & Lake View Road),13,Adyar,12.975,80.224,1,1.8,5.91,465.0,54.0,Catastrophic,Field Hydrology Survey / State SEOC
+CHE-FLD-004,2021-11-07,November 2021 Monsoon,Velachery (AGS Colony / Baby Nagar),13,Adyar,12.981,80.22,1,1.15,3.77,218.0,36.0,High,GCC SWD Inundation Census 2021
+CHE-FLD-005,2020-11-25,Cyclone Nivar,Velachery (Dhandeeswaram Nagar Lowlands),13,Adyar,12.978,80.218,1,0.85,2.79,182.0,29.0,Moderate-High,TNSDMA Cyclone Nivar Assessment
+CHE-FLD-006,2015-12-01,December 2015 Flood,Velachery (Entire Basin / Ram Nagar & Bypass),13,Adyar,12.98,80.222,1,2.75,9.02,480.0,59.0,Catastrophic,CWC / IMD Dec 2015 Technical Assessment
+CHE-FLD-007,2023-12-04,Cyclone Michaung,Meenambakkam (Airport Secondary Runway Culvert),12,Alandur,12.994,80.178,1,1.1,3.61,445.0,52.0,Severe,AAI / DGCA Airport Inundation Log 2023
+CHE-FLD-008,2023-12-04,Cyclone Michaung,Meenambakkam (Pazhavanthangal Railway Subway),12,Alandur,12.988,80.187,1,2.3,7.55,445.0,52.0,Catastrophic,GCC Subway Inundation Status Report
+CHE-FLD-009,2021-11-07,November 2021 Monsoon,Meenambakkam (GST Road Airport Metro Base),12,Alandur,12.992,80.182,1,0.65,2.13,210.0,34.0,Moderate,Highways Dept Waterlogging Log
+CHE-FLD-010,2020-11-25,Cyclone Nivar,Meenambakkam (Airports Authority Residential Colony),12,Alandur,12.996,80.175,1,0.7,2.3,178.0,27.0,Moderate,TNSDMA Alandur Ward Log
+CHE-FLD-011,2015-12-01,December 2015 Flood,Meenambakkam (Chennai International Airport Runway Submergence),12,Alandur,12.994,80.18,1,2.4,7.87,490.0,61.0,Catastrophic,Ministry of Civil Aviation Official Flood Log Dec 2015
+CHE-FLD-012,2023-12-04,Cyclone Michaung,Sholinganallur Junction (OMR - Medavakkam Link Road),15,Sholinganallur,12.901,80.228,1,1.45,4.76,435.0,50.0,Severe,GCC Ward 197 Disaster Cell
+CHE-FLD-013,2023-12-04,Cyclone Michaung,Sholinganallur (ELCOT SEZ / Wipro Campus Basin),15,Sholinganallur,12.908,80.222,1,1.65,5.41,435.0,50.0,Catastrophic,ELCOT Facility Disaster Report
+CHE-FLD-014,2023-12-04,Cyclone Michaung,Sholinganallur - Semmancheri (Tsunami Quarters / DLF Garden City),15,Sholinganallur,12.871,80.223,1,1.75,5.74,430.0,49.0,Catastrophic,TNSDMA Flooding Atlas 2023
+CHE-FLD-015,2021-11-07,November 2021 Monsoon,Sholinganallur (Karapakkam OMR Canal Crossing),15,Sholinganallur,12.918,80.231,1,0.95,3.12,205.0,31.0,Moderate-High,GCC SWD Inundation Census
+CHE-FLD-016,2022-12-09,Cyclone Mandous,Sholinganallur (Buckingham Canal Overflow / Uthandi link),15,Sholinganallur,12.862,80.235,1,0.8,2.62,175.0,28.0,Moderate,State Coastal Disaster Log
+CHE-FLD-017,2015-12-01,December 2015 Flood,Sholinganallur (OMR Entire Corridor & Marsh Overflow),15,Sholinganallur,12.901,80.228,1,2.2,7.22,475.0,58.0,Catastrophic,MHA Inter-ministerial Team Assessment
+CHE-FLD-018,2023-12-04,Cyclone Michaung,Nungambakkam (Sterling Road / Loyola College Subway),9,Teynampet,13.064,80.237,1,1.4,4.59,425.0,51.0,Severe,GCC Central Region Flood Log
+CHE-FLD-019,2023-12-04,Cyclone Michaung,Nungambakkam (Valluvar Kottam High Road Junction),9,Teynampet,13.056,80.241,1,0.85,2.79,425.0,51.0,Moderate-High,GCC Ward 112 Inundation Log
+CHE-FLD-020,2021-11-07,November 2021 Monsoon,Nungambakkam (College Road / DPI Campus Margin),9,Teynampet,13.067,80.247,1,0.7,2.3,215.0,35.0,Moderate,GCC Central Region Monitoring 2021
+CHE-FLD-021,2015-12-01,December 2015 Flood,Nungambakkam (Tank Bund Road & Cooum River Margin),9,Teynampet,13.062,80.233,1,1.8,5.91,494.0,62.0,Severe,PWD River Overflow Field Gauge
+CHE-FLD-022,2023-12-04,Cyclone Michaung,Ambattur Industrial Estate (South Phase 3rd Main Rd),7,Ambattur,13.098,80.162,1,1.65,5.41,410.0,48.0,Catastrophic,AIEMA Industrial Flood Damage Survey 2023
+CHE-FLD-023,2023-12-04,Cyclone Michaung,Ambattur (Menambedu Road / Lake Surplus Drain),7,Ambattur,13.121,80.149,1,1.35,4.43,410.0,48.0,Severe,GCC West Region Operations
+CHE-FLD-024,2023-12-04,Cyclone Michaung,Ambattur (Pattaravakkam Railway Subway),7,Ambattur,13.109,80.171,1,2.1,6.89,410.0,48.0,Catastrophic,Southern Railway Subway Inundation Status
+CHE-FLD-025,2021-11-07,November 2021 Monsoon,Ambattur (Sidco Industrial Estate 2nd Cross),7,Ambattur,13.102,80.158,1,1.1,3.61,208.0,33.0,High,AIEMA / GCC Ward 84 Census
+CHE-FLD-026,2020-11-25,Cyclone Nivar,Ambattur (Prithvipakkam / Korattur Lake Overflow),7,Ambattur,13.111,80.165,1,0.75,2.46,165.0,25.0,Moderate,TNSDMA West Zone Report
+CHE-FLD-027,2015-12-01,December 2015 Flood,Ambattur Industrial Estate (Entire Industrial Basin Submergence),7,Ambattur,13.1,80.16,1,2.6,8.53,470.0,57.0,Catastrophic,Government of Tamil Nadu Industrial Flood White Paper
+CHE-FLD-028,2023-12-04,Cyclone Michaung,Tondiarpet (GNT Road / Kalyanapuram Subway),4,Tondiarpet,13.111,80.261,1,2.25,7.38,395.0,48.0,Catastrophic,GCC Subway Inundation Log 2023
+CHE-FLD-029,2023-12-04,Cyclone Michaung,Tondiarpet (Korukkupet Railway Bridge Lowland),4,Tondiarpet,13.115,80.278,1,1.55,5.09,395.0,48.0,Severe,GCC Ward 42 Flood Relief Log
+CHE-FLD-030,2023-12-04,Cyclone Michaung,Madhavaram (Retteri Lake Surplus / 200-ft Road),3,Madhavaram,13.141,80.215,1,1.45,4.76,405.0,49.0,Severe,PWD Red Hills Catchment Division
+CHE-FLD-031,2023-12-04,Cyclone Michaung,Madhavaram Milk Colony (Low-Lying Lake Catchment),3,Madhavaram,13.153,80.233,1,1.3,4.27,405.0,49.0,Severe,GCC North Region Operations
+CHE-FLD-032,2021-11-07,November 2021 Monsoon,Tondiarpet (Stanley Hospital Subway & Tollgate),4,Tondiarpet,13.123,80.287,1,1.2,3.94,220.0,37.0,High,GCC Health Facilities Inundation Log
+CHE-FLD-033,2016-12-12,Cyclone Vardah,Tondiarpet (Ennore High Road Coastal Margin),4,Tondiarpet,13.134,80.292,1,0.85,2.79,190.0,40.0,Moderate-High,IMD Cyclone Vardah Field Assessment
+CHE-FLD-034,2015-12-01,December 2015 Flood,Tondiarpet (Captain Cotton Canal / Kodungaiyur Overflow),4,Tondiarpet,13.125,80.27,1,2.4,7.87,460.0,56.0,Catastrophic,TNSDMA North Chennai Inundation Survey
+CHE-FLD-035,2015-12-01,December 2015 Flood,Madhavaram (GNT Road Roundtana & Puzhal Outflow),3,Madhavaram,13.149,80.231,1,1.9,6.23,460.0,56.0,Catastrophic,State Highway Dept Disaster Evaluation
+CHE-FLD-036,2023-12-04,Cyclone Michaung,Madipakkam (Balaiah Nagar / Kuberan Nagar),14,Perungudi,12.966,80.201,1,1.7,5.58,440.0,52.0,Catastrophic,GCC Disaster Cell / Field Validation
+CHE-FLD-037,2023-12-04,Cyclone Michaung,Pallikaranai (Marsh Fringe / Narayanapuram Lake),14,Perungudi,12.938,80.212,1,1.9,6.23,455.0,53.5,Catastrophic,TNSDMA Flooding Atlas 2023
+CHE-FLD-038,2023-12-04,Cyclone Michaung,Pulianthope (Dr Ambedkar College Rd / Otteri Nullah),6,Thiru-Vi-Ka Nagar,13.098,80.268,1,1.45,4.76,410.0,47.0,Severe,GCC Waterlogging Assessment
+CHE-FLD-039,2023-12-04,Cyclone Michaung,Jafferkhanpet (Kasi Bridge / Adyar River Margin),10,Kodambakkam,13.023,80.203,1,1.5,4.92,390.0,45.0,Severe,PWD Adyar Hydrology Gauge
+CHE-FLD-040,2023-12-04,Cyclone Michaung,Perumbakkam (Global Hospital / Sithalapakkam Link),15,Sholinganallur,12.898,80.198,1,1.7,5.58,430.0,50.0,Catastrophic,Chengalpattu/GCC Inter-district Flood Log
+CHE-FLD-041,2023-12-04,Cyclone Michaung,Mudichur (Varadarajapuram Adyar tributary),12,Alandur / Tambaram Outer,12.908,80.071,1,2.1,6.89,460.0,54.0,Catastrophic,State Emergency Operations Centre (SEOC)
+CHE-FLD-042,2023-12-04,Cyclone Michaung,Kolathur (SRP Koil Street / Puzhal Catchment),6,Thiru-Vi-Ka Nagar,13.123,80.218,1,1.25,4.1,380.0,42.0,Moderate-High,GCC Ward Inundation Log
+CHE-FLD-043,2015-12-01,December 2015 Flood,Kotturpuram (Adyar River Embankment),13,Adyar,13.018,80.24,1,3.2,10.5,494.0,62.0,Catastrophic,CWC / IMD Special Report on Dec 2015 Chennai Floods
+CHE-FLD-044,2015-12-01,December 2015 Flood,Saidapet Bridge (Anna Salai Adyar Crossing),9,Teynampet,13.015,80.223,1,2.8,9.19,494.0,62.0,Catastrophic,PWD River Gauging Station Saidapet
+CHE-FLD-045,2015-12-01,December 2015 Flood,Mudichur / Tambaram Outer,12,Alandur Fringe,12.91,80.075,1,3.5,11.48,485.0,58.0,Catastrophic,NDRF Chennai Rescue Log Dec 2015
+CHE-FLD-046,2015-12-01,December 2015 Flood,Manapakkam / MIOT Hospital Basin,11,Valasaravakkam,13.012,80.178,1,3.0,9.84,490.0,60.0,Catastrophic,Ministry of Home Affairs Disaster Evaluation
+CHE-FLD-047,2021-11-07,November 2021 Monsoon,T. Nagar (Usman Road & Motilal Street),10,Kodambakkam,13.04,80.233,1,1.1,3.61,215.0,35.0,High,GCC Smart City Monsoon Monitoring Log
+CHE-FLD-048,2021-11-07,November 2021 Monsoon,KK Nagar (Rajarathinam Street),10,Kodambakkam,13.036,80.201,1,0.85,2.79,210.0,32.0,Moderate-High,GCC SWD Inundation Census
+CHE-FLD-049,2023-12-04,Cyclone Michaung,Nungambakkam High Ground (IMD Observatory Campus),9,Teynampet,13.061,80.244,0,0.04,0.13,425.0,51.0,Minimal / Safe,IMD Regional Met Centre Compound Observation
+CHE-FLD-050,2023-12-04,Cyclone Michaung,Meenambakkam Adjacent Ridge (St Thomas Mount Elevation),12,Alandur,13.003,80.192,0,0.0,0.0,445.0,52.0,None / Elevated Ground,Ground Topography Survey Baseline
+CHE-FLD-051,2023-12-04,Cyclone Michaung,Ambattur Elevated Ridge (CTH Road Railway Colony High Point),7,Ambattur,13.118,80.158,0,0.05,0.16,410.0,48.0,Minimal / Free Draining,GCC Ward 83 Elevation Verification
+CHE-FLD-052,2023-12-04,Cyclone Michaung,Sholinganallur East Coast Dune Ridge (Akkarai ECR),15,Sholinganallur,12.898,80.248,0,0.02,0.07,435.0,50.0,None / Sandy Ridge,Coastal Sand Dune Field Survey
+CHE-FLD-053,2023-12-04,Cyclone Michaung,Tondiarpet Coastal Dune (Kasimedu Fishing Harbor High Ridge),4,Tondiarpet,13.125,80.298,0,0.05,0.16,395.0,48.0,Minimal / Ocean Runoff,Port Authority & Coastal Zone Observation
+CHE-FLD-054,2023-12-04,Cyclone Michaung,Madhavaram High Ground (Red Hills Road Junction),3,Madhavaram,13.155,80.221,0,0.03,0.1,405.0,49.0,Minimal / Rapid Discharge,GCC North Zone Engineering Survey
+CHE-FLD-055,2023-12-04,Cyclone Michaung,Anna Nagar Roundtana (High Ground Urban Core),8,Anna Nagar,13.085,80.212,0,0.05,0.16,375.0,44.0,Minimal / Rapid Runoff,GCC Stormwater Drains Inspection Log
+CHE-FLD-056,2023-12-04,Cyclone Michaung,Guindy Kathipara Grade Separator (Elevated Structure),12,Alandur,13.007,80.205,0,0.0,0.0,415.0,48.0,None,Highways Dept Grade Separator Observation
+CHE-FLD-057,2021-11-07,November 2021 Monsoon,Mylapore (Luz Church Road High Ground),9,Teynampet,13.038,80.262,0,0.02,0.07,210.0,32.0,None,GCC Ward 122 Inspection

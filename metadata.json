@@ -1,0 +1,6 @@
+{
+  "name": "Chennai Flood Access Risk Mapper",
+  "description": "Multi-factor map-based flood risk, road disruption ranking, and safe alternate routing engine using Rainfall, Elevation, Drainage, and Road Network data.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

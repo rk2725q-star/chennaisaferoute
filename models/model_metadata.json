@@ -1,0 +1,77 @@
+{
+  "model_name": "Chennai Physics-First Flood Predictor",
+  "version": "2.0",
+  "algorithm": "Ensemble (Balanced Random Forest + HistGradientBoosting)",
+  "optimal_decision_threshold": 0.4,
+  "features": [
+    "rain_24h",
+    "rain_3h",
+    "elevation",
+    "slope",
+    "hand",
+    "dist_to_drain_m",
+    "flow_accumulation",
+    "catchment_km2",
+    "twi",
+    "drainage_density",
+    "dist_to_water_body_m",
+    "built_up",
+    "node_degree",
+    "length_m"
+  ],
+  "unseen_disaster_holdout_metrics": {
+    "1. Logistic Regression (Baseline)": {
+      "accuracy": 17.88,
+      "recall": 94.32,
+      "precision": 11.55,
+      "f1": 20.58,
+      "roc_auc": 56.31,
+      "pr_auc": 13.29
+    },
+    "2. Random Forest (Balanced)": {
+      "accuracy": 86.1,
+      "recall": 45.99,
+      "precision": 39.9,
+      "f1": 42.73,
+      "roc_auc": 74.13,
+      "pr_auc": 36.69
+    },
+    "3. HistGradientBoosting": {
+      "accuracy": 85.92,
+      "recall": 25.83,
+      "precision": 33.76,
+      "f1": 29.27,
+      "roc_auc": 71.18,
+      "pr_auc": 33.45
+    },
+    "4. Physics Ensemble (RF + HGB)": {
+      "accuracy": 86.25,
+      "recall": 38.16,
+      "precision": 38.84,
+      "f1": 38.5,
+      "roc_auc": 73.28,
+      "pr_auc": 35.47
+    }
+  },
+  "five_fold_cv": {
+    "mean_recall": 95.5,
+    "mean_f1": 64.42,
+    "mean_roc_auc": 99.05
+  },
+  "feature_importances_pct": {
+    "rain_24h": 14.51,
+    "rain_3h": 14.42,
+    "elevation": 12.08,
+    "hand": 10.08,
+    "slope": 9.5,
+    "twi": 8.58,
+    "catchment_km2": 5.56,
+    "flow_accumulation": 5.37,
+    "built_up": 5.36,
+    "dist_to_drain_m": 4.18,
+    "dist_to_water_body_m": 4.12,
+    "drainage_density": 3.75,
+    "length_m": 1.81,
+    "node_degree": 0.67
+  }
+}

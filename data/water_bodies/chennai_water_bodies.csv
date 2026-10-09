@@ -1,0 +1,1214 @@
+water_body_id,osm_id,osm_type,name,category,water_type,latitude,longitude,city
+wb-way-23047572,23047572,way,Whale Island,wetland,wetland,13.013576,80.264488,Chennai
+wb-way-23047573,23047573,way,Unnamed Wetland (wb-way-23047573),wetland,wetland,13.014764,80.267977,Chennai
+wb-way-23633592,23633592,way,Porur Lake,lake,water,13.034,80.149965,Chennai
+wb-way-23648227,23648227,way,Kadaperi Lake,lake,reservoir,12.93446,80.118334,Chennai
+wb-way-23648228,23648228,way,Irumbuliyur Lake,lake,reservoir,12.921538,80.107613,Chennai
+wb-way-23648229,23648229,way,Chitlapakkam Lake,lake,reservoir,12.933734,80.136154,Chennai
+wb-way-23648233,23648233,way,Tiruneermalai Eri,lake,reservoir,12.953883,80.123555,Chennai
+wb-way-23804000,23804000,way,ICF Lake,lake,reservoir,13.1034,80.217535,Chennai
+wb-way-23885099,23885099,way,Kandaswami Muthukumaraswami Koil Kulam,pond,pond,13.085792,80.278662,Chennai
+wb-way-24270420,24270420,way,Kapaleeshwara Koil Kulam,pond,pond,13.033437,80.268681,Chennai
+wb-way-24270487,24270487,way,Athikesvara Perumal Koil Kulam,pond,pond,13.031424,80.271018,Chennai
+wb-way-25391800,25391800,way,Ambattur Lake,lake,reservoir,13.10633,80.142336,Chennai
+wb-way-25394157,25394157,way,Puzhal Lake,lake,reservoir,13.164964,80.163153,Chennai
+wb-way-25394523,25394523,way,Sholavaram Lake,lake,reservoir,13.223799,80.140506,Chennai
+wb-way-25450412,25450412,way,Unnamed Reservoir (wb-way-25450412),reservoir,reservoir,13.245557,80.331398,Chennai
+wb-way-25453624,25453624,way,Chembarambakkam Lake,lake,reservoir,13.007925,80.050783,Chennai
+wb-way-25474612,25474612,way,Korattur Lake,lake,lake,13.123526,80.181403,Chennai
+wb-way-25474749,25474749,way,Retteri Lake,lake,reservoir,13.140762,80.210686,Chennai
+wb-way-25504265,25504265,way,Velachery Lake,lake,lake,12.988244,80.211503,Chennai
+wb-way-25724261,25724261,way,Adambakkam Lake,lake,reservoir,12.986292,80.196684,Chennai
+wb-way-25724278,25724278,way,Pannachiamman Koil Tank,pond,pond,12.984461,80.187869,Chennai
+wb-way-25725027,25725027,way,Madipakkam Lake,lake,lake,12.961367,80.190922,Chennai
+wb-way-25726316,25726316,way,Puzhuthivakkam Lake,lake,lake,12.968566,80.202121,Chennai
+wb-way-26433707,26433707,way,Sembakkam lake,lake,lake,12.933662,80.153411,Chennai
+wb-way-26800736,26800736,way,Retteri Lake,lake,reservoir,13.152073,80.213993,Chennai
+wb-way-27203001,27203001,way,Ellaiamman Koil Kulam,pond,pond,13.034107,80.225076,Chennai
+wb-way-27771449,27771449,way,Vadapalani Murugan Temple Pond,reservoir,reservoir,13.052985,80.214264,Chennai
+wb-way-28260258,28260258,way,Vadakkapattu Lake,lake,lake,12.930461,80.185608,Chennai
+wb-way-28260431,28260431,way,Nanmangalam Lake,lake,lake,12.939367,80.167018,Chennai
+wb-way-28260577,28260577,way,Selaiyur Lake,lake,water,12.916168,80.132239,Chennai
+wb-way-28261148,28261148,way,Balaji Nagar Lake,lake,water,12.914118,80.111171,Chennai
+wb-way-28309481,28309481,way,Unnamed Reservoir (wb-way-28309481),reservoir,reservoir,12.969293,80.171828,Chennai
+wb-way-28309498,28309498,way,Unnamed Pond (wb-way-28309498),pond,water,12.969594,80.16854,Chennai
+wb-way-28309593,28309593,way,Unnamed Pond (wb-way-28309593),pond,water,12.968135,80.167888,Chennai
+wb-way-28309687,28309687,way,Tirisulam Lake,lake,water,12.973534,80.168763,Chennai
+wb-way-28310149,28310149,way,Unnamed Pond (wb-way-28310149),pond,water,12.978569,80.172295,Chennai
+wb-way-28310161,28310161,way,Unnamed Pond (wb-way-28310161),pond,water,12.980216,80.172553,Chennai
+wb-way-29047592,29047592,way,Marundeeshwara Temple Tank,pond,pond,12.985569,80.261427,Chennai
+wb-way-29241216,29241216,way,Agathishwara Perumal Koil Kulam,pond,pond,13.060038,80.241908,Chennai
+wb-way-29246065,29246065,way,Periyathoppu Lake,lake,reservoir,13.169495,80.252638,Chennai
+wb-way-30037018,30037018,way,Oxidation Pond,pond,pond,12.990827,80.240394,Chennai
+wb-way-30037019,30037019,way,Oxidation Pond,pond,pond,12.989014,80.240111,Chennai
+wb-way-30078793,30078793,way,Kovilpadagai Lake,lake,reservoir,13.146782,80.096911,Chennai
+wb-way-30118530,30118530,way,Unnamed Reservoir (wb-way-30118530),reservoir,reservoir,12.949735,80.131353,Chennai
+wb-way-30209756,30209756,way,Vengambakkam Lake,lake,reservoir,12.869277,80.125102,Chennai
+wb-way-30424450,30424450,way,Perumbakkam Lake,lake,water,12.896483,80.188762,Chennai
+wb-way-30606822,30606822,way,Velachery Lake,lake,water,12.985791,80.220753,Chennai
+wb-way-30609167,30609167,way,Kallu Kuttai Lake,lake,lake,12.979022,80.235908,Chennai
+wb-way-30624441,30624441,way,Unnamed Pond (wb-way-30624441),pond,river,13.066535,80.161512,Chennai
+wb-way-30625195,30625195,way,Alappakkam Madhuravoyal Eri,lake,lake,13.051989,80.164317,Chennai
+wb-way-30738635,30738635,way,ETPS Flyash Pond,reservoir,reservoir,13.207636,80.304825,Chennai
+wb-way-30738642,30738642,way,ETPS Flyash Pond,reservoir,reservoir,13.211705,80.29913,Chennai
+wb-way-30746879,30746879,way,Unnamed Pond (wb-way-30746879),pond,water,12.945811,80.154735,Chennai
+wb-way-30978033,30978033,way,Kandasamy Koil Tank,reservoir,reservoir,13.094667,80.255802,Chennai
+wb-way-31020934,31020934,way,Periyathoppu Lake,lake,reservoir,13.162466,80.2498,Chennai
+wb-way-31243200,31243200,way,Unnamed Reservoir (wb-way-31243200),reservoir,reservoir,12.997732,80.094205,Chennai
+wb-way-32017928,32017928,way,Palavedu Eri,lake,water,13.141531,80.045624,Chennai
+wb-way-32066592,32066592,way,Manivakkam Lake,lake,water,12.879278,80.059259,Chennai
+wb-way-32253842,32253842,way,New Perungalathur Lake,lake,reservoir,12.901532,80.086459,Chennai
+wb-way-32306856,32306856,way,Balasubramani Temple Tank,pond,pond,13.038311,80.249333,Chennai
+wb-way-32945537,32945537,way,Unnamed Reservoir (wb-way-32945537),reservoir,reservoir,13.03782,80.173594,Chennai
+wb-way-32995619,32995619,way,Thamarai Kulam,lake,lake,13.223249,80.323286,Chennai
+wb-way-33069045,33069045,way,ETPS Oxidation Pond,pond,pond,13.214522,80.317195,Chennai
+wb-way-33071135,33071135,way,Thyagarajaswami Koil Tank,pond,pond,13.161515,80.300336,Chennai
+wb-way-33630146,33630146,way,Temple Tank,reservoir,reservoir,13.051027,80.096455,Chennai
+wb-way-33630325,33630325,way,Unnamed Pond (wb-way-33630325),pond,water,13.048339,80.102154,Chennai
+wb-way-34483988,34483988,way,Unnamed Pond (wb-way-34483988),pond,water,13.164687,80.149272,Chennai
+wb-way-34483989,34483989,way,Mittanamalli Lake,lake,lake,13.161942,80.073476,Chennai
+wb-way-34483992,34483992,way,Unnamed Wetland (wb-way-34483992),wetland,wetland,13.161544,80.133379,Chennai
+wb-way-34483994,34483994,way,Unnamed Wetland (wb-way-34483994),wetland,wetland,13.168647,80.127215,Chennai
+wb-way-34483997,34483997,way,Nagaraja aeri,lake,lake,13.10925,80.076375,Chennai
+wb-way-34483999,34483999,way,Unnamed Pond (wb-way-34483999),pond,water,13.13774,80.119852,Chennai
+wb-way-34484000,34484000,way,Konimedu Lake,lake,lake,13.182454,80.152615,Chennai
+wb-way-34484007,34484007,way,Unnamed Pond (wb-way-34484007),pond,water,13.168637,80.116862,Chennai
+wb-way-34484008,34484008,way,Vellanur aeri,lake,lake,13.161997,80.107214,Chennai
+wb-way-34618168,34618168,way,Ayapakkam Lake,lake,water,13.101866,80.128716,Chennai
+wb-way-35475053,35475053,way,Karaneeswarar Temple Tank,reservoir,reservoir,13.024759,80.222486,Chennai
+wb-way-35475132,35475132,way,Prasanna Venkatesa Perumal Koil Kulam,pond,pond,13.022387,80.217304,Chennai
+wb-way-47109361,47109361,way,Kachaleeswara Temple Reservoir,reservoir,reservoir,13.093394,80.287385,Chennai
+wb-way-47109373,47109373,way,Malligeshwarar Temple Reservoir,reservoir,reservoir,13.097879,80.290036,Chennai
+wb-way-47415291,47415291,way,Kondithope Kasi Viswanathar Koil,pond,pond,13.100158,80.277917,Chennai
+wb-way-47571166,47571166,way,Thiruvateeswaran Koil Kulam,pond,pond,13.061676,80.272541,Chennai
+wb-way-47572261,47572261,way,Rajakilpakkam Lake,lake,water,12.918862,80.150802,Chennai
+wb-way-47572610,47572610,way,Unnamed Reservoir (wb-way-47572610),reservoir,reservoir,12.89388,80.149578,Chennai
+wb-way-47572658,47572658,way,Unnamed Reservoir (wb-way-47572658),reservoir,reservoir,12.887149,80.177216,Chennai
+wb-way-48057021,48057021,way,Gangadeeshwarar Koil Kulam,pond,pond,13.08516,80.254284,Chennai
+wb-way-48737652,48737652,way,Unnamed Reservoir (wb-way-48737652),reservoir,reservoir,13.105462,80.238339,Chennai
+wb-way-48738675,48738675,way,Unnamed Reservoir (wb-way-48738675),reservoir,reservoir,13.09783,80.226472,Chennai
+wb-way-82874933,82874933,way,Nesavalar Nagar Lake,lake,lake,12.912997,80.20016,Chennai
+wb-way-82883544,82883544,way,Mambakkam Lake,lake,reservoir,12.849872,80.159738,Chennai
+wb-way-82883558,82883558,way,Unnamed Reservoir (wb-way-82883558),reservoir,reservoir,12.917803,80.183778,Chennai
+wb-way-82883586,82883586,way,Unnamed Reservoir (wb-way-82883586),reservoir,reservoir,12.87618,80.145025,Chennai
+wb-way-82883601,82883601,way,Unnamed Reservoir (wb-way-82883601),reservoir,reservoir,12.870849,80.181603,Chennai
+wb-way-82883604,82883604,way,Chitrerari Lake,lake,lake,12.909069,80.170909,Chennai
+wb-way-83075012,83075012,way,Unnamed Pond (wb-way-83075012),pond,river,13.075068,80.27841,Chennai
+wb-way-83300092,83300092,way,Aquarium,pond,water,12.879321,80.085948,Chennai
+wb-way-84099124,84099124,way,Madippakkam Village Pond,pond,pond,12.963786,80.197472,Chennai
+wb-way-84106295,84106295,way,Unnamed Wetland (wb-way-84106295),wetland,wetland,12.934305,80.228607,Chennai
+wb-way-86251016,86251016,way,Sooriamman Koil pond,reservoir,reservoir,12.972628,80.132766,Chennai
+wb-way-87098619,87098619,way,Otteri Lake,lake,reservoir,12.88435,80.084686,Chennai
+wb-way-95639899,95639899,way,Unnamed Pond (wb-way-95639899),pond,water,13.09321,80.095311,Chennai
+wb-way-95639903,95639903,way,Unnamed Pond (wb-way-95639903),pond,water,13.078115,80.086418,Chennai
+wb-way-95639912,95639912,way,Unnamed Pond (wb-way-95639912),pond,water,13.116422,80.06581,Chennai
+wb-way-95639925,95639925,way,Unnamed Pond (wb-way-95639925),pond,water,13.045153,80.061932,Chennai
+wb-way-95639930,95639930,way,Thandurai aeri,lake,lake,13.116021,80.056066,Chennai
+wb-way-95668334,95668334,way,Unnamed Wetland (wb-way-95668334),wetland,wetland,13.111393,80.268316,Chennai
+wb-way-95668343,95668343,way,Unnamed Wetland (wb-way-95668343),wetland,wetland,13.107801,80.27071,Chennai
+wb-way-95668360,95668360,way,Kolathur Lake,lake,lake,13.128258,80.212919,Chennai
+wb-way-95772858,95772858,way,Alleri Tank,lake,lake,12.940884,80.119063,Chennai
+wb-way-96944704,96944704,way,Unnamed Pond (wb-way-96944704),pond,river,13.068987,80.128398,Chennai
+wb-way-96944715,96944715,way,Unnamed Pond (wb-way-96944715),pond,river,12.982332,80.134713,Chennai
+wb-way-96944720,96944720,way,Unnamed Pond (wb-way-96944720),pond,river,13.097829,80.088646,Chennai
+wb-way-96944723,96944723,way,Unnamed Pond (wb-way-96944723),pond,canal,13.083892,80.107247,Chennai
+wb-way-96944724,96944724,way,Unnamed Pond (wb-way-96944724),pond,river,13.101068,79.992624,Chennai
+wb-way-96963152,96963152,way,Unnamed Pond (wb-way-96963152),pond,water,12.875801,80.105808,Chennai
+wb-way-97000438,97000438,way,Unnamed Wetland (wb-way-97000438),wetland,wetland,12.914687,80.102226,Chennai
+wb-way-97000441,97000441,way,Unnamed Wetland (wb-way-97000441),wetland,wetland,12.915192,80.103807,Chennai
+wb-way-97000443,97000443,way,Unnamed Wetland (wb-way-97000443),wetland,wetland,12.913992,80.103619,Chennai
+wb-way-97000448,97000448,way,Unnamed Wetland (wb-way-97000448),wetland,wetland,12.915783,80.102047,Chennai
+wb-way-97000452,97000452,way,Unnamed Wetland (wb-way-97000452),wetland,wetland,12.915898,80.102919,Chennai
+wb-way-97686736,97686736,way,Unnamed Reservoir (wb-way-97686736),reservoir,reservoir,13.16997,80.300868,Chennai
+wb-way-98315659,98315659,way,Unnamed Pond (wb-way-98315659),pond,water,13.258723,80.202499,Chennai
+wb-way-98315664,98315664,way,Unnamed Pond (wb-way-98315664),pond,water,13.210614,80.175944,Chennai
+wb-way-98315669,98315669,way,Kadapakkam Tank,lake,lake,13.200886,80.25275,Chennai
+wb-way-98315675,98315675,way,Unnamed Wetland (wb-way-98315675),wetland,wetland,13.220785,80.210628,Chennai
+wb-way-98315691,98315691,way,Unnamed Pond (wb-way-98315691),pond,water,13.206008,80.240182,Chennai
+wb-way-98357289,98357289,way,Unnamed Reservoir (wb-way-98357289),reservoir,reservoir,12.887454,80.225327,Chennai
+wb-way-98357294,98357294,way,Unnamed Reservoir (wb-way-98357294),reservoir,reservoir,12.88272,80.225266,Chennai
+wb-way-98357297,98357297,way,Dhenupureeswarar Tank,reservoir,reservoir,12.897979,80.160104,Chennai
+wb-way-98357315,98357315,way,Unnamed Reservoir (wb-way-98357315),reservoir,reservoir,12.856742,80.13888,Chennai
+wb-way-98357340,98357340,way,Unnamed Reservoir (wb-way-98357340),reservoir,reservoir,12.890197,80.225596,Chennai
+wb-way-98357345,98357345,way,Unnamed Pond (wb-way-98357345),pond,water,12.850952,80.203285,Chennai
+wb-way-98357449,98357449,way,"Vengadamangalam, IRPC Lake",lake,reservoir,12.858513,80.15202,Chennai
+wb-way-98357524,98357524,way,Perumbakkam Lake,lake,reservoir,12.900978,80.194153,Chennai
+wb-way-98357574,98357574,way,Unnamed Reservoir (wb-way-98357574),reservoir,reservoir,12.856134,80.204156,Chennai
+wb-way-98357618,98357618,way,Unnamed Reservoir (wb-way-98357618),reservoir,reservoir,12.885584,80.232349,Chennai
+wb-way-98357621,98357621,way,Unnamed Reservoir (wb-way-98357621),reservoir,reservoir,12.8499,80.14591,Chennai
+wb-way-98357649,98357649,way,Unnamed Reservoir (wb-way-98357649),reservoir,reservoir,12.89878,80.16546,Chennai
+wb-way-98358044,98358044,way,Classic Farms Lake 2,lake,lake,12.886848,80.22104,Chennai
+wb-way-98358058,98358058,way,Unnamed Reservoir (wb-way-98358058),reservoir,reservoir,12.856907,80.195914,Chennai
+wb-way-98358078,98358078,way,Unnamed Pond (wb-way-98358078),pond,water,12.864838,80.072817,Chennai
+wb-way-98639499,98639499,way,Kallu Kuttai Lake,lake,water,12.977766,80.236124,Chennai
+wb-way-102303002,102303002,way,ADHANUR LAKE,lake,reservoir,12.865948,80.047085,Chennai
+wb-way-102459218,102459218,way,கோலடி ஏரி,lake,lake,13.084847,80.123923,Chennai
+wb-way-102459224,102459224,way,Unnamed Pond (wb-way-102459224),pond,water,13.084818,80.149885,Chennai
+wb-way-102459233,102459233,way,Ambattur Lake,lake,reservoir,13.116079,80.140969,Chennai
+wb-way-102459272,102459272,way,Unnamed Reservoir (wb-way-102459272),reservoir,reservoir,13.081061,80.152859,Chennai
+wb-way-102545496,102545496,way,Unnamed Wetland (wb-way-102545496),wetland,wetland,13.109196,80.274664,Chennai
+wb-way-102545500,102545500,way,Unnamed Wetland (wb-way-102545500),wetland,wetland,13.136207,80.282977,Chennai
+wb-way-102547877,102547877,way,Thiruvalleswar Temple Pond,pond,pond,13.096548,80.187174,Chennai
+wb-way-102565841,102565841,way,Unnamed Wetland (wb-way-102565841),wetland,wetland,13.180367,80.29182,Chennai
+wb-way-102574448,102574448,way,Unnamed Pond (wb-way-102574448),pond,water,13.106695,80.178242,Chennai
+wb-way-102574453,102574453,way,Unnamed Reservoir (wb-way-102574453),reservoir,reservoir,13.071899,80.12503,Chennai
+wb-way-102574490,102574490,way,Unnamed Wetland (wb-way-102574490),wetland,wetland,13.110148,80.198796,Chennai
+wb-way-102574558,102574558,way,Unnamed Wetland (wb-way-102574558),wetland,wetland,13.111585,80.194716,Chennai
+wb-way-102575796,102575796,way,Unnamed Lake (wb-way-102575796),lake,lake,13.044879,80.143322,Chennai
+wb-way-102577046,102577046,way,Unnamed Pond (wb-way-102577046),pond,pond,13.051681,80.062668,Chennai
+wb-way-102577052,102577052,way,Unnamed Pond (wb-way-102577052),pond,pond,13.054523,80.062154,Chennai
+wb-way-102655659,102655659,way,Unnamed Reservoir (wb-way-102655659),reservoir,reservoir,12.961484,80.063263,Chennai
+wb-way-102655672,102655672,way,Unnamed Reservoir (wb-way-102655672),reservoir,reservoir,12.968052,80.05104,Chennai
+wb-way-102663578,102663578,way,Unnamed Wetland (wb-way-102663578),wetland,wetland,13.142948,80.273101,Chennai
+wb-way-102663605,102663605,way,Unnamed Wetland (wb-way-102663605),wetland,wetland,13.149784,80.263602,Chennai
+wb-way-102667270,102667270,way,Unnamed Wetland (wb-way-102667270),wetland,wetland,13.064902,80.204101,Chennai
+wb-way-104651362,104651362,way,Unnamed Pond (wb-way-104651362),pond,water,13.074355,80.280391,Chennai
+wb-way-104651364,104651364,way,Unnamed Pond (wb-way-104651364),pond,water,13.072198,80.279663,Chennai
+wb-way-104651366,104651366,way,Unnamed Pond (wb-way-104651366),pond,water,13.073111,80.27928,Chennai
+wb-way-104651368,104651368,way,Unnamed Pond (wb-way-104651368),pond,water,13.072223,80.28055,Chennai
+wb-way-104651370,104651370,way,Unnamed Pond (wb-way-104651370),pond,water,13.073602,80.279669,Chennai
+wb-way-104651371,104651371,way,Unnamed Pond (wb-way-104651371),pond,water,13.073907,80.278988,Chennai
+wb-way-104651372,104651372,way,Unnamed Pond (wb-way-104651372),pond,water,13.074687,80.282634,Chennai
+wb-way-104651373,104651373,way,Unnamed Pond (wb-way-104651373),pond,water,13.072968,80.282928,Chennai
+wb-way-104651376,104651376,way,Unnamed Pond (wb-way-104651376),pond,water,13.076232,80.280866,Chennai
+wb-way-107877932,107877932,way,Bengal tiger,pond,water,12.888348,80.094131,Chennai
+wb-way-107881850,107881850,way,Elephant Water Trough,basin,basin,12.878244,80.090556,Chennai
+wb-way-108120404,108120404,way,Hippopotamus,pond,water,12.877047,80.090111,Chennai
+wb-way-111749099,111749099,way,Unnamed Reservoir (wb-way-111749099),reservoir,reservoir,13.023651,80.269514,Chennai
+wb-way-111767112,111767112,way,Unnamed Pond (wb-way-111767112),pond,water,13.016914,80.265878,Chennai
+wb-way-112644675,112644675,way,Unnamed Pond (wb-way-112644675),pond,water,13.018603,80.253514,Chennai
+wb-way-112869306,112869306,way,Unnamed Pond (wb-way-112869306),pond,river,13.067461,80.227598,Chennai
+wb-way-122063615,122063615,way,Unnamed Pond (wb-way-122063615),pond,water,13.035384,80.173749,Chennai
+wb-way-125180715,125180715,way,Unnamed Pond (wb-way-125180715),pond,water,13.143477,80.26396,Chennai
+wb-way-125180718,125180718,way,Unnamed Pond (wb-way-125180718),pond,water,13.126072,80.26605,Chennai
+wb-way-125180721,125180721,way,Unnamed Pond (wb-way-125180721),pond,water,13.124313,80.253729,Chennai
+wb-way-125180729,125180729,way,Unnamed Pond (wb-way-125180729),pond,water,13.141218,80.27023,Chennai
+wb-way-125234697,125234697,way,Unnamed Reservoir (wb-way-125234697),reservoir,reservoir,13.115925,80.262194,Chennai
+wb-way-127012059,127012059,way,Unnamed Pond (wb-way-127012059),pond,water,13.117805,80.269885,Chennai
+wb-way-127012071,127012071,way,Unnamed Pond (wb-way-127012071),pond,water,13.118965,80.270488,Chennai
+wb-way-127012072,127012072,way,Unnamed Pond (wb-way-127012072),pond,water,13.11565,80.2682,Chennai
+wb-way-127464711,127464711,way,Virupatcheshwarer Temple Tank,pond,pond,13.038845,80.274545,Chennai
+wb-way-127574695,127574695,way,Unnamed Pond (wb-way-127574695),pond,water,13.009582,80.223246,Chennai
+wb-way-127574706,127574706,way,Unnamed Pond (wb-way-127574706),pond,water,13.021913,80.235363,Chennai
+wb-way-127574708,127574708,way,Unnamed Pond (wb-way-127574708),pond,water,13.022796,80.234971,Chennai
+wb-way-127574716,127574716,way,Unnamed Pond (wb-way-127574716),pond,water,13.023891,80.233837,Chennai
+wb-way-131425309,131425309,way,Unnamed Reservoir (wb-way-131425309),reservoir,reservoir,12.959194,80.229572,Chennai
+wb-way-131425313,131425313,way,Unnamed Lake (wb-way-131425313),lake,lake,12.954856,80.218436,Chennai
+wb-way-131425321,131425321,way,Unnamed Lake (wb-way-131425321),lake,lake,12.963557,80.226611,Chennai
+wb-way-131425322,131425322,way,Anna Nedumchalai Lake,lake,lake,12.966244,80.238836,Chennai
+wb-way-131961844,131961844,way,Thamarai Kulam,pond,pond,12.968332,80.256959,Chennai
+wb-way-132192002,132192002,way,Unnamed Wetland (wb-way-132192002),wetland,wetland,12.975343,80.239423,Chennai
+wb-way-132192377,132192377,way,Vandalur Lake,lake,water,12.889063,80.075103,Chennai
+wb-way-132192387,132192387,way,Unnamed Lake (wb-way-132192387),lake,lake,12.90266,80.076138,Chennai
+wb-way-132192388,132192388,way,Unnamed Pond (wb-way-132192388),pond,water,12.909489,80.086406,Chennai
+wb-way-132195429,132195429,way,Unnamed Pond (wb-way-132195429),pond,canal,12.987582,80.252034,Chennai
+wb-way-132195432,132195432,way,Unnamed Pond (wb-way-132195432),pond,canal,12.972169,80.252325,Chennai
+wb-way-132195433,132195433,way,Unnamed Pond (wb-way-132195433),pond,canal,12.956001,80.2496,Chennai
+wb-way-132462272,132462272,way,Unnamed Wetland (wb-way-132462272),wetland,wetland,12.893494,80.237532,Chennai
+wb-way-132462273,132462273,way,Unnamed Wetland (wb-way-132462273),wetland,wetland,12.913905,80.243966,Chennai
+wb-way-133593261,133593261,way,Railway Pond 2,wetland,wetland,13.18793,80.308912,Chennai
+wb-way-133593262,133593262,way,Railway Pond 1,wetland,wetland,13.194394,80.312846,Chennai
+wb-way-133600830,133600830,way,Unnamed Pond (wb-way-133600830),pond,pond,13.167597,80.269544,Chennai
+wb-way-133600831,133600831,way,Unnamed Pond (wb-way-133600831),pond,pond,13.166224,80.267266,Chennai
+wb-way-133600832,133600832,way,Unnamed Wetland (wb-way-133600832),wetland,wetland,13.167089,80.266945,Chennai
+wb-way-138294773,138294773,way,Unnamed Wetland (wb-way-138294773),wetland,wetland,12.896516,80.240108,Chennai
+wb-way-138294774,138294774,way,Unnamed Wetland (wb-way-138294774),wetland,wetland,12.902135,80.241789,Chennai
+wb-way-138307617,138307617,way,Unnamed Reservoir (wb-way-138307617),reservoir,reservoir,13.104007,80.182275,Chennai
+wb-way-138307626,138307626,way,Araabath Lake,lake,reservoir,13.1252,80.137498,Chennai
+wb-way-138307635,138307635,way,Unnamed Reservoir (wb-way-138307635),reservoir,reservoir,13.092767,80.067208,Chennai
+wb-way-138307636,138307636,way,Unnamed Pond (wb-way-138307636),pond,oxbow,13.100666,80.099822,Chennai
+wb-way-138307641,138307641,way,Nagaraja lake,lake,wetland,13.109408,80.076143,Chennai
+wb-way-138307644,138307644,way,Unnamed Wetland (wb-way-138307644),wetland,wetland,13.123066,80.213239,Chennai
+wb-way-138307645,138307645,way,Unnamed Pond (wb-way-138307645),pond,water,13.125926,80.217612,Chennai
+wb-way-138307646,138307646,way,Mariamman Koil Kulam,pond,pond,13.112407,80.21956,Chennai
+wb-way-138307649,138307649,way,Unnamed Reservoir (wb-way-138307649),reservoir,reservoir,13.113982,80.120542,Chennai
+wb-way-154089347,154089347,way,Pallikaranai Thamarai Kulam,pond,pond,12.934731,80.204575,Chennai
+wb-way-159017372,159017372,way,Ponniamman Temple Pond,pond,water,12.939273,80.178188,Chennai
+wb-way-166562080,166562080,way,Unnamed Wetland (wb-way-166562080),wetland,wetland,13.245335,80.282736,Chennai
+wb-way-175799902,175799902,way,Temple Tank,reservoir,reservoir,12.962295,80.112613,Chennai
+wb-way-177370838,177370838,way,Lake,lake,lake,12.925736,80.157882,Chennai
+wb-way-178747904,178747904,way,Vedhapureeswarar Temple Kulam,reservoir,reservoir,13.07175,80.115814,Chennai
+wb-way-178751060,178751060,way,Unnamed Lake (wb-way-178751060),lake,lake,13.0144,80.097808,Chennai
+wb-way-178751066,178751066,way,Kamakshi Amman Temple Tank,pond,pond,13.030481,80.109974,Chennai
+wb-way-178751071,178751071,way,Unnamed Wetland (wb-way-178751071),wetland,wetland,13.028235,80.147167,Chennai
+wb-way-178751072,178751072,way,Unnamed Wetland (wb-way-178751072),wetland,wetland,13.031037,80.132123,Chennai
+wb-way-178752249,178752249,way,Unnamed Reservoir (wb-way-178752249),reservoir,reservoir,13.039467,80.078386,Chennai
+wb-way-180145739,180145739,way,Unnamed Wetland (wb-way-180145739),wetland,wetland,12.956168,80.117578,Chennai
+wb-way-180145741,180145741,way,Unnamed Wetland (wb-way-180145741),wetland,wetland,12.960135,80.121492,Chennai
+wb-way-180145745,180145745,way,Unnamed Wetland (wb-way-180145745),wetland,wetland,12.963312,80.120295,Chennai
+wb-way-180145746,180145746,way,Unnamed Wetland (wb-way-180145746),wetland,wetland,12.963546,80.117425,Chennai
+wb-way-184728907,184728907,way,Mangal Eri,lake,wetland,13.087524,80.176379,Chennai
+wb-way-197488611,197488611,way,Thandukarai Kulam,pond,pond,12.925036,80.20693,Chennai
+wb-way-198549437,198549437,way,Unnamed Pond (wb-way-198549437),pond,water,12.95924,80.182578,Chennai
+wb-way-203215028,203215028,way,Pallikkaranai Anai Tank,lake,lake,12.93371,80.196957,Chennai
+wb-way-203215030,203215030,way,Pallikkaranai Eri,lake,lake,12.928683,80.198188,Chennai
+wb-way-203215355,203215355,way,Unnamed Pond (wb-way-203215355),pond,water,12.938845,80.192597,Chennai
+wb-way-203215356,203215356,way,Unnamed Pond (wb-way-203215356),pond,water,12.924176,80.194566,Chennai
+wb-way-203215357,203215357,way,Unnamed Pond (wb-way-203215357),pond,water,12.936294,80.190961,Chennai
+wb-way-205879099,205879099,way,Unnamed Reservoir (wb-way-205879099),reservoir,reservoir,12.99131,80.242475,Chennai
+wb-way-208578468,208578468,way,Unnamed Pond (wb-way-208578468),pond,water,13.032856,80.264861,Chennai
+wb-way-208578469,208578469,way,Unnamed Pond (wb-way-208578469),pond,water,13.03977,80.272435,Chennai
+wb-way-211119391,211119391,way,Unnamed Pond (wb-way-211119391),pond,water,12.868116,80.230799,Chennai
+wb-way-211119392,211119392,way,Unnamed Pond (wb-way-211119392),pond,water,12.86934,80.230644,Chennai
+wb-way-211121333,211121333,way,Unnamed Reservoir (wb-way-211121333),reservoir,reservoir,12.868549,80.228545,Chennai
+wb-way-211121334,211121334,way,Pigeon Pond,reservoir,reservoir,12.866058,80.22881,Chennai
+wb-way-211144596,211144596,way,Unnamed Reservoir (wb-way-211144596),reservoir,reservoir,12.8691,80.229141,Chennai
+wb-way-211423276,211423276,way,Madhava Perumal Temple Tank,pond,pond,13.037629,80.271536,Chennai
+wb-way-211435555,211435555,way,Unnamed Pond (wb-way-211435555),pond,canal,13.088348,80.274275,Chennai
+wb-way-211638794,211638794,way,Unnamed Reservoir (wb-way-211638794),reservoir,reservoir,13.021023,80.265454,Chennai
+wb-way-211774108,211774108,way,Unnamed Reservoir (wb-way-211774108),reservoir,reservoir,13.063546,80.272435,Chennai
+wb-way-211900069,211900069,way,Unnamed Pond (wb-way-211900069),pond,water,13.009327,80.248043,Chennai
+wb-way-211900070,211900070,way,Unnamed Pond (wb-way-211900070),pond,water,13.014909,80.248304,Chennai
+wb-way-211900075,211900075,way,Unnamed Pond (wb-way-211900075),pond,water,13.017391,80.236703,Chennai
+wb-way-214202945,214202945,way,Unnamed Pond (wb-way-214202945),pond,pond,13.034496,80.225639,Chennai
+wb-way-214599857,214599857,way,Unnamed Pond (wb-way-214599857),pond,water,13.01527,80.22728,Chennai
+wb-way-214698656,214698656,way,Unnamed Reservoir (wb-way-214698656),reservoir,reservoir,13.076402,80.268003,Chennai
+wb-way-217609144,217609144,way,Unnamed Reservoir (wb-way-217609144),reservoir,reservoir,13.091092,80.277265,Chennai
+wb-way-217609145,217609145,way,Ekambeshwarar Koil Kulam,pond,pond,13.088279,80.277594,Chennai
+wb-way-217688012,217688012,way,Unnamed Reservoir (wb-way-217688012),reservoir,reservoir,13.063058,80.243081,Chennai
+wb-way-217722050,217722050,way,Unnamed Reservoir (wb-way-217722050),reservoir,reservoir,13.093205,80.263833,Chennai
+wb-way-217722055,217722055,way,Unnamed Wetland (wb-way-217722055),wetland,wetland,13.089212,80.246696,Chennai
+wb-way-217802640,217802640,way,Unnamed Pond (wb-way-217802640),pond,pond,13.073805,80.197885,Chennai
+wb-way-217845707,217845707,way,Unnamed Pond (wb-way-217845707),pond,water,13.088292,80.277575,Chennai
+wb-way-217849594,217849594,way,Chennamalleshwarar Perumal Koil Kulam,pond,pond,13.088613,80.280467,Chennai
+wb-way-217850421,217850421,way,Unnamed Pond (wb-way-217850421),pond,water,13.101955,80.272101,Chennai
+wb-way-217902577,217902577,way,Unnamed Wetland (wb-way-217902577),wetland,wetland,13.121158,80.245323,Chennai
+wb-way-217904438,217904438,way,Unnamed Wetland (wb-way-217904438),wetland,wetland,13.12064,80.25232,Chennai
+wb-way-217906524,217906524,way,Unnamed Reservoir (wb-way-217906524),reservoir,reservoir,13.118525,80.262041,Chennai
+wb-way-217920747,217920747,way,Unnamed Pond (wb-way-217920747),pond,water,13.110592,80.226646,Chennai
+wb-way-217920757,217920757,way,Thamarai Kulam,pond,pond,13.119168,80.223444,Chennai
+wb-way-217922857,217922857,way,Unnamed Reservoir (wb-way-217922857),reservoir,reservoir,13.097157,80.240402,Chennai
+wb-way-217928946,217928946,way,Damodaran Perumal Koil Kulam,pond,pond,13.10719,80.207823,Chennai
+wb-way-217928947,217928947,way,Valayan Kulam,pond,pond,13.108506,80.212687,Chennai
+wb-way-217928948,217928948,way,Agatheeswaran Koil Street Kulam,pond,pond,13.104667,80.206754,Chennai
+wb-way-217940545,217940545,way,Unnamed Reservoir (wb-way-217940545),reservoir,reservoir,13.111645,80.23111,Chennai
+wb-way-217940547,217940547,way,Unnamed Wetland (wb-way-217940547),wetland,wetland,13.117558,80.26142,Chennai
+wb-way-217955850,217955850,way,Unnamed Pond (wb-way-217955850),pond,water,13.0913,80.233293,Chennai
+wb-way-217955854,217955854,way,Unnamed Pond (wb-way-217955854),pond,water,13.091348,80.232868,Chennai
+wb-way-218212407,218212407,way,Kalyana Varadaraja Perumal Koil Tank,pond,pond,13.153714,80.296637,Chennai
+wb-way-218221719,218221719,way,Bhaskar Colony Park Kulam,pond,pond,13.052763,80.198528,Chennai
+wb-way-219560980,219560980,way,Unnamed Pond (wb-way-219560980),pond,water,13.110202,80.167033,Chennai
+wb-way-231391877,231391877,way,Porur Pond,pond,water,13.03653,80.159304,Chennai
+wb-way-241414216,241414216,way,Unnamed Pond (wb-way-241414216),pond,water,13.080307,80.284996,Chennai
+wb-way-278769879,278769879,way,Thamarai Kulam,pond,pond,13.01777,80.158286,Chennai
+wb-way-288772390,288772390,way,Azhwancherry Pond,pond,pond,13.016031,80.15575,Chennai
+wb-way-292025239,292025239,way,Samiyar kulam,pond,pond,13.011353,80.157802,Chennai
+wb-way-355667734,355667734,way,Unnamed Pond (wb-way-355667734),pond,wastewater,13.034812,80.192333,Chennai
+wb-way-355667736,355667736,way,Unnamed Pond (wb-way-355667736),pond,wastewater,13.032296,80.193838,Chennai
+wb-way-355667738,355667738,way,Unnamed Pond (wb-way-355667738),pond,wastewater,13.034708,80.193211,Chennai
+wb-way-355667739,355667739,way,Unnamed Pond (wb-way-355667739),pond,wastewater,13.032001,80.193706,Chennai
+wb-way-355667740,355667740,way,Unnamed Pond (wb-way-355667740),pond,wastewater,13.033002,80.193887,Chennai
+wb-way-355667741,355667741,way,Unnamed Pond (wb-way-355667741),pond,wastewater,13.032124,80.19272,Chennai
+wb-way-355667742,355667742,way,Unnamed Pond (wb-way-355667742),pond,wastewater,13.034759,80.192817,Chennai
+wb-way-355667743,355667743,way,Unnamed Pond (wb-way-355667743),pond,wastewater,13.033917,80.19408,Chennai
+wb-way-355667744,355667744,way,Unnamed Pond (wb-way-355667744),pond,wastewater,13.033317,80.192756,Chennai
+wb-way-355667745,355667745,way,Unnamed Pond (wb-way-355667745),pond,wastewater,13.03339,80.192252,Chennai
+wb-way-369099870,369099870,way,Unnamed Pond (wb-way-369099870),pond,water,12.964121,80.165805,Chennai
+wb-way-369099873,369099873,way,Unnamed Reservoir (wb-way-369099873),reservoir,reservoir,12.961287,80.166701,Chennai
+wb-way-369100833,369100833,way,Unnamed Pond (wb-way-369100833),pond,water,12.961839,80.134166,Chennai
+wb-way-369464297,369464297,way,Unnamed Pond (wb-way-369464297),pond,wastewater,12.956999,80.232816,Chennai
+wb-way-369464311,369464311,way,Unnamed Basin (wb-way-369464311),basin,basin,12.95568,80.235131,Chennai
+wb-way-369508591,369508591,way,Unnamed Pond (wb-way-369508591),pond,water,12.883438,80.190618,Chennai
+wb-way-369514771,369514771,way,Unnamed Pond (wb-way-369514771),pond,water,12.88607,80.153305,Chennai
+wb-way-369514775,369514775,way,Unnamed Pond (wb-way-369514775),pond,water,12.886617,80.15468,Chennai
+wb-way-369523051,369523051,way,Unnamed Pond (wb-way-369523051),pond,water,12.904072,80.198739,Chennai
+wb-way-369617031,369617031,way,Unnamed Pond (wb-way-369617031),pond,water,12.921128,80.136773,Chennai
+wb-way-369617032,369617032,way,Unnamed Pond (wb-way-369617032),pond,water,12.917219,80.142223,Chennai
+wb-way-369617033,369617033,way,Unnamed Pond (wb-way-369617033),pond,water,12.920775,80.139421,Chennai
+wb-way-369625991,369625991,way,New Colony Pond,pond,pond,12.93234,80.205016,Chennai
+wb-way-369625993,369625993,way,Naasan Kulam,pond,pond,12.930263,80.209672,Chennai
+wb-way-369625994,369625994,way,Kovalan Nagar Lake,lake,lake,12.932234,80.206156,Chennai
+wb-way-369629984,369629984,way,Unnamed Pond (wb-way-369629984),pond,water,12.933304,80.235093,Chennai
+wb-way-369648524,369648524,way,Unnamed Pond (wb-way-369648524),pond,water,12.953135,80.158239,Chennai
+wb-way-369650944,369650944,way,Unnamed Pond (wb-way-369650944),pond,water,12.948422,80.16199,Chennai
+wb-way-376635749,376635749,way,Birds Enclosure,pond,pond,13.003981,80.237963,Chennai
+wb-way-379699515,379699515,way,Unnamed Pond (wb-way-379699515),pond,pond,13.010838,80.265996,Chennai
+wb-way-382881902,382881902,way,Unnamed Reservoir (wb-way-382881902),reservoir,reservoir,13.250597,80.324022,Chennai
+wb-way-383754555,383754555,way,Unnamed Wetland (wb-way-383754555),wetland,wetland,13.011008,80.085458,Chennai
+wb-way-383754556,383754556,way,Unnamed Wetland (wb-way-383754556),wetland,wetland,13.005288,80.102841,Chennai
+wb-way-383754557,383754557,way,Unnamed Wetland (wb-way-383754557),wetland,wetland,13.005693,80.095417,Chennai
+wb-way-383754558,383754558,way,Unnamed Wetland (wb-way-383754558),wetland,wetland,12.997632,80.111776,Chennai
+wb-way-383754562,383754562,way,Unnamed Reservoir (wb-way-383754562),reservoir,reservoir,13.003841,80.09108,Chennai
+wb-way-383833224,383833224,way,Unnamed Reservoir (wb-way-383833224),reservoir,reservoir,13.039488,80.087684,Chennai
+wb-way-383833225,383833225,way,Unnamed Wetland (wb-way-383833225),wetland,wetland,13.022389,80.078721,Chennai
+wb-way-383838971,383838971,way,Unnamed Wetland (wb-way-383838971),wetland,wetland,13.028909,80.144262,Chennai
+wb-way-383841151,383841151,way,Unnamed Pond (wb-way-383841151),pond,water,12.967196,80.083432,Chennai
+wb-way-383841152,383841152,way,Unnamed Pond (wb-way-383841152),pond,water,12.966134,80.083742,Chennai
+wb-way-383854747,383854747,way,Unnamed Pond (wb-way-383854747),pond,water,12.939141,80.061824,Chennai
+wb-way-383854749,383854749,way,Unnamed Pond (wb-way-383854749),pond,water,12.944056,80.071813,Chennai
+wb-way-383854751,383854751,way,Unnamed Wetland (wb-way-383854751),wetland,wetland,12.933203,80.076607,Chennai
+wb-way-383854753,383854753,way,Unnamed Wetland (wb-way-383854753),wetland,wetland,12.924348,80.060793,Chennai
+wb-way-383857979,383857979,way,Unnamed Pond (wb-way-383857979),pond,water,12.912332,80.082391,Chennai
+wb-way-383857980,383857980,way,Unnamed Reservoir (wb-way-383857980),reservoir,reservoir,12.903552,80.081906,Chennai
+wb-way-383857981,383857981,way,Unnamed Reservoir (wb-way-383857981),reservoir,reservoir,12.931083,80.10155,Chennai
+wb-way-383857982,383857982,way,Unnamed Reservoir (wb-way-383857982),reservoir,reservoir,12.930009,80.109039,Chennai
+wb-way-383857984,383857984,way,Unnamed Pond (wb-way-383857984),pond,water,12.914649,80.079883,Chennai
+wb-way-383857985,383857985,way,Unnamed Pond (wb-way-383857985),pond,water,12.926143,80.103884,Chennai
+wb-way-383857986,383857986,way,Unnamed Wetland (wb-way-383857986),wetland,wetland,12.9134,80.090509,Chennai
+wb-way-383857987,383857987,way,Unnamed Wetland (wb-way-383857987),wetland,wetland,12.912469,80.088354,Chennai
+wb-way-383858409,383858409,way,Unnamed Pond (wb-way-383858409),pond,river,13.002931,80.162792,Chennai
+wb-way-383861893,383861893,way,Unnamed Reservoir (wb-way-383861893),reservoir,reservoir,12.894141,80.083181,Chennai
+wb-way-383861894,383861894,way,Unnamed Pond (wb-way-383861894),pond,water,12.887447,80.072528,Chennai
+wb-way-383947586,383947586,way,Peerkankaranai lake,lake,reservoir,12.907236,80.099492,Chennai
+wb-way-383947588,383947588,way,Unnamed Pond (wb-way-383947588),pond,water,12.917251,80.083686,Chennai
+wb-way-383947590,383947590,way,Unnamed Pond (wb-way-383947590),pond,water,12.911462,80.095737,Chennai
+wb-way-383947592,383947592,way,Unnamed Pond (wb-way-383947592),pond,water,12.915804,80.085829,Chennai
+wb-way-384137769,384137769,way,Unnamed Wetland (wb-way-384137769),wetland,wetland,12.996678,80.088585,Chennai
+wb-way-384137770,384137770,way,Unnamed Pond (wb-way-384137770),pond,water,12.994963,80.080131,Chennai
+wb-way-384202825,384202825,way,Unnamed Pond (wb-way-384202825),pond,water,12.918292,80.105595,Chennai
+wb-way-384283930,384283930,way,Unnamed Lake (wb-way-384283930),lake,lake,12.928665,80.104313,Chennai
+wb-way-384284409,384284409,way,Unnamed Pond (wb-way-384284409),pond,pond,12.883832,80.065267,Chennai
+wb-way-384290646,384290646,way,Unnamed Lake (wb-way-384290646),lake,lake,12.923901,80.096156,Chennai
+wb-way-384312064,384312064,way,Ayyan Kulam,pond,pond,12.941483,80.204956,Chennai
+wb-way-384312610,384312610,way,Unnamed Lake (wb-way-384312610),lake,lake,12.94479,80.206631,Chennai
+wb-way-384364812,384364812,way,Kadaperi Tank,lake,pond,12.935366,80.122706,Chennai
+wb-way-384380354,384380354,way,Unnamed Pond (wb-way-384380354),pond,water,12.892564,80.215189,Chennai
+wb-way-384380356,384380356,way,Classic Farms Lake 1,lake,lake,12.893502,80.219804,Chennai
+wb-way-384380357,384380357,way,Unnamed Wetland (wb-way-384380357),wetland,wetland,12.879595,80.199892,Chennai
+wb-way-384380358,384380358,way,Unnamed Wetland (wb-way-384380358),wetland,wetland,12.865835,80.216904,Chennai
+wb-way-384392595,384392595,way,Unnamed Pond (wb-way-384392595),pond,water,12.859019,80.220311,Chennai
+wb-way-384392605,384392605,way,Unnamed Pond (wb-way-384392605),pond,water,12.85828,80.216445,Chennai
+wb-way-384392606,384392606,way,Unnamed Pond (wb-way-384392606),pond,water,12.857008,80.202614,Chennai
+wb-way-384392607,384392607,way,Unnamed Pond (wb-way-384392607),pond,water,12.855706,80.202545,Chennai
+wb-way-384392608,384392608,way,Unnamed Pond (wb-way-384392608),pond,water,12.854047,80.204287,Chennai
+wb-way-384392609,384392609,way,Unnamed Pond (wb-way-384392609),pond,water,12.855427,80.202964,Chennai
+wb-way-384392610,384392610,way,Unnamed Pond (wb-way-384392610),pond,water,12.854466,80.203287,Chennai
+wb-way-384392611,384392611,way,Unnamed Pond (wb-way-384392611),pond,water,12.862587,80.207474,Chennai
+wb-way-384392612,384392612,way,Unnamed Pond (wb-way-384392612),pond,water,12.851698,80.208445,Chennai
+wb-way-384392613,384392613,way,Unnamed Pond (wb-way-384392613),pond,water,12.854877,80.202467,Chennai
+wb-way-384392615,384392615,way,Unnamed Pond (wb-way-384392615),pond,water,12.855957,80.203041,Chennai
+wb-way-384392617,384392617,way,Unnamed Pond (wb-way-384392617),pond,water,12.85502,80.202934,Chennai
+wb-way-384392620,384392620,way,Unnamed Pond (wb-way-384392620),pond,water,12.86241,80.207517,Chennai
+wb-way-384392622,384392622,way,Unnamed Pond (wb-way-384392622),pond,water,12.853353,80.206091,Chennai
+wb-way-384392625,384392625,way,Unnamed Pond (wb-way-384392625),pond,water,12.859305,80.200828,Chennai
+wb-way-384394317,384394317,way,Kalappai Keni,pond,pond,12.893791,80.245696,Chennai
+wb-way-384394319,384394319,way,Thenman Poigai Pond,pond,pond,12.885472,80.244248,Chennai
+wb-way-384424974,384424974,way,Unnamed Pond (wb-way-384424974),pond,water,13.08512,80.14905,Chennai
+wb-way-384437269,384437269,way,Unnamed Pond (wb-way-384437269),pond,water,12.962227,80.084593,Chennai
+wb-way-384437270,384437270,way,Unnamed Pond (wb-way-384437270),pond,water,12.960624,80.075126,Chennai
+wb-way-384437271,384437271,way,Unnamed Pond (wb-way-384437271),pond,water,12.964875,80.078895,Chennai
+wb-way-384437272,384437272,way,Unnamed Pond (wb-way-384437272),pond,water,12.967019,80.080931,Chennai
+wb-way-384437273,384437273,way,Unnamed Pond (wb-way-384437273),pond,water,12.962195,80.070428,Chennai
+wb-way-384467380,384467380,way,Unnamed Lake (wb-way-384467380),lake,lake,12.981172,80.060967,Chennai
+wb-way-384467381,384467381,way,Unnamed Lake (wb-way-384467381),lake,lake,12.978389,80.05517,Chennai
+wb-way-384472437,384472437,way,Unnamed Reservoir (wb-way-384472437),reservoir,reservoir,13.049815,80.072232,Chennai
+wb-way-384476259,384476259,way,Thirupunanthal Lake,lake,lake,12.971556,80.135857,Chennai
+wb-way-384479651,384479651,way,Unnamed Pond (wb-way-384479651),pond,pond,13.024778,80.084539,Chennai
+wb-way-384479652,384479652,way,Unnamed Lake (wb-way-384479652),lake,lake,13.024725,80.086467,Chennai
+wb-way-384479653,384479653,way,Unnamed Pond (wb-way-384479653),pond,pond,13.024245,80.08664,Chennai
+wb-way-384479654,384479654,way,Unnamed Lake (wb-way-384479654),lake,lake,13.023801,80.087204,Chennai
+wb-way-384479655,384479655,way,Unnamed Pond (wb-way-384479655),pond,pond,13.024872,80.088884,Chennai
+wb-way-384479656,384479656,way,Unnamed Pond (wb-way-384479656),pond,pond,13.024232,80.09032,Chennai
+wb-way-384479657,384479657,way,Unnamed Pond (wb-way-384479657),pond,pond,13.023496,80.085825,Chennai
+wb-way-384479658,384479658,way,Unnamed Pond (wb-way-384479658),pond,pond,13.025255,80.087661,Chennai
+wb-way-384479659,384479659,way,Unnamed Pond (wb-way-384479659),pond,pond,13.021866,80.086055,Chennai
+wb-way-384479666,384479666,way,Unnamed Pond (wb-way-384479666),pond,pond,13.020047,80.083653,Chennai
+wb-way-384482383,384482383,way,Unnamed Pond (wb-way-384482383),pond,pond,13.023018,80.081921,Chennai
+wb-way-384482386,384482386,way,Unnamed Pond (wb-way-384482386),pond,pond,13.022702,80.081508,Chennai
+wb-way-384530140,384530140,way,Unnamed Reservoir (wb-way-384530140),reservoir,reservoir,12.967066,80.122794,Chennai
+wb-way-384530141,384530141,way,Unnamed Pond (wb-way-384530141),pond,water,12.969184,80.123178,Chennai
+wb-way-384530143,384530143,way,Unnamed Pond (wb-way-384530143),pond,water,12.970581,80.1231,Chennai
+wb-way-384530144,384530144,way,Unnamed Reservoir (wb-way-384530144),reservoir,reservoir,12.968948,80.122127,Chennai
+wb-way-384530145,384530145,way,Unnamed Reservoir (wb-way-384530145),reservoir,reservoir,12.971185,80.124085,Chennai
+wb-way-384535003,384535003,way,Unnamed Pond (wb-way-384535003),pond,pond,12.908853,80.071753,Chennai
+wb-way-384622623,384622623,way,Unnamed Lake (wb-way-384622623),lake,lake,12.885248,80.103772,Chennai
+wb-way-384622633,384622633,way,Unnamed Lake (wb-way-384622633),lake,lake,12.876823,80.106624,Chennai
+wb-way-384622634,384622634,way,Unnamed Lake (wb-way-384622634),lake,lake,12.876054,80.105861,Chennai
+wb-way-384622639,384622639,way,Unnamed Lake (wb-way-384622639),lake,lake,12.88046,80.103802,Chennai
+wb-way-384622640,384622640,way,Unnamed Lake (wb-way-384622640),lake,lake,12.880606,80.10359,Chennai
+wb-way-384622641,384622641,way,Unnamed Lake (wb-way-384622641),lake,lake,12.879509,80.103488,Chennai
+wb-way-384622643,384622643,way,Unnamed Lake (wb-way-384622643),lake,lake,12.879882,80.103356,Chennai
+wb-way-384622645,384622645,way,Unnamed Lake (wb-way-384622645),lake,lake,12.892199,80.107705,Chennai
+wb-way-384660453,384660453,way,Unnamed Pond (wb-way-384660453),pond,pond,12.858341,80.105541,Chennai
+wb-way-384677584,384677584,way,Unnamed Pond (wb-way-384677584),pond,pond,12.940734,80.07215,Chennai
+wb-way-384790300,384790300,way,Unnamed Pond (wb-way-384790300),pond,pond,13.02806,80.055819,Chennai
+wb-way-384790301,384790301,way,Unnamed Pond (wb-way-384790301),pond,pond,13.028767,80.056383,Chennai
+wb-way-384790302,384790302,way,Unnamed Pond (wb-way-384790302),pond,pond,13.029651,80.056816,Chennai
+wb-way-384790303,384790303,way,Unnamed Pond (wb-way-384790303),pond,pond,13.029997,80.059466,Chennai
+wb-way-384790304,384790304,way,Unnamed Pond (wb-way-384790304),pond,pond,13.031537,80.057395,Chennai
+wb-way-384790335,384790335,way,Unnamed Pond (wb-way-384790335),pond,pond,13.042817,80.066298,Chennai
+wb-way-384791809,384791809,way,Unnamed Pond (wb-way-384791809),pond,pond,12.888246,80.128179,Chennai
+wb-way-384796268,384796268,way,Unnamed Pond (wb-way-384796268),pond,pond,12.887444,80.186838,Chennai
+wb-way-384799421,384799421,way,Unnamed Pond (wb-way-384799421),pond,pond,12.855097,80.132001,Chennai
+wb-way-384799422,384799422,way,Unnamed Pond (wb-way-384799422),pond,pond,12.855226,80.132976,Chennai
+wb-way-384799423,384799423,way,Unnamed Pond (wb-way-384799423),pond,pond,12.855422,80.132359,Chennai
+wb-way-384799424,384799424,way,Unnamed Pond (wb-way-384799424),pond,pond,12.856209,80.132961,Chennai
+wb-way-384801134,384801134,way,Unnamed Pond (wb-way-384801134),pond,pond,12.85867,80.134971,Chennai
+wb-way-384801207,384801207,way,Unnamed Pond (wb-way-384801207),pond,pond,12.85729,80.144506,Chennai
+wb-way-384806324,384806324,way,Unnamed Pond (wb-way-384806324),pond,pond,12.857014,80.16824,Chennai
+wb-way-384806375,384806375,way,Unnamed Pond (wb-way-384806375),pond,pond,12.871184,80.16623,Chennai
+wb-way-384807075,384807075,way,Unnamed Pond (wb-way-384807075),pond,pond,12.855088,80.173225,Chennai
+wb-way-384807076,384807076,way,Unnamed Pond (wb-way-384807076),pond,pond,12.854853,80.174355,Chennai
+wb-way-384807077,384807077,way,Unnamed Pond (wb-way-384807077),pond,pond,12.854742,80.176736,Chennai
+wb-way-384807078,384807078,way,Unnamed Pond (wb-way-384807078),pond,pond,12.856216,80.167135,Chennai
+wb-way-384807082,384807082,way,Unnamed Pond (wb-way-384807082),pond,pond,12.868695,80.156708,Chennai
+wb-way-384807083,384807083,way,Unnamed Pond (wb-way-384807083),pond,pond,12.870305,80.157306,Chennai
+wb-way-384811778,384811778,way,Unnamed Pond (wb-way-384811778),pond,pond,12.860119,80.192333,Chennai
+wb-way-384811807,384811807,way,Unnamed Pond (wb-way-384811807),pond,pond,12.860285,80.187402,Chennai
+wb-way-384811808,384811808,way,Unnamed Pond (wb-way-384811808),pond,pond,12.859213,80.188149,Chennai
+wb-way-384811809,384811809,way,Unnamed Pond (wb-way-384811809),pond,pond,12.858928,80.187467,Chennai
+wb-way-384811811,384811811,way,Unnamed Pond (wb-way-384811811),pond,pond,12.860793,80.18731,Chennai
+wb-way-384811812,384811812,way,Unnamed Pond (wb-way-384811812),pond,pond,12.860243,80.189326,Chennai
+wb-way-384811817,384811817,way,Unnamed Pond (wb-way-384811817),pond,pond,12.862019,80.187948,Chennai
+wb-way-384821563,384821563,way,Unnamed Pond (wb-way-384821563),pond,pond,13.056146,80.058419,Chennai
+wb-way-384821602,384821602,way,Unnamed Pond (wb-way-384821602),pond,pond,13.065684,80.052773,Chennai
+wb-way-384821604,384821604,way,Unnamed Pond (wb-way-384821604),pond,pond,13.064288,80.055239,Chennai
+wb-way-384836620,384836620,way,Unnamed Pond (wb-way-384836620),pond,pond,13.045171,80.079767,Chennai
+wb-way-384836621,384836621,way,Unnamed Pond (wb-way-384836621),pond,pond,13.029283,80.080308,Chennai
+wb-way-384836634,384836634,way,Unnamed Pond (wb-way-384836634),pond,pond,13.028842,80.085119,Chennai
+wb-way-384972833,384972833,way,Unnamed Reservoir (wb-way-384972833),reservoir,reservoir,13.223144,80.197752,Chennai
+wb-way-384972834,384972834,way,Unnamed Reservoir (wb-way-384972834),reservoir,reservoir,13.222981,80.197725,Chennai
+wb-way-384972835,384972835,way,Unnamed Reservoir (wb-way-384972835),reservoir,reservoir,13.222821,80.197697,Chennai
+wb-way-384972836,384972836,way,Unnamed Reservoir (wb-way-384972836),reservoir,reservoir,13.222665,80.197672,Chennai
+wb-way-384972837,384972837,way,Unnamed Reservoir (wb-way-384972837),reservoir,reservoir,13.222462,80.197657,Chennai
+wb-way-384972838,384972838,way,Unnamed Reservoir (wb-way-384972838),reservoir,reservoir,13.222255,80.197642,Chennai
+wb-way-384972839,384972839,way,Unnamed Reservoir (wb-way-384972839),reservoir,reservoir,13.222067,80.197619,Chennai
+wb-way-384972840,384972840,way,Unnamed Reservoir (wb-way-384972840),reservoir,reservoir,13.221907,80.197602,Chennai
+wb-way-384972841,384972841,way,Unnamed Reservoir (wb-way-384972841),reservoir,reservoir,13.223908,80.197816,Chennai
+wb-way-384972842,384972842,way,Unnamed Reservoir (wb-way-384972842),reservoir,reservoir,13.22388,80.197935,Chennai
+wb-way-384972862,384972862,way,Unnamed Reservoir (wb-way-384972862),reservoir,reservoir,13.221753,80.195746,Chennai
+wb-way-384975433,384975433,way,Unnamed Reservoir (wb-way-384975433),reservoir,reservoir,13.227642,80.178447,Chennai
+wb-way-384975750,384975750,way,Unnamed Reservoir (wb-way-384975750),reservoir,reservoir,13.231347,80.185528,Chennai
+wb-way-384975751,384975751,way,Unnamed Reservoir (wb-way-384975751),reservoir,reservoir,13.231326,80.185252,Chennai
+wb-way-384975752,384975752,way,Unnamed Reservoir (wb-way-384975752),reservoir,reservoir,13.231041,80.18527,Chennai
+wb-way-384975753,384975753,way,Unnamed Reservoir (wb-way-384975753),reservoir,reservoir,13.230827,80.185292,Chennai
+wb-way-384975754,384975754,way,Unnamed Reservoir (wb-way-384975754),reservoir,reservoir,13.231428,80.184973,Chennai
+wb-way-384975755,384975755,way,Unnamed Reservoir (wb-way-384975755),reservoir,reservoir,13.231282,80.18497,Chennai
+wb-way-384975756,384975756,way,Unnamed Reservoir (wb-way-384975756),reservoir,reservoir,13.231159,80.184975,Chennai
+wb-way-384975757,384975757,way,Unnamed Reservoir (wb-way-384975757),reservoir,reservoir,13.231008,80.184992,Chennai
+wb-way-384975758,384975758,way,Unnamed Reservoir (wb-way-384975758),reservoir,reservoir,13.230817,80.185021,Chennai
+wb-way-385000408,385000408,way,Unnamed Pond (wb-way-385000408),pond,pond,13.218653,80.223,Chennai
+wb-way-385002770,385002770,way,Unnamed Pond (wb-way-385002770),pond,pond,13.228419,80.219742,Chennai
+wb-way-385006228,385006228,way,Unnamed Pond (wb-way-385006228),pond,pond,13.23381,80.213313,Chennai
+wb-way-385008764,385008764,way,Unnamed Pond (wb-way-385008764),pond,pond,13.230929,80.205513,Chennai
+wb-way-385008774,385008774,way,Unnamed Pond (wb-way-385008774),pond,pond,13.219508,80.203716,Chennai
+wb-way-385009467,385009467,way,Unnamed Pond (wb-way-385009467),pond,pond,13.236299,80.207179,Chennai
+wb-way-385009468,385009468,way,Unnamed Pond (wb-way-385009468),pond,pond,13.236501,80.207402,Chennai
+wb-way-385009488,385009488,way,Unnamed Pond (wb-way-385009488),pond,pond,13.228996,80.205516,Chennai
+wb-way-385010305,385010305,way,Unnamed Pond (wb-way-385010305),pond,pond,13.237728,80.214716,Chennai
+wb-way-385010306,385010306,way,Unnamed Pond (wb-way-385010306),pond,pond,13.236589,80.213957,Chennai
+wb-way-385010307,385010307,way,Unnamed Pond (wb-way-385010307),pond,pond,13.23726,80.214467,Chennai
+wb-way-385027263,385027263,way,Unnamed Wetland (wb-way-385027263),wetland,wetland,13.206496,80.154014,Chennai
+wb-way-385030602,385030602,way,Unnamed Pond (wb-way-385030602),pond,pond,12.972247,80.166882,Chennai
+wb-way-385032247,385032247,way,Unnamed Pond (wb-way-385032247),pond,pond,12.964489,80.170944,Chennai
+wb-way-385065000,385065000,way,Unnamed Pond (wb-way-385065000),pond,pond,13.08935,80.059207,Chennai
+wb-way-385065002,385065002,way,Unnamed Pond (wb-way-385065002),pond,pond,13.090985,80.056578,Chennai
+wb-way-385065003,385065003,way,Unnamed Pond (wb-way-385065003),pond,pond,13.090519,80.059239,Chennai
+wb-way-385065004,385065004,way,Unnamed Pond (wb-way-385065004),pond,pond,13.089492,80.06076,Chennai
+wb-way-385065005,385065005,way,Unnamed Pond (wb-way-385065005),pond,pond,13.089288,80.062619,Chennai
+wb-way-385065006,385065006,way,Unnamed Pond (wb-way-385065006),pond,pond,13.089872,80.063186,Chennai
+wb-way-385083618,385083618,way,Unnamed Pond (wb-way-385083618),pond,pond,12.888465,80.06533,Chennai
+wb-way-385083619,385083619,way,Unnamed Pond (wb-way-385083619),pond,pond,12.889212,80.065312,Chennai
+wb-way-385096915,385096915,way,Unnamed Pond (wb-way-385096915),pond,pond,12.86859,80.069804,Chennai
+wb-way-385096939,385096939,way,Unnamed Pond (wb-way-385096939),pond,pond,12.863664,80.075014,Chennai
+wb-way-385098284,385098284,way,Unnamed Pond (wb-way-385098284),pond,pond,12.859284,80.07267,Chennai
+wb-way-385101997,385101997,way,Unnamed Pond (wb-way-385101997),pond,pond,12.865533,80.080989,Chennai
+wb-way-385137493,385137493,way,Unnamed Pond (wb-way-385137493),pond,pond,13.218066,80.161411,Chennai
+wb-way-385143212,385143212,way,Unnamed Wetland (wb-way-385143212),wetland,wetland,13.178358,80.113955,Chennai
+wb-way-385175925,385175925,way,Unnamed Pond (wb-way-385175925),pond,pond,13.193561,80.095305,Chennai
+wb-way-385229043,385229043,way,Unnamed Pond (wb-way-385229043),pond,pond,13.187895,80.103909,Chennai
+wb-way-385243947,385243947,way,Unnamed Pond (wb-way-385243947),pond,pond,13.099053,80.12412,Chennai
+wb-way-385243948,385243948,way,Unnamed Wetland (wb-way-385243948),wetland,wetland,13.096589,80.125244,Chennai
+wb-way-385261394,385261394,way,Unnamed Pond (wb-way-385261394),pond,pond,13.195707,80.192049,Chennai
+wb-way-385262522,385262522,way,Unnamed Reservoir (wb-way-385262522),reservoir,reservoir,13.16217,80.080824,Chennai
+wb-way-385262523,385262523,way,Unnamed Reservoir (wb-way-385262523),reservoir,reservoir,13.161474,80.081791,Chennai
+wb-way-385263776,385263776,way,Unnamed Wetland (wb-way-385263776),wetland,wetland,13.193742,80.188251,Chennai
+wb-way-385273227,385273227,way,Unnamed Pond (wb-way-385273227),pond,pond,13.186621,80.188455,Chennai
+wb-way-385273428,385273428,way,Unnamed Pond (wb-way-385273428),pond,pond,13.154608,80.07283,Chennai
+wb-way-385277686,385277686,way,Unnamed Pond (wb-way-385277686),pond,pond,13.172256,80.073778,Chennai
+wb-way-385277919,385277919,way,Unnamed Pond (wb-way-385277919),pond,pond,13.190197,80.199422,Chennai
+wb-way-385287761,385287761,way,Unnamed Pond (wb-way-385287761),pond,pond,13.193124,80.205701,Chennai
+wb-way-385367114,385367114,way,Unnamed Pond (wb-way-385367114),pond,pond,13.085102,80.075399,Chennai
+wb-way-385367115,385367115,way,Unnamed Wetland (wb-way-385367115),wetland,wetland,13.085596,80.072616,Chennai
+wb-way-385376054,385376054,way,Unnamed Pond (wb-way-385376054),pond,pond,13.088118,80.105049,Chennai
+wb-way-385380935,385380935,way,Unnamed Pond (wb-way-385380935),pond,pond,13.133812,80.152739,Chennai
+wb-way-385387832,385387832,way,Unnamed Pond (wb-way-385387832),pond,pond,13.134713,80.135297,Chennai
+wb-way-385417118,385417118,way,Unnamed Pond (wb-way-385417118),pond,water,12.971539,80.056653,Chennai
+wb-way-385420125,385420125,way,Unnamed Pond (wb-way-385420125),pond,pond,13.153197,80.066372,Chennai
+wb-way-385422795,385422795,way,Unnamed Reservoir (wb-way-385422795),reservoir,reservoir,13.148966,80.056985,Chennai
+wb-way-385422797,385422797,way,Unnamed Pond (wb-way-385422797),pond,pond,13.151592,80.052512,Chennai
+wb-way-385484716,385484716,way,Unnamed Pond (wb-way-385484716),pond,pond,13.151966,80.062477,Chennai
+wb-way-385496639,385496639,way,Unnamed Pond (wb-way-385496639),pond,pond,13.152735,80.099335,Chennai
+wb-way-385496672,385496672,way,Unnamed Pond (wb-way-385496672),pond,pond,13.144649,80.10781,Chennai
+wb-way-385497552,385497552,way,Unnamed Pond (wb-way-385497552),pond,pond,13.140949,80.108086,Chennai
+wb-way-385541519,385541519,way,Unnamed Pond (wb-way-385541519),pond,pond,13.134811,80.105775,Chennai
+wb-way-385542594,385542594,way,Unnamed Pond (wb-way-385542594),pond,pond,13.138991,80.105726,Chennai
+wb-way-385542602,385542602,way,Unnamed Pond (wb-way-385542602),pond,pond,13.140349,80.105682,Chennai
+wb-way-385542605,385542605,way,Unnamed Pond (wb-way-385542605),pond,pond,13.140076,80.104705,Chennai
+wb-way-385543440,385543440,way,Unnamed Pond (wb-way-385543440),pond,pond,13.14402,80.104353,Chennai
+wb-way-385543447,385543447,way,Unnamed Pond (wb-way-385543447),pond,pond,13.135388,80.104917,Chennai
+wb-way-385543453,385543453,way,Unnamed Pond (wb-way-385543453),pond,pond,13.137274,80.103864,Chennai
+wb-way-385545773,385545773,way,Unnamed Pond (wb-way-385545773),pond,pond,13.138614,80.095158,Chennai
+wb-way-385545775,385545775,way,Unnamed Pond (wb-way-385545775),pond,pond,13.142908,80.090441,Chennai
+wb-way-385546795,385546795,way,Unnamed Reservoir (wb-way-385546795),reservoir,reservoir,13.148933,80.101474,Chennai
+wb-way-385567141,385567141,way,Unnamed Wetland (wb-way-385567141),wetland,wetland,13.164439,80.103172,Chennai
+wb-way-385608262,385608262,way,Unnamed Pond (wb-way-385608262),pond,pond,13.161184,80.112338,Chennai
+wb-way-385625356,385625356,way,Unnamed Pond (wb-way-385625356),pond,pond,12.920926,80.156679,Chennai
+wb-way-385625844,385625844,way,Unnamed Pond (wb-way-385625844),pond,pond,12.936748,80.143458,Chennai
+wb-way-385698697,385698697,way,Unnamed Pond (wb-way-385698697),pond,pond,13.116719,80.187184,Chennai
+wb-way-385698711,385698711,way,Unnamed Pond (wb-way-385698711),pond,pond,13.114936,80.188198,Chennai
+wb-way-385706159,385706159,way,Unnamed Pond (wb-way-385706159),pond,pond,13.132311,80.197815,Chennai
+wb-way-385706160,385706160,way,Unnamed Pond (wb-way-385706160),pond,pond,13.132971,80.197483,Chennai
+wb-way-385707490,385707490,way,Udayar Palayam Nagar Pond - II,pond,pond,13.092155,80.148679,Chennai
+wb-way-385708533,385708533,way,Unnamed Pond (wb-way-385708533),pond,pond,13.10833,80.128225,Chennai
+wb-way-385708837,385708837,way,Zone Office Pond,pond,pond,13.106703,80.154151,Chennai
+wb-way-385711964,385711964,way,Unnamed Pond (wb-way-385711964),pond,pond,13.105235,80.155544,Chennai
+wb-way-385785249,385785249,way,Unnamed Pond (wb-way-385785249),pond,pond,12.899578,80.109401,Chennai
+wb-way-385786074,385786074,way,Unnamed Pond (wb-way-385786074),pond,pond,12.900061,80.158285,Chennai
+wb-way-385786366,385786366,way,Vengaivasal Lake,lake,lake,12.917766,80.163698,Chennai
+wb-way-385787493,385787493,way,Uthu Kulam,pond,pond,12.918179,80.202859,Chennai
+wb-way-385882919,385882919,way,Unnamed Pond (wb-way-385882919),pond,pond,13.217106,80.196643,Chennai
+wb-way-385885894,385885894,way,Unnamed Lake (wb-way-385885894),lake,lake,13.207618,80.19944,Chennai
+wb-way-385885895,385885895,way,Unnamed Pond (wb-way-385885895),pond,water,13.206821,80.200322,Chennai
+wb-way-385885896,385885896,way,Unnamed Reservoir (wb-way-385885896),reservoir,reservoir,13.205091,80.19989,Chennai
+wb-way-385885897,385885897,way,Unnamed Pond (wb-way-385885897),pond,water,13.205334,80.19907,Chennai
+wb-way-385885898,385885898,way,Unnamed Pond (wb-way-385885898),pond,pond,13.203469,80.199574,Chennai
+wb-way-385885900,385885900,way,Unnamed Pond (wb-way-385885900),pond,pond,13.200369,80.197021,Chennai
+wb-way-385885908,385885908,way,Unnamed Pond (wb-way-385885908),pond,pond,13.198437,80.198631,Chennai
+wb-way-385921196,385921196,way,Unnamed Reservoir (wb-way-385921196),reservoir,reservoir,13.20243,80.19453,Chennai
+wb-way-385922220,385922220,way,Unnamed Reservoir (wb-way-385922220),reservoir,reservoir,13.2039,80.193919,Chennai
+wb-way-385922228,385922228,way,Unnamed Reservoir (wb-way-385922228),reservoir,reservoir,13.212765,80.188318,Chennai
+wb-way-385922229,385922229,way,Unnamed Pond (wb-way-385922229),pond,pond,13.216043,80.194557,Chennai
+wb-way-385960717,385960717,way,Unnamed Pond (wb-way-385960717),pond,pond,13.199853,80.201035,Chennai
+wb-way-385960719,385960719,way,Unnamed Lake (wb-way-385960719),lake,lake,13.20864,80.203948,Chennai
+wb-way-386174592,386174592,way,Unnamed Pond (wb-way-386174592),pond,pond,13.198856,80.221502,Chennai
+wb-way-386174593,386174593,way,Unnamed Pond (wb-way-386174593),pond,pond,13.199481,80.220727,Chennai
+wb-way-386174602,386174602,way,Unnamed Pond (wb-way-386174602),pond,pond,13.198053,80.207711,Chennai
+wb-way-386174614,386174614,way,Unnamed Pond (wb-way-386174614),pond,pond,13.20074,80.213521,Chennai
+wb-way-386175569,386175569,way,Unnamed Pond (wb-way-386175569),pond,pond,13.202626,80.21861,Chennai
+wb-way-386175570,386175570,way,Unnamed Pond (wb-way-386175570),pond,pond,13.202654,80.213824,Chennai
+wb-way-386175576,386175576,way,Unnamed Pond (wb-way-386175576),pond,pond,13.203035,80.210767,Chennai
+wb-way-386175577,386175577,way,Unnamed Pond (wb-way-386175577),pond,pond,13.203254,80.210165,Chennai
+wb-way-386177015,386177015,way,Unnamed Pond (wb-way-386177015),pond,pond,13.205673,80.215252,Chennai
+wb-way-386177016,386177016,way,Unnamed Pond (wb-way-386177016),pond,pond,13.20538,80.217265,Chennai
+wb-way-386177017,386177017,way,Unnamed Pond (wb-way-386177017),pond,pond,13.204519,80.216761,Chennai
+wb-way-386177018,386177018,way,Unnamed Pond (wb-way-386177018),pond,pond,13.204179,80.215367,Chennai
+wb-way-386177029,386177029,way,Unnamed Pond (wb-way-386177029),pond,pond,13.206646,80.217661,Chennai
+wb-way-386177053,386177053,way,Unnamed Pond (wb-way-386177053),pond,pond,13.20854,80.210495,Chennai
+wb-way-386178084,386178084,way,Unnamed Pond (wb-way-386178084),pond,pond,13.2092,80.210419,Chennai
+wb-way-386178092,386178092,way,Unnamed Pond (wb-way-386178092),pond,pond,13.211912,80.203791,Chennai
+wb-way-386178101,386178101,way,Unnamed Pond (wb-way-386178101),pond,pond,13.21262,80.219231,Chennai
+wb-way-386178107,386178107,way,Unnamed Pond (wb-way-386178107),pond,pond,13.216515,80.200519,Chennai
+wb-way-386193730,386193730,way,Kamarajapuram Pond,pond,pond,13.193349,80.261283,Chennai
+wb-way-386240169,386240169,way,Unnamed Pond (wb-way-386240169),pond,pond,13.16515,80.115145,Chennai
+wb-way-386241734,386241734,way,Unnamed Pond (wb-way-386241734),pond,pond,13.163115,80.117232,Chennai
+wb-way-386241735,386241735,way,Unnamed Pond (wb-way-386241735),pond,pond,13.163356,80.11806,Chennai
+wb-way-386241736,386241736,way,Unnamed Pond (wb-way-386241736),pond,pond,13.162329,80.116213,Chennai
+wb-way-386241737,386241737,way,Unnamed Pond (wb-way-386241737),pond,pond,13.163426,80.119466,Chennai
+wb-way-386241738,386241738,way,Unnamed Pond (wb-way-386241738),pond,pond,13.164001,80.119254,Chennai
+wb-way-386241755,386241755,way,Unnamed Pond (wb-way-386241755),pond,pond,13.162248,80.113927,Chennai
+wb-way-386241791,386241791,way,Unnamed Pond (wb-way-386241791),pond,pond,13.156455,80.119233,Chennai
+wb-way-386241803,386241803,way,Unnamed Pond (wb-way-386241803),pond,pond,13.158422,80.122717,Chennai
+wb-way-386241806,386241806,way,Unnamed Pond (wb-way-386241806),pond,pond,13.160271,80.119107,Chennai
+wb-way-386242730,386242730,way,Unnamed Pond (wb-way-386242730),pond,pond,13.157385,80.124825,Chennai
+wb-way-386242739,386242739,way,Unnamed Pond (wb-way-386242739),pond,pond,13.16274,80.124623,Chennai
+wb-way-386242740,386242740,way,Unnamed Pond (wb-way-386242740),pond,pond,13.162644,80.124413,Chennai
+wb-way-386393827,386393827,way,Unnamed Lake (wb-way-386393827),lake,lake,13.144099,80.184281,Chennai
+wb-way-388923026,388923026,way,Unnamed Pond (wb-way-388923026),pond,pond,13.235827,80.226516,Chennai
+wb-way-389023250,389023250,way,Unnamed Pond (wb-way-389023250),pond,pond,13.231204,80.23063,Chennai
+wb-way-389023251,389023251,way,Unnamed Pond (wb-way-389023251),pond,pond,13.232595,80.229969,Chennai
+wb-way-389023987,389023987,way,Unnamed Pond (wb-way-389023987),pond,pond,13.232562,80.237857,Chennai
+wb-way-389024155,389024155,way,Unnamed Pond (wb-way-389024155),pond,pond,13.220706,80.223012,Chennai
+wb-way-389024511,389024511,way,Unnamed Pond (wb-way-389024511),pond,pond,13.232466,80.231367,Chennai
+wb-way-389024516,389024516,way,Unnamed Pond (wb-way-389024516),pond,pond,13.237784,80.226695,Chennai
+wb-way-389024819,389024819,way,Unnamed Reservoir (wb-way-389024819),reservoir,reservoir,12.940641,80.239401,Chennai
+wb-way-389025497,389025497,way,Unnamed Pond (wb-way-389025497),pond,pond,12.960853,80.235679,Chennai
+wb-way-389025498,389025498,way,Kilangal Kulam,pond,pond,12.958947,80.232982,Chennai
+wb-way-389427335,389427335,way,Unnamed Pond (wb-way-389427335),pond,pond,12.94161,80.251265,Chennai
+wb-way-389427336,389427336,way,Unnamed Pond (wb-way-389427336),pond,pond,12.941195,80.248338,Chennai
+wb-way-389427342,389427342,way,Mangeni Kulam,pond,pond,12.951607,80.252899,Chennai
+wb-way-389427343,389427343,way,Unnamed Pond (wb-way-389427343),pond,pond,12.948777,80.250492,Chennai
+wb-way-389427344,389427344,way,Unnamed Pond (wb-way-389427344),pond,pond,12.948769,80.249919,Chennai
+wb-way-389427829,389427829,way,Unnamed Pond (wb-way-389427829),pond,pond,12.9516,80.245946,Chennai
+wb-way-389428126,389428126,way,Unnamed Pond (wb-way-389428126),pond,pond,12.951467,80.250592,Chennai
+wb-way-389428129,389428129,way,Unnamed Pond (wb-way-389428129),pond,pond,12.947648,80.253574,Chennai
+wb-way-389428130,389428130,way,Vannan Kulam,pond,pond,12.946583,80.253352,Chennai
+wb-way-395753069,395753069,way,Thandurai Pond Lake,lake,pond,13.11002,80.060592,Chennai
+wb-way-438356563,438356563,way,Periyakeni Kulam,lake,pond,12.920449,80.249521,Chennai
+wb-way-442874728,442874728,way,Unnamed Pond (wb-way-442874728),pond,water,12.908198,80.234771,Chennai
+wb-way-442874729,442874729,way,Unnamed Pond (wb-way-442874729),pond,water,12.905471,80.234233,Chennai
+wb-way-442879145,442879145,way,Unnamed Basin (wb-way-442879145),basin,basin,12.912212,80.233627,Chennai
+wb-way-442879146,442879146,way,Unnamed Reservoir (wb-way-442879146),reservoir,reservoir,12.90996,80.233946,Chennai
+wb-way-442879147,442879147,way,Unnamed Basin (wb-way-442879147),basin,basin,12.901428,80.234553,Chennai
+wb-way-459809120,459809120,way,Unnamed Pond (wb-way-459809120),pond,pond,13.050596,80.250692,Chennai
+wb-way-459809124,459809124,way,Unnamed Pond (wb-way-459809124),pond,pond,13.051423,80.251272,Chennai
+wb-way-462707034,462707034,way,Unnamed Pond (wb-way-462707034),pond,pond,13.016722,80.191728,Chennai
+wb-way-469943984,469943984,way,Unnamed Pond (wb-way-469943984),pond,pond,13.123495,80.265969,Chennai
+wb-way-479690974,479690974,way,MF sanskriti,pond,pond,12.940687,80.216005,Chennai
+wb-way-479690975,479690975,way,Swamp,wetland,wetland,12.940496,80.21588,Chennai
+wb-way-479690978,479690978,way,Niot,pond,pond,12.946923,80.211221,Chennai
+wb-way-480222397,480222397,way,Unnamed Pond (wb-way-480222397),pond,water,12.91441,80.229774,Chennai
+wb-way-480348830,480348830,way,Unnamed Pond (wb-way-480348830),pond,pond,12.911481,80.22966,Chennai
+wb-way-482969237,482969237,way,Unnamed Pond (wb-way-482969237),pond,pond,13.047553,80.099245,Chennai
+wb-way-490995272,490995272,way,Chanthira Sekaran Avenue Lake,lake,lake,12.932335,80.231653,Chennai
+wb-way-540171888,540171888,way,Unnamed Pond (wb-way-540171888),pond,pond,12.936024,80.158863,Chennai
+wb-way-540336526,540336526,way,Unnamed Pond (wb-way-540336526),pond,pond,13.118071,80.079935,Chennai
+wb-way-540377381,540377381,way,Pattabiram Pond,pond,pond,13.120203,80.065151,Chennai
+wb-way-544501046,544501046,way,Perungudi Panchayat Pond,pond,pond,12.956207,80.239831,Chennai
+wb-way-554596475,554596475,way,Sathya lake,lake,lake,13.092739,80.176283,Chennai
+wb-way-554923682,554923682,way,Unnamed Basin (wb-way-554923682),basin,basin,13.090595,80.235784,Chennai
+wb-way-554923683,554923683,way,Unnamed Basin (wb-way-554923683),basin,basin,13.090692,80.235066,Chennai
+wb-way-554923684,554923684,way,Unnamed Basin (wb-way-554923684),basin,basin,13.091988,80.234914,Chennai
+wb-way-554923685,554923685,way,Unnamed Basin (wb-way-554923685),basin,basin,13.092479,80.23497,Chennai
+wb-way-554923686,554923686,way,Unnamed Basin (wb-way-554923686),basin,basin,13.091824,80.232828,Chennai
+wb-way-554923687,554923687,way,Unnamed Basin (wb-way-554923687),basin,basin,13.091774,80.233302,Chennai
+wb-way-554923688,554923688,way,Unnamed Basin (wb-way-554923688),basin,basin,13.09239,80.232893,Chennai
+wb-way-554923689,554923689,way,Unnamed Basin (wb-way-554923689),basin,basin,13.092343,80.233371,Chennai
+wb-way-556414706,556414706,way,Unnamed Pond (wb-way-556414706),pond,pond,13.009255,80.155784,Chennai
+wb-way-556414712,556414712,way,Dharmarajapuram Vannan Kulam,pond,pond,13.011752,80.163006,Chennai
+wb-way-558926037,558926037,way,Kallu Kuttai Lake,lake,water,12.978021,80.235819,Chennai
+wb-way-558926040,558926040,way,Dhandeeshwaram Temple Tank,pond,pond,12.985908,80.223324,Chennai
+wb-way-558926042,558926042,way,Appalang Kulam,pond,pond,12.990332,80.224395,Chennai
+wb-way-595453143,595453143,way,Vembuliamman Koil Pond,pond,pond,12.959224,80.239916,Chennai
+wb-way-595609706,595609706,way,Unnamed Pond (wb-way-595609706),pond,pond,12.960348,80.050701,Chennai
+wb-way-595615727,595615727,way,Kannagi Nagar Kulam,pond,pond,12.926199,80.242648,Chennai
+wb-way-595615728,595615728,way,Unnamed Pond (wb-way-595615728),pond,pond,12.928535,80.236106,Chennai
+wb-way-595615729,595615729,way,Panchavan Kuttai,pond,pond,12.93155,80.235518,Chennai
+wb-way-595615730,595615730,way,Unnamed Pond (wb-way-595615730),pond,pond,12.915012,80.23456,Chennai
+wb-way-595615731,595615731,way,Unnamed Pond (wb-way-595615731),pond,pond,12.913296,80.227309,Chennai
+wb-way-595615732,595615732,way,Unnamed Reservoir (wb-way-595615732),reservoir,reservoir,12.909169,80.216808,Chennai
+wb-way-595619341,595619341,way,Unnamed Reservoir (wb-way-595619341),reservoir,reservoir,12.90437,80.215897,Chennai
+wb-way-595619344,595619344,way,Unnamed Pond (wb-way-595619344),pond,pond,12.90205,80.224716,Chennai
+wb-way-595619345,595619345,way,Unnamed Pond (wb-way-595619345),pond,pond,12.900404,80.224501,Chennai
+wb-way-595625973,595625973,way,Unnamed Reservoir (wb-way-595625973),reservoir,reservoir,12.957175,80.214817,Chennai
+wb-way-595625974,595625974,way,Unnamed Pond (wb-way-595625974),pond,pond,12.968869,80.217162,Chennai
+wb-way-595626698,595626698,way,Unnamed Pond (wb-way-595626698),pond,pond,12.96766,80.217232,Chennai
+wb-way-595626700,595626700,way,Unnamed Pond (wb-way-595626700),pond,pond,12.965954,80.216557,Chennai
+wb-way-595645437,595645437,way,Unnamed Pond (wb-way-595645437),pond,pond,13.001772,80.148125,Chennai
+wb-way-595654755,595654755,way,Unnamed Pond (wb-way-595654755),pond,canal,13.111613,80.270301,Chennai
+wb-way-597421167,597421167,way,Unnamed Pond (wb-way-597421167),pond,water,12.966727,80.069941,Chennai
+wb-way-614283330,614283330,way,Unnamed Pond (wb-way-614283330),pond,pond,13.12928,80.286402,Chennai
+wb-way-618621965,618621965,way,Unnamed Pond (wb-way-618621965),pond,canal,13.250279,80.314452,Chennai
+wb-way-620713310,620713310,way,Unnamed Pond (wb-way-620713310),pond,pond,12.993923,80.074857,Chennai
+wb-way-620713926,620713926,way,Unnamed Reservoir (wb-way-620713926),reservoir,reservoir,13.152154,80.281246,Chennai
+wb-way-620713927,620713927,way,Unnamed Reservoir (wb-way-620713927),reservoir,reservoir,13.151328,80.281222,Chennai
+wb-way-620717220,620717220,way,Unnamed Pond (wb-way-620717220),pond,water,13.070659,80.280145,Chennai
+wb-way-620724466,620724466,way,Unnamed Pond (wb-way-620724466),pond,water,12.97188,80.17413,Chennai
+wb-way-620725768,620725768,way,Unnamed Pond (wb-way-620725768),pond,water,12.943169,80.183476,Chennai
+wb-way-620725775,620725775,way,Unnamed Pond (wb-way-620725775),pond,pond,12.941159,80.196096,Chennai
+wb-way-620731613,620731613,way,Unnamed Reservoir (wb-way-620731613),reservoir,reservoir,12.905391,80.139151,Chennai
+wb-way-625564658,625564658,way,Madras Fertilizers Pond,pond,pond,13.170093,80.282913,Chennai
+wb-way-633624184,633624184,way,Unnamed Pond (wb-way-633624184),pond,water,12.890874,80.233474,Chennai
+wb-way-633624185,633624185,way,Unnamed Pond (wb-way-633624185),pond,water,12.887264,80.235534,Chennai
+wb-way-641918370,641918370,way,Unnamed Pond (wb-way-641918370),pond,water,12.85193,80.058398,Chennai
+wb-way-642850680,642850680,way,Unnamed Lake (wb-way-642850680),lake,lake,12.85138,80.225038,Chennai
+wb-way-642850681,642850681,way,Unnamed Lake (wb-way-642850681),lake,lake,12.856883,80.224698,Chennai
+wb-way-642850684,642850684,way,Unnamed Lake (wb-way-642850684),lake,lake,12.863178,80.225447,Chennai
+wb-way-642861359,642861359,way,Unnamed Pond (wb-way-642861359),pond,water,12.905425,80.071349,Chennai
+wb-way-643533398,643533398,way,Unnamed Pond (wb-way-643533398),pond,water,12.953033,80.112173,Chennai
+wb-way-650596076,650596076,way,Unnamed Pond (wb-way-650596076),pond,pond,12.874181,80.229498,Chennai
+wb-way-650596102,650596102,way,Unnamed Pond (wb-way-650596102),pond,pond,12.860832,80.215802,Chennai
+wb-way-650596146,650596146,way,Unnamed Pond (wb-way-650596146),pond,intermittent,12.864615,80.169142,Chennai
+wb-way-650598572,650598572,way,Unnamed Pond (wb-way-650598572),pond,water,12.851963,80.210325,Chennai
+wb-way-650598573,650598573,way,Unnamed Pond (wb-way-650598573),pond,water,12.849479,80.224766,Chennai
+wb-way-650598579,650598579,way,Unnamed Pond (wb-way-650598579),pond,canal,12.928869,80.244422,Chennai
+wb-way-650602417,650602417,way,Unnamed Pond (wb-way-650602417),pond,pond,12.937777,80.243224,Chennai
+wb-way-650602429,650602429,way,Unnamed Pond (wb-way-650602429),pond,wastewater,12.951678,80.230672,Chennai
+wb-way-652928123,652928123,way,Unnamed Pond (wb-way-652928123),pond,pond,12.933008,80.0774,Chennai
+wb-way-652928124,652928124,way,Unnamed Pond (wb-way-652928124),pond,pond,12.933822,80.076501,Chennai
+wb-way-652928125,652928125,way,Unnamed Pond (wb-way-652928125),pond,pond,12.933089,80.076196,Chennai
+wb-way-652928126,652928126,way,Unnamed Pond (wb-way-652928126),pond,pond,12.936198,80.080056,Chennai
+wb-way-652928127,652928127,way,Unnamed Pond (wb-way-652928127),pond,pond,12.934985,80.078186,Chennai
+wb-way-652928129,652928129,way,Unnamed Pond (wb-way-652928129),pond,pond,12.945148,80.054444,Chennai
+wb-way-652928130,652928130,way,Unnamed Pond (wb-way-652928130),pond,pond,12.944377,80.054398,Chennai
+wb-way-661094629,661094629,way,Vettamani Lake,lake,lake,13.147496,80.235547,Chennai
+wb-way-661094630,661094630,way,Uppu Kulam,pond,pond,13.148819,80.234594,Chennai
+wb-way-661094631,661094631,way,Sathankadu Lake,lake,lake,13.156619,80.269136,Chennai
+wb-way-661094632,661094632,way,Harikrishnapuram Lake,lake,lake,13.169968,80.26318,Chennai
+wb-way-661094633,661094633,way,Burma Nagar Reservoir,pond,pond,13.178589,80.303226,Chennai
+wb-way-661094634,661094634,way,Vadivudaiyamman Koil Kulam,pond,pond,13.161367,80.29932,Chennai
+wb-way-661094635,661094635,way,Arunachaleshwarar Koil Kulam,pond,pond,13.132928,80.291738,Chennai
+wb-way-661094636,661094636,way,Angala Parameshwari Koil Kulam,pond,pond,13.114557,80.291744,Chennai
+wb-way-661094637,661094637,way,Sengazhuneer Pillayar Temple Reservoir,pond,pond,13.101448,80.288689,Chennai
+wb-way-661100677,661100677,way,Tharamani Pond,pond,pond,12.98518,80.240971,Chennai
+wb-way-661100680,661100680,way,Nadar Street Pond,pond,pond,12.983858,80.220716,Chennai
+wb-way-661100681,661100681,way,Puliyenkeni Pond,pond,pond,12.983602,80.218893,Chennai
+wb-way-661100682,661100682,way,Mandapam Kuttai,pond,pond,12.97348,80.20832,Chennai
+wb-way-661100683,661100683,way,Sada Kuttai,pond,pond,12.97318,80.204152,Chennai
+wb-way-661100684,661100684,way,Gangai Amman Kulam,pond,pond,12.971806,80.203,Chennai
+wb-way-661100685,661100685,way,Rettai Kuttai,pond,pond,12.972508,80.20436,Chennai
+wb-way-661100686,661100686,way,Bharatiyar Nagar Lake,lake,lake,12.934686,80.241183,Chennai
+wb-way-661100690,661100690,way,Nehru Nagar Pond,pond,pond,12.927272,80.229532,Chennai
+wb-way-661100692,661100692,way,Vannan Kuttai,lake,lake,12.922017,80.20697,Chennai
+wb-way-661100695,661100695,way,Palandeyamman Koil Street Kulam,pond,pond,12.919729,80.203487,Chennai
+wb-way-661100696,661100696,way,Jayachandran Nagar Pond,pond,pond,12.91883,80.201257,Chennai
+wb-way-661100697,661100697,way,Varadharajapuram Pond,pond,pond,12.927641,80.205748,Chennai
+wb-way-661100698,661100698,way,Ambal Nagar Lake,lake,lake,12.936213,80.201593,Chennai
+wb-way-661100699,661100699,way,Pillaiyar Koil Kulam,pond,pond,12.936472,80.204075,Chennai
+wb-way-661117600,661117600,way,Township Colony Pond,pond,pond,13.099221,80.1591,Chennai
+wb-way-661117601,661117601,way,Reddy Kulam,pond,pond,13.0923,80.156605,Chennai
+wb-way-661117602,661117602,way,Udayar Palayam Nagar Pond - I,pond,pond,13.095307,80.148551,Chennai
+wb-way-661117603,661117603,way,Thenthirupathi Pond,pond,pond,13.086718,80.172524,Chennai
+wb-way-661117604,661117604,way,JJ Nagar Lake,lake,lake,13.079089,80.171988,Chennai
+wb-way-661117605,661117605,way,Gangai Amman Koil Street Pond,pond,pond,13.05414,80.175301,Chennai
+wb-way-661117606,661117606,way,Krishna Nagar Pond,pond,pond,13.052136,80.195517,Chennai
+wb-way-661117607,661117607,way,Linga Kulam,pond,pond,13.051912,80.161558,Chennai
+wb-way-661117608,661117608,way,Siva Subramani Koil Kulam,pond,pond,12.999894,80.206195,Chennai
+wb-way-661117609,661117609,way,Nandeeshwaran Koil Kulam,pond,pond,12.993844,80.200676,Chennai
+wb-way-661117610,661117610,way,NGGO Colony Lake,lake,lake,12.969968,80.179917,Chennai
+wb-way-661117611,661117611,way,Thamarai Keni Kulam,pond,pond,12.954568,80.252413,Chennai
+wb-way-661117612,661117612,way,Kannan Kulam,pond,pond,12.952715,80.236782,Chennai
+wb-way-661117613,661117613,way,Panichavan Kuttai,pond,pond,12.952229,80.238531,Chennai
+wb-way-661117614,661117614,way,MGR Nagar Pond,pond,pond,12.961737,80.253779,Chennai
+wb-way-661178353,661178353,way,Thiruvedee Amman Koil Kulam,pond,pond,13.121239,80.218005,Chennai
+wb-way-661178354,661178354,way,Aadikesavaperumal Temple Tank,pond,pond,13.119802,80.189736,Chennai
+wb-way-661178355,661178355,way,Thamarai Kulam,pond,pond,13.121938,80.190511,Chennai
+wb-way-661178356,661178356,way,Seekathamman Koil Kulam,pond,pond,13.123921,80.189073,Chennai
+wb-way-661178357,661178357,way,Kulappan Kulam,pond,pond,13.135112,80.222615,Chennai
+wb-way-661178358,661178358,way,Thattan Kulam,pond,pond,13.14136,80.226949,Chennai
+wb-way-661178359,661178359,way,Aathi Kulam,pond,pond,13.146789,80.231144,Chennai
+wb-way-661178360,661178360,way,Thattankulam,pond,pond,13.145996,80.229059,Chennai
+wb-way-661178361,661178361,way,Samiyar Kulam,pond,pond,13.133418,80.209639,Chennai
+wb-way-661178362,661178362,way,Swamy Nagar Kulam,pond,pond,13.148721,80.22982,Chennai
+wb-way-661178363,661178363,way,Perumal Koil Street Kulam,pond,pond,13.152056,80.231989,Chennai
+wb-way-661178364,661178364,way,Ramachandra Nagar Kulam,pond,pond,13.153566,80.234457,Chennai
+wb-way-661178365,661178365,way,Kumarappapuram Kulam,pond,pond,13.15271,80.235871,Chennai
+wb-way-661178366,661178366,way,Thideer Nagar Lake,lake,lake,13.167278,80.227082,Chennai
+wb-way-661178367,661178367,way,Poosani Kulam,pond,pond,13.165362,80.254894,Chennai
+wb-way-661178368,661178368,way,Thamarai POND,pond,pond,13.167015,80.257654,Chennai
+wb-way-661178369,661178369,way,Kulakkarai Karumariamman Koil Street Pond,pond,pond,13.175423,80.251707,Chennai
+wb-way-661178370,661178370,way,Zakir Hussain Pond,pond,pond,13.164741,80.264022,Chennai
+wb-way-661178371,661178371,way,Jalakanda Mariyamman Koil Street Pond,pond,pond,13.163971,80.263276,Chennai
+wb-way-661178372,661178372,way,Railway Pond 3,pond,pond,13.17404,80.302817,Chennai
+wb-way-661178373,661178373,way,Sadayankuppam Tank,lake,lake,13.186655,80.290694,Chennai
+wb-way-661178374,661178374,way,Edayanchavadi Pond,pond,pond,13.214895,80.277559,Chennai
+wb-way-661178375,661178375,way,Andarkuppam Burial Ground Pond,pond,pond,13.193867,80.268565,Chennai
+wb-way-661178376,661178376,way,Natham Purampokku Pond,pond,pond,13.20277,80.267782,Chennai
+wb-way-661178377,661178377,way,Kanniyamman Kovil Street Pond,pond,pond,13.195342,80.255261,Chennai
+wb-way-665521119,665521119,way,Unnamed Pond (wb-way-665521119),pond,water,13.236936,80.306596,Chennai
+wb-way-665689549,665689549,way,Unnamed Pond (wb-way-665689549),pond,pond,13.241825,80.265145,Chennai
+wb-way-666758423,666758423,way,Unnamed Pond (wb-way-666758423),pond,pond,13.108406,80.1908,Chennai
+wb-way-666758424,666758424,way,Unnamed Pond (wb-way-666758424),pond,pond,13.106845,80.18926,Chennai
+wb-way-666765037,666765037,way,Unnamed Pond (wb-way-666765037),pond,pond,12.945206,80.214966,Chennai
+wb-way-666765038,666765038,way,Unnamed Pond (wb-way-666765038),pond,pond,12.946881,80.214012,Chennai
+wb-way-666765040,666765040,way,Unnamed Pond (wb-way-666765040),pond,pond,12.945026,80.213438,Chennai
+wb-way-666765730,666765730,way,Unnamed Pond (wb-way-666765730),pond,pond,12.945993,80.214033,Chennai
+wb-way-675826935,675826935,way,Unnamed Reservoir (wb-way-675826935),reservoir,reservoir,13.051822,80.244073,Chennai
+wb-way-677255694,677255694,way,temple pond,pond,water,12.98461,80.260638,Chennai
+wb-way-677746525,677746525,way,Unnamed Pond (wb-way-677746525),pond,water,12.87998,80.090934,Chennai
+wb-way-682046324,682046324,way,Tower park pond,pond,pond,13.087577,80.214274,Chennai
+wb-way-685182151,685182151,way,Unnamed Lake (wb-way-685182151),lake,lake,12.897125,80.113315,Chennai
+wb-way-685182549,685182549,way,Unnamed Reservoir (wb-way-685182549),reservoir,reservoir,12.908026,80.109178,Chennai
+wb-way-733490385,733490385,way,Wipro CDC 5 Pond,pond,pond,12.905537,80.220078,Chennai
+wb-way-733530086,733530086,way,Wipro CDC 5 Pond near Learning Centre,pond,pond,12.905164,80.221831,Chennai
+wb-way-733530089,733530089,way,Mini pond with artificial waterfall,pond,pond,12.908558,80.225683,Chennai
+wb-way-740146567,740146567,way,Unnamed Pond (wb-way-740146567),pond,pond,12.960801,80.053432,Chennai
+wb-way-740151030,740151030,way,Unnamed Pond (wb-way-740151030),pond,pond,12.961319,80.05317,Chennai
+wb-way-740151031,740151031,way,Unnamed Pond (wb-way-740151031),pond,pond,12.960259,80.053284,Chennai
+wb-way-754068463,754068463,way,Unnamed Wetland (wb-way-754068463),wetland,wetland,12.917533,80.181664,Chennai
+wb-way-754069136,754069136,way,Unnamed Pond (wb-way-754069136),pond,pond,12.919043,80.183422,Chennai
+wb-way-772410448,772410448,way,Unnamed Pond (wb-way-772410448),pond,pond,12.861738,80.137432,Chennai
+wb-way-813634947,813634947,way,Unnamed Wetland (wb-way-813634947),wetland,wetland,13.099184,80.116422,Chennai
+wb-way-813634949,813634949,way,Unnamed Pond (wb-way-813634949),pond,water,13.094227,80.123659,Chennai
+wb-way-813634975,813634975,way,Unnamed Wetland (wb-way-813634975),wetland,wetland,13.087317,80.133833,Chennai
+wb-way-820175629,820175629,way,Unnamed Pond (wb-way-820175629),pond,pond,12.967082,80.235914,Chennai
+wb-way-834888383,834888383,way,Unnamed Pond (wb-way-834888383),pond,pond,13.121207,80.16212,Chennai
+wb-way-836835728,836835728,way,Thandurai Pond Lake,lake,pond,13.098448,80.058512,Chennai
+wb-way-840519180,840519180,way,Unnamed Pond (wb-way-840519180),pond,pond,13.11901,80.161773,Chennai
+wb-way-840880636,840880636,way,Unnamed Basin (wb-way-840880636),basin,basin,13.160467,80.270685,Chennai
+wb-way-840880637,840880637,way,Unnamed Basin (wb-way-840880637),basin,basin,13.172374,80.276536,Chennai
+wb-way-840880638,840880638,way,Unnamed Basin (wb-way-840880638),basin,basin,13.175744,80.28094,Chennai
+wb-way-840880639,840880639,way,Unnamed Basin (wb-way-840880639),basin,basin,13.175453,80.280672,Chennai
+wb-way-840880646,840880646,way,Unnamed Basin (wb-way-840880646),basin,basin,13.177033,80.281015,Chennai
+wb-way-840880647,840880647,way,Unnamed Basin (wb-way-840880647),basin,basin,13.17714,80.280393,Chennai
+wb-way-840880648,840880648,way,Unnamed Basin (wb-way-840880648),basin,basin,13.177093,80.280663,Chennai
+wb-way-840880649,840880649,way,Unnamed Basin (wb-way-840880649),basin,basin,13.171897,80.270023,Chennai
+wb-way-840880650,840880650,way,Unnamed Basin (wb-way-840880650),basin,basin,13.17191,80.269513,Chennai
+wb-way-843255609,843255609,way,Unnamed Basin (wb-way-843255609),basin,basin,13.04015,80.047888,Chennai
+wb-way-843608975,843608975,way,Unnamed Pond (wb-way-843608975),pond,ditch,13.114868,80.164441,Chennai
+wb-way-847263340,847263340,way,Unnamed Reservoir (wb-way-847263340),reservoir,reservoir,12.960978,80.213441,Chennai
+wb-way-856305213,856305213,way,Unnamed Pond (wb-way-856305213),pond,pond,12.955741,80.128896,Chennai
+wb-way-864059072,864059072,way,Unnamed Pond (wb-way-864059072),pond,water,12.955617,80.177945,Chennai
+wb-way-864059073,864059073,way,Moovarasampettai Lake,lake,water,12.964062,80.180978,Chennai
+wb-way-864059074,864059074,way,Unnamed Pond (wb-way-864059074),pond,water,12.960399,80.179194,Chennai
+wb-way-864059075,864059075,way,Unnamed Pond (wb-way-864059075),pond,water,12.959767,80.178996,Chennai
+wb-way-876012418,876012418,way,Unnamed Pond (wb-way-876012418),pond,wastewater,12.958018,80.233633,Chennai
+wb-way-876012419,876012419,way,Unnamed Pond (wb-way-876012419),pond,wastewater,12.957615,80.233579,Chennai
+wb-way-876012420,876012420,way,Unnamed Pond (wb-way-876012420),pond,wastewater,12.956589,80.232897,Chennai
+wb-way-876012421,876012421,way,Unnamed Pond (wb-way-876012421),pond,wastewater,12.956573,80.233816,Chennai
+wb-way-876012422,876012422,way,Unnamed Pond (wb-way-876012422),pond,wastewater,12.956135,80.233773,Chennai
+wb-way-876012423,876012423,way,Unnamed Pond (wb-way-876012423),pond,wastewater,12.957479,80.234592,Chennai
+wb-way-876012424,876012424,way,Unnamed Pond (wb-way-876012424),pond,wastewater,12.957914,80.234641,Chennai
+wb-way-876012427,876012427,way,Unnamed Pond (wb-way-876012427),pond,wastewater,12.956355,80.234781,Chennai
+wb-way-876012428,876012428,way,Unnamed Pond (wb-way-876012428),pond,wastewater,12.955989,80.234734,Chennai
+wb-way-876012429,876012429,way,Unnamed Pond (wb-way-876012429),pond,wastewater,12.955585,80.234693,Chennai
+wb-way-886863070,886863070,way,Unnamed Wetland (wb-way-886863070),wetland,wetland,12.960023,80.192354,Chennai
+wb-way-892146830,892146830,way,Unnamed Wetland (wb-way-892146830),wetland,wetland,13.238456,80.285857,Chennai
+wb-way-931667168,931667168,way,Omakulam,pond,water,13.154483,80.225797,Chennai
+wb-way-932267465,932267465,way,Gangaiamman Temple Pond,pond,pond,12.969455,80.185722,Chennai
+wb-way-941826279,941826279,way,Unnamed Wetland (wb-way-941826279),wetland,wetland,13.203214,80.287578,Chennai
+wb-way-941826280,941826280,way,Unnamed Wetland (wb-way-941826280),wetland,wetland,13.195115,80.296428,Chennai
+wb-way-964595234,964595234,way,Unnamed Reservoir (wb-way-964595234),reservoir,reservoir,12.992946,80.15028,Chennai
+wb-way-964595243,964595243,way,Unnamed Pond (wb-way-964595243),pond,pond,12.992662,80.148281,Chennai
+wb-way-964595265,964595265,way,Unnamed Pond (wb-way-964595265),pond,pond,12.990649,80.148629,Chennai
+wb-way-964595279,964595279,way,Unnamed Pond (wb-way-964595279),pond,pond,12.989754,80.147018,Chennai
+wb-way-1022416288,1022416288,way,Sirugulam,pond,pond,12.904579,80.186783,Chennai
+wb-way-1051234324,1051234324,way,Unnamed Pond (wb-way-1051234324),pond,pond,13.237611,80.171731,Chennai
+wb-way-1051241362,1051241362,way,Unnamed Reservoir (wb-way-1051241362),reservoir,reservoir,13.230742,80.16753,Chennai
+wb-way-1060226605,1060226605,way,Unnamed Reservoir (wb-way-1060226605),reservoir,reservoir,13.212897,80.167395,Chennai
+wb-way-1060226606,1060226606,way,Unnamed Reservoir (wb-way-1060226606),reservoir,reservoir,13.212424,80.167403,Chennai
+wb-way-1060226619,1060226619,way,Unnamed Reservoir (wb-way-1060226619),reservoir,reservoir,13.215262,80.165891,Chennai
+wb-way-1060226620,1060226620,way,Unnamed Reservoir (wb-way-1060226620),reservoir,reservoir,13.215261,80.165788,Chennai
+wb-way-1060226655,1060226655,way,Unnamed Wetland (wb-way-1060226655),wetland,wetland,13.212999,80.169288,Chennai
+wb-way-1060235966,1060235966,way,Unnamed Reservoir (wb-way-1060235966),reservoir,reservoir,13.238781,80.312454,Chennai
+wb-way-1060235998,1060235998,way,Unnamed Reservoir (wb-way-1060235998),reservoir,reservoir,13.240841,80.307584,Chennai
+wb-way-1060235999,1060235999,way,Unnamed Reservoir (wb-way-1060235999),reservoir,reservoir,13.240682,80.307473,Chennai
+wb-way-1060236000,1060236000,way,Unnamed Reservoir (wb-way-1060236000),reservoir,reservoir,13.240928,80.307313,Chennai
+wb-way-1062025017,1062025017,way,Unnamed Pond (wb-way-1062025017),pond,wastewater,13.137213,80.260882,Chennai
+wb-way-1062025018,1062025018,way,Unnamed Pond (wb-way-1062025018),pond,wastewater,13.137344,80.260349,Chennai
+wb-way-1062025019,1062025019,way,Unnamed Pond (wb-way-1062025019),pond,wastewater,13.137735,80.261075,Chennai
+wb-way-1062025020,1062025020,way,Unnamed Pond (wb-way-1062025020),pond,wastewater,13.137889,80.260434,Chennai
+wb-way-1062025021,1062025021,way,Unnamed Pond (wb-way-1062025021),pond,wastewater,13.138365,80.261232,Chennai
+wb-way-1062025022,1062025022,way,Unnamed Pond (wb-way-1062025022),pond,wastewater,13.138522,80.2606,Chennai
+wb-way-1062025023,1062025023,way,Unnamed Pond (wb-way-1062025023),pond,wastewater,13.139157,80.26076,Chennai
+wb-way-1062025024,1062025024,way,Unnamed Pond (wb-way-1062025024),pond,wastewater,13.139606,80.260873,Chennai
+wb-way-1062025025,1062025025,way,Unnamed Pond (wb-way-1062025025),pond,wastewater,13.138295,80.261784,Chennai
+wb-way-1062025026,1062025026,way,Unnamed Pond (wb-way-1062025026),pond,wastewater,13.138076,80.262086,Chennai
+wb-way-1062025028,1062025028,way,Unnamed Pond (wb-way-1062025028),pond,wastewater,13.138425,80.262682,Chennai
+wb-way-1062025035,1062025035,way,Unnamed Pond (wb-way-1062025035),pond,wastewater,13.137401,80.263313,Chennai
+wb-way-1062025036,1062025036,way,Unnamed Pond (wb-way-1062025036),pond,wastewater,13.137303,80.263859,Chennai
+wb-way-1062025037,1062025037,way,Unnamed Pond (wb-way-1062025037),pond,wastewater,13.137841,80.26401,Chennai
+wb-way-1062025038,1062025038,way,Unnamed Pond (wb-way-1062025038),pond,wastewater,13.13796,80.263362,Chennai
+wb-way-1062025039,1062025039,way,Unnamed Pond (wb-way-1062025039),pond,wastewater,13.138593,80.263484,Chennai
+wb-way-1062025040,1062025040,way,Unnamed Pond (wb-way-1062025040),pond,wastewater,13.138482,80.264126,Chennai
+wb-way-1062025042,1062025042,way,Unnamed Pond (wb-way-1062025042),pond,wastewater,13.139237,80.26356,Chennai
+wb-way-1062025043,1062025043,way,Unnamed Pond (wb-way-1062025043),pond,wastewater,13.139692,80.263641,Chennai
+wb-way-1062025044,1062025044,way,Unnamed Pond (wb-way-1062025044),pond,wastewater,13.139595,80.26204,Chennai
+wb-way-1062025045,1062025045,way,Unnamed Pond (wb-way-1062025045),pond,wastewater,13.139533,80.262373,Chennai
+wb-way-1062025046,1062025046,way,Unnamed Pond (wb-way-1062025046),pond,wastewater,13.139475,80.262698,Chennai
+wb-way-1062025047,1062025047,way,Unnamed Pond (wb-way-1062025047),pond,wastewater,13.13942,80.263013,Chennai
+wb-way-1062025059,1062025059,way,Unnamed Pond (wb-way-1062025059),pond,wastewater,13.137753,80.258047,Chennai
+wb-way-1062025060,1062025060,way,Unnamed Pond (wb-way-1062025060),pond,wastewater,13.137993,80.257156,Chennai
+wb-way-1062025061,1062025061,way,Unnamed Pond (wb-way-1062025061),pond,wastewater,13.13824,80.257733,Chennai
+wb-way-1062025066,1062025066,way,Unnamed Pond (wb-way-1062025066),pond,wastewater,13.138497,80.259827,Chennai
+wb-way-1062025067,1062025067,way,Unnamed Pond (wb-way-1062025067),pond,wastewater,13.139318,80.2583,Chennai
+wb-way-1062025074,1062025074,way,Unnamed Pond (wb-way-1062025074),pond,wastewater,13.139081,80.259773,Chennai
+wb-way-1062025075,1062025075,way,Unnamed Pond (wb-way-1062025075),pond,wastewater,13.139003,80.260096,Chennai
+wb-way-1062025076,1062025076,way,Unnamed Pond (wb-way-1062025076),pond,wastewater,13.140005,80.260023,Chennai
+wb-way-1062025077,1062025077,way,Unnamed Pond (wb-way-1062025077),pond,wastewater,13.139924,80.260343,Chennai
+wb-way-1062025078,1062025078,way,Unnamed Pond (wb-way-1062025078),pond,pond,13.140866,80.261516,Chennai
+wb-way-1062025081,1062025081,way,Unnamed Pond (wb-way-1062025081),pond,wastewater,13.141087,80.259634,Chennai
+wb-way-1062025085,1062025085,way,Unnamed Pond (wb-way-1062025085),pond,pond,13.140994,80.260068,Chennai
+wb-way-1062025091,1062025091,way,Unnamed Pond (wb-way-1062025091),pond,wastewater,13.140095,80.25876,Chennai
+wb-way-1062025092,1062025092,way,Unnamed Pond (wb-way-1062025092),pond,wastewater,13.140199,80.258352,Chennai
+wb-way-1062025096,1062025096,way,Unnamed Pond (wb-way-1062025096),pond,wastewater,13.140664,80.258505,Chennai
+wb-way-1062025097,1062025097,way,Unnamed Pond (wb-way-1062025097),pond,wastewater,13.140549,80.258921,Chennai
+wb-way-1062025098,1062025098,way,Unnamed Pond (wb-way-1062025098),pond,wastewater,13.14102,80.258808,Chennai
+wb-way-1062025101,1062025101,way,Unnamed Pond (wb-way-1062025101),pond,wastewater,13.144162,80.259741,Chennai
+wb-way-1062025102,1062025102,way,Unnamed Pond (wb-way-1062025102),pond,wastewater,13.14427,80.259263,Chennai
+wb-way-1062025103,1062025103,way,Unnamed Pond (wb-way-1062025103),pond,wastewater,13.142746,80.259309,Chennai
+wb-way-1062025104,1062025104,way,Unnamed Pond (wb-way-1062025104),pond,wastewater,13.142837,80.25886,Chennai
+wb-way-1062025105,1062025105,way,Unnamed Pond (wb-way-1062025105),pond,wastewater,13.142489,80.259026,Chennai
+wb-way-1062025106,1062025106,way,Unnamed Pond (wb-way-1062025106),pond,wastewater,13.14318,80.259406,Chennai
+wb-way-1062025107,1062025107,way,Unnamed Pond (wb-way-1062025107),pond,wastewater,13.143275,80.25896,Chennai
+wb-way-1062025111,1062025111,way,Unnamed Pond (wb-way-1062025111),pond,wastewater,13.142778,80.259604,Chennai
+wb-way-1062025112,1062025112,way,Unnamed Pond (wb-way-1062025112),pond,wastewater,13.14303,80.259665,Chennai
+wb-way-1062025116,1062025116,way,Unnamed Pond (wb-way-1062025116),pond,wastewater,13.142955,80.260112,Chennai
+wb-way-1062025117,1062025117,way,Unnamed Pond (wb-way-1062025117),pond,wastewater,13.143237,80.260174,Chennai
+wb-way-1062025118,1062025118,way,Unnamed Pond (wb-way-1062025118),pond,wastewater,13.143136,80.260717,Chennai
+wb-way-1062025124,1062025124,way,Unnamed Pond (wb-way-1062025124),pond,wastewater,13.144328,80.260617,Chennai
+wb-way-1062025132,1062025132,way,Unnamed Pond (wb-way-1062025132),pond,wastewater,13.147831,80.260743,Chennai
+wb-way-1062025133,1062025133,way,Unnamed Pond (wb-way-1062025133),pond,wastewater,13.14744,80.260033,Chennai
+wb-way-1062025134,1062025134,way,Unnamed Pond (wb-way-1062025134),pond,wastewater,13.148011,80.260066,Chennai
+wb-way-1062025135,1062025135,way,Unnamed Pond (wb-way-1062025135),pond,wastewater,13.148038,80.259557,Chennai
+wb-way-1062025136,1062025136,way,Unnamed Pond (wb-way-1062025136),pond,wastewater,13.148348,80.25922,Chennai
+wb-way-1062025139,1062025139,way,Unnamed Pond (wb-way-1062025139),pond,wastewater,13.147836,80.261353,Chennai
+wb-way-1062025140,1062025140,way,Unnamed Pond (wb-way-1062025140),pond,wastewater,13.147802,80.261949,Chennai
+wb-way-1066019828,1066019828,way,Unnamed Pond (wb-way-1066019828),pond,canal,13.080459,80.275077,Chennai
+wb-way-1066019829,1066019829,way,Unnamed Pond (wb-way-1066019829),pond,canal,13.081835,80.27492,Chennai
+wb-way-1066036338,1066036338,way,Gandhi Road Pond,pond,pond,12.853519,80.191596,Chennai
+wb-way-1066918562,1066918562,way,Unnamed Reservoir (wb-way-1066918562),reservoir,reservoir,12.886189,80.204468,Chennai
+wb-way-1067160259,1067160259,way,Unnamed Wetland (wb-way-1067160259),wetland,wetland,12.871733,80.221603,Chennai
+wb-way-1067160260,1067160260,way,Unnamed Wetland (wb-way-1067160260),wetland,wetland,12.870362,80.222685,Chennai
+wb-way-1067160261,1067160261,way,Unnamed Wetland (wb-way-1067160261),wetland,wetland,12.874955,80.223477,Chennai
+wb-way-1067160262,1067160262,way,Unnamed Wetland (wb-way-1067160262),wetland,wetland,12.876143,80.220375,Chennai
+wb-way-1073741456,1073741456,way,Unnamed Wetland (wb-way-1073741456),wetland,wetland,13.014904,80.274343,Chennai
+wb-way-1073741457,1073741457,way,Unnamed Wetland (wb-way-1073741457),wetland,wetland,13.0148,80.274508,Chennai
+wb-way-1073741458,1073741458,way,Unnamed Wetland (wb-way-1073741458),wetland,wetland,13.015506,80.273432,Chennai
+wb-way-1073741459,1073741459,way,Unnamed Wetland (wb-way-1073741459),wetland,wetland,13.015086,80.273275,Chennai
+wb-way-1074457359,1074457359,way,Unnamed Pond (wb-way-1074457359),pond,wastewater,13.250038,80.322342,Chennai
+wb-way-1074508473,1074508473,way,Unnamed Reservoir (wb-way-1074508473),reservoir,reservoir,13.242592,80.322322,Chennai
+wb-way-1074547146,1074547146,way,Unnamed Pond (wb-way-1074547146),pond,pond,13.114387,80.271613,Chennai
+wb-way-1075635932,1075635932,way,Unnamed Pond (wb-way-1075635932),pond,pond,13.207631,80.163218,Chennai
+wb-way-1076229579,1076229579,way,Unnamed Wetland (wb-way-1076229579),wetland,wetland,13.012236,80.272263,Chennai
+wb-way-1076229580,1076229580,way,Unnamed Wetland (wb-way-1076229580),wetland,wetland,13.012384,80.272309,Chennai
+wb-way-1076229581,1076229581,way,Unnamed Wetland (wb-way-1076229581),wetland,wetland,13.012748,80.269952,Chennai
+wb-way-1076229583,1076229583,way,Unnamed Wetland (wb-way-1076229583),wetland,wetland,13.012188,80.271409,Chennai
+wb-way-1076229584,1076229584,way,Unnamed Wetland (wb-way-1076229584),wetland,wetland,13.012387,80.271431,Chennai
+wb-way-1076229585,1076229585,way,Unnamed Wetland (wb-way-1076229585),wetland,wetland,13.012272,80.269044,Chennai
+wb-way-1076229587,1076229587,way,Unnamed Wetland (wb-way-1076229587),wetland,wetland,13.011678,80.270165,Chennai
+wb-way-1076229588,1076229588,way,Unnamed Wetland (wb-way-1076229588),wetland,wetland,13.011717,80.270761,Chennai
+wb-way-1080599120,1080599120,way,Unnamed Pond (wb-way-1080599120),pond,canal,13.062537,80.281316,Chennai
+wb-way-1104535880,1104535880,way,Unnamed Wetland (wb-way-1104535880),wetland,wetland,12.891651,80.124265,Chennai
+wb-way-1123068812,1123068812,way,Unnamed Reservoir (wb-way-1123068812),reservoir,reservoir,12.887798,80.096201,Chennai
+wb-way-1123068813,1123068813,way,Unnamed Reservoir (wb-way-1123068813),reservoir,reservoir,12.885678,80.098237,Chennai
+wb-way-1123068814,1123068814,way,Unnamed Reservoir (wb-way-1123068814),reservoir,reservoir,12.888668,80.099898,Chennai
+wb-way-1123068815,1123068815,way,Unnamed Reservoir (wb-way-1123068815),reservoir,reservoir,12.887664,80.099855,Chennai
+wb-way-1123068816,1123068816,way,Unnamed Reservoir (wb-way-1123068816),reservoir,reservoir,12.886566,80.099941,Chennai
+wb-way-1123068817,1123068817,way,Unnamed Reservoir (wb-way-1123068817),reservoir,reservoir,12.883925,80.097431,Chennai
+wb-way-1123068818,1123068818,way,Unnamed Reservoir (wb-way-1123068818),reservoir,reservoir,12.883517,80.09573,Chennai
+wb-way-1123068819,1123068819,way,Unnamed Reservoir (wb-way-1123068819),reservoir,reservoir,12.884547,80.099072,Chennai
+wb-way-1123068820,1123068820,way,Unnamed Reservoir (wb-way-1123068820),reservoir,reservoir,12.878957,80.097844,Chennai
+wb-way-1123068821,1123068821,way,Unnamed Reservoir (wb-way-1123068821),reservoir,reservoir,12.880081,80.098616,Chennai
+wb-way-1123068822,1123068822,way,Unnamed Reservoir (wb-way-1123068822),reservoir,reservoir,12.873879,80.099324,Chennai
+wb-way-1123068823,1123068823,way,Unnamed Reservoir (wb-way-1123068823),reservoir,reservoir,12.874099,80.093112,Chennai
+wb-way-1123068824,1123068824,way,Unnamed Reservoir (wb-way-1123068824),reservoir,reservoir,12.875846,80.092935,Chennai
+wb-way-1123068826,1123068826,way,Unnamed Reservoir (wb-way-1123068826),reservoir,reservoir,12.883152,80.099609,Chennai
+wb-way-1123068827,1123068827,way,Unnamed Reservoir (wb-way-1123068827),reservoir,reservoir,12.88145,80.099014,Chennai
+wb-way-1124797343,1124797343,way,Unnamed Pond (wb-way-1124797343),pond,pond,13.073288,80.277978,Chennai
+wb-way-1124798108,1124798108,way,Unnamed Lake (wb-way-1124798108),lake,lake,12.961889,80.218052,Chennai
+wb-way-1124798109,1124798109,way,Unnamed Lake (wb-way-1124798109),lake,lake,12.951409,80.216843,Chennai
+wb-way-1124798110,1124798110,way,Unnamed Lake (wb-way-1124798110),lake,lake,12.949364,80.212085,Chennai
+wb-way-1124798111,1124798111,way,Unnamed Lake (wb-way-1124798111),lake,lake,12.960553,80.216015,Chennai
+wb-way-1124798112,1124798112,way,Unnamed Lake (wb-way-1124798112),lake,lake,12.959602,80.221279,Chennai
+wb-way-1124798113,1124798113,way,Unnamed Lake (wb-way-1124798113),lake,lake,12.964678,80.230046,Chennai
+wb-way-1124798114,1124798114,way,Unnamed Pond (wb-way-1124798114),pond,wastewater,12.951722,80.231865,Chennai
+wb-way-1124798115,1124798115,way,Unnamed Pond (wb-way-1124798115),pond,wastewater,12.953079,80.231583,Chennai
+wb-way-1127503333,1127503333,way,Unnamed Pond (wb-way-1127503333),pond,lock,13.067386,80.282439,Chennai
+wb-way-1127503338,1127503338,way,Unnamed Pond (wb-way-1127503338),pond,canal,13.067823,80.282531,Chennai
+wb-way-1128384521,1128384521,way,Unnamed Reservoir (wb-way-1128384521),reservoir,reservoir,13.007431,80.217547,Chennai
+wb-way-1131700757,1131700757,way,Unnamed Pond (wb-way-1131700757),pond,pond,13.071267,80.282909,Chennai
+wb-way-1131700806,1131700806,way,Unnamed Wetland (wb-way-1131700806),wetland,wetland,13.070116,80.281965,Chennai
+wb-way-1131700807,1131700807,way,Unnamed Pond (wb-way-1131700807),pond,pond,13.071259,80.281925,Chennai
+wb-way-1131919638,1131919638,way,Unnamed Wetland (wb-way-1131919638),wetland,wetland,12.867522,80.225144,Chennai
+wb-way-1131919639,1131919639,way,Unnamed Lake (wb-way-1131919639),lake,lake,12.86581,80.225748,Chennai
+wb-way-1131919642,1131919642,way,Unnamed Wetland (wb-way-1131919642),wetland,wetland,12.869147,80.223266,Chennai
+wb-way-1131919643,1131919643,way,Unnamed Wetland (wb-way-1131919643),wetland,wetland,12.871941,80.223523,Chennai
+wb-way-1131919644,1131919644,way,Unnamed Wetland (wb-way-1131919644),wetland,wetland,12.871711,80.225908,Chennai
+wb-way-1131919645,1131919645,way,Unnamed Wetland (wb-way-1131919645),wetland,wetland,12.877276,80.217132,Chennai
+wb-way-1131919646,1131919646,way,Unnamed Wetland (wb-way-1131919646),wetland,wetland,12.876737,80.218295,Chennai
+wb-way-1131919647,1131919647,way,Unnamed Wetland (wb-way-1131919647),wetland,wetland,12.875879,80.217196,Chennai
+wb-way-1131919648,1131919648,way,Unnamed Wetland (wb-way-1131919648),wetland,wetland,12.875221,80.21714,Chennai
+wb-way-1131919649,1131919649,way,Unnamed Wetland (wb-way-1131919649),wetland,wetland,12.878242,80.212339,Chennai
+wb-way-1131919651,1131919651,way,Unnamed Wetland (wb-way-1131919651),wetland,wetland,12.849264,80.214679,Chennai
+wb-way-1131919652,1131919652,way,Unnamed Wetland (wb-way-1131919652),wetland,wetland,12.883086,80.2044,Chennai
+wb-way-1131919653,1131919653,way,Unnamed Wetland (wb-way-1131919653),wetland,wetland,12.850578,80.220334,Chennai
+wb-way-1131919654,1131919654,way,Unnamed Wetland (wb-way-1131919654),wetland,wetland,12.857686,80.218059,Chennai
+wb-way-1131919655,1131919655,way,Unnamed Wetland (wb-way-1131919655),wetland,wetland,12.862676,80.20963,Chennai
+wb-way-1131919656,1131919656,way,Unnamed Wetland (wb-way-1131919656),wetland,wetland,12.853954,80.220344,Chennai
+wb-way-1131919657,1131919657,way,Unnamed Wetland (wb-way-1131919657),wetland,wetland,12.853563,80.217303,Chennai
+wb-way-1131919658,1131919658,way,Unnamed Wetland (wb-way-1131919658),wetland,wetland,12.853746,80.215231,Chennai
+wb-way-1131919659,1131919659,way,Unnamed Wetland (wb-way-1131919659),wetland,wetland,12.86808,80.202655,Chennai
+wb-way-1131919660,1131919660,way,Unnamed Reservoir (wb-way-1131919660),reservoir,reservoir,12.879711,80.194049,Chennai
+wb-way-1132419633,1132419633,way,Unnamed Pond (wb-way-1132419633),pond,pond,13.072458,80.281656,Chennai
+wb-way-1132419635,1132419635,way,Unnamed Wetland (wb-way-1132419635),wetland,wetland,13.072855,80.281715,Chennai
+wb-way-1132419638,1132419638,way,Unnamed Pond (wb-way-1132419638),pond,pond,13.074434,80.281321,Chennai
+wb-way-1132419640,1132419640,way,Unnamed Wetland (wb-way-1132419640),wetland,wetland,13.074199,80.281937,Chennai
+wb-way-1132419641,1132419641,way,Unnamed Wetland (wb-way-1132419641),wetland,wetland,13.07452,80.281055,Chennai
+wb-way-1137567398,1137567398,way,Unnamed Lake (wb-way-1137567398),lake,lake,12.902578,80.169431,Chennai
+wb-way-1137581556,1137581556,way,Unnamed Pond (wb-way-1137581556),pond,pond,13.064552,80.284251,Chennai
+wb-way-1137581564,1137581564,way,Unnamed Pond (wb-way-1137581564),pond,pond,13.064414,80.2848,Chennai
+wb-way-1154913166,1154913166,way,Unnamed Reservoir (wb-way-1154913166),reservoir,reservoir,13.159807,80.28241,Chennai
+wb-way-1154923347,1154923347,way,Unnamed Reservoir (wb-way-1154923347),reservoir,reservoir,13.161445,80.27648,Chennai
+wb-way-1154923348,1154923348,way,Unnamed Reservoir (wb-way-1154923348),reservoir,reservoir,13.161477,80.276628,Chennai
+wb-way-1154923367,1154923367,way,Unnamed Reservoir (wb-way-1154923367),reservoir,reservoir,13.158445,80.283827,Chennai
+wb-way-1154923372,1154923372,way,Unnamed Reservoir (wb-way-1154923372),reservoir,reservoir,13.157242,80.283484,Chennai
+wb-way-1154923373,1154923373,way,Unnamed Reservoir (wb-way-1154923373),reservoir,reservoir,13.15724,80.283749,Chennai
+wb-way-1154923374,1154923374,way,Unnamed Reservoir (wb-way-1154923374),reservoir,reservoir,13.15759,80.28398,Chennai
+wb-way-1154923375,1154923375,way,Unnamed Reservoir (wb-way-1154923375),reservoir,reservoir,13.157839,80.283893,Chennai
+wb-way-1154923376,1154923376,way,Unnamed Reservoir (wb-way-1154923376),reservoir,reservoir,13.157964,80.284048,Chennai
+wb-way-1154923377,1154923377,way,Unnamed Reservoir (wb-way-1154923377),reservoir,reservoir,13.158128,80.284077,Chennai
+wb-way-1159363407,1159363407,way,Vellachheri aeri,lake,lake,13.166722,80.061213,Chennai
+wb-way-1172624836,1172624836,way,Unnamed Pond (wb-way-1172624836),pond,wastewater,13.065464,80.201071,Chennai
+wb-way-1172624837,1172624837,way,Unnamed Pond (wb-way-1172624837),pond,wastewater,13.064966,80.201705,Chennai
+wb-way-1172624838,1172624838,way,Unnamed Pond (wb-way-1172624838),pond,wastewater,13.065114,80.201424,Chennai
+wb-way-1172624839,1172624839,way,Unnamed Pond (wb-way-1172624839),pond,wastewater,13.065344,80.201833,Chennai
+wb-way-1172624850,1172624850,way,Unnamed Pond (wb-way-1172624850),pond,wastewater,13.064174,80.201404,Chennai
+wb-way-1172624853,1172624853,way,Unnamed Pond (wb-way-1172624853),pond,wastewater,13.063724,80.20121,Chennai
+wb-way-1172624854,1172624854,way,Unnamed Pond (wb-way-1172624854),pond,wastewater,13.06357,80.200777,Chennai
+wb-way-1172624855,1172624855,way,Unnamed Pond (wb-way-1172624855),pond,wastewater,13.06481,80.201143,Chennai
+wb-way-1172624856,1172624856,way,Unnamed Pond (wb-way-1172624856),pond,wastewater,13.064482,80.200984,Chennai
+wb-way-1172624857,1172624857,way,Unnamed Pond (wb-way-1172624857),pond,wastewater,13.06467,80.200623,Chennai
+wb-way-1172624858,1172624858,way,Unnamed Pond (wb-way-1172624858),pond,wastewater,13.064794,80.200266,Chennai
+wb-way-1172624859,1172624859,way,Unnamed Pond (wb-way-1172624859),pond,wastewater,13.064231,80.200317,Chennai
+wb-way-1172624860,1172624860,way,Unnamed Pond (wb-way-1172624860),pond,wastewater,13.063688,80.200207,Chennai
+wb-way-1172624861,1172624861,way,Unnamed Pond (wb-way-1172624861),pond,wastewater,13.063921,80.199795,Chennai
+wb-way-1172624864,1172624864,way,Unnamed Pond (wb-way-1172624864),pond,wastewater,13.065034,80.200722,Chennai
+wb-way-1172624865,1172624865,way,Unnamed Pond (wb-way-1172624865),pond,wastewater,13.065141,80.200438,Chennai
+wb-way-1172624866,1172624866,way,Unnamed Pond (wb-way-1172624866),pond,wastewater,13.064742,80.199682,Chennai
+wb-way-1172624867,1172624867,way,Unnamed Pond (wb-way-1172624867),pond,wastewater,13.064887,80.199357,Chennai
+wb-way-1172624868,1172624868,way,Unnamed Pond (wb-way-1172624868),pond,wastewater,13.064407,80.19911,Chennai
+wb-way-1172624869,1172624869,way,Unnamed Pond (wb-way-1172624869),pond,wastewater,13.06511,80.198928,Chennai
+wb-way-1172624870,1172624870,way,Unnamed Pond (wb-way-1172624870),pond,wastewater,13.064623,80.198678,Chennai
+wb-way-1172624873,1172624873,way,Unnamed Pond (wb-way-1172624873),pond,wastewater,13.064299,80.199447,Chennai
+wb-way-1172624874,1172624874,way,Unnamed Pond (wb-way-1172624874),pond,wastewater,13.064135,80.198543,Chennai
+wb-way-1172624884,1172624884,way,Unnamed Pond (wb-way-1172624884),pond,wastewater,13.067506,80.199911,Chennai
+wb-way-1172624885,1172624885,way,Unnamed Pond (wb-way-1172624885),pond,wastewater,13.067581,80.200894,Chennai
+wb-way-1172624886,1172624886,way,Unnamed Pond (wb-way-1172624886),pond,wastewater,13.06779,80.200408,Chennai
+wb-way-1172624887,1172624887,way,Unnamed Pond (wb-way-1172624887),pond,wastewater,13.067355,80.200232,Chennai
+wb-way-1172624888,1172624888,way,Unnamed Pond (wb-way-1172624888),pond,wastewater,13.067155,80.200677,Chennai
+wb-way-1172624889,1172624889,way,Unnamed Pond (wb-way-1172624889),pond,wastewater,13.066667,80.199986,Chennai
+wb-way-1172624892,1172624892,way,Unnamed Pond (wb-way-1172624892),pond,wastewater,13.066081,80.199385,Chennai
+wb-way-1172624893,1172624893,way,Unnamed Pond (wb-way-1172624893),pond,wastewater,13.065948,80.199696,Chennai
+wb-way-1172624894,1172624894,way,Unnamed Pond (wb-way-1172624894),pond,wastewater,13.065814,80.200007,Chennai
+wb-way-1172624896,1172624896,way,Unnamed Pond (wb-way-1172624896),pond,wastewater,13.066755,80.200794,Chennai
+wb-way-1172624899,1172624899,way,Unnamed Pond (wb-way-1172624899),pond,wastewater,13.068593,80.201333,Chennai
+wb-way-1172624901,1172624901,way,Unnamed Pond (wb-way-1172624901),pond,wastewater,13.068249,80.201137,Chennai
+wb-way-1172624902,1172624902,way,Unnamed Pond (wb-way-1172624902),pond,wastewater,13.068417,80.200765,Chennai
+wb-way-1172624904,1172624904,way,Unnamed Pond (wb-way-1172624904),pond,wastewater,13.068043,80.200952,Chennai
+wb-way-1172624905,1172624905,way,Unnamed Pond (wb-way-1172624905),pond,wastewater,13.067961,80.201073,Chennai
+wb-way-1184738724,1184738724,way,Thaali Kulam,pond,pond,12.857524,80.228882,Chennai
+wb-way-1185548387,1185548387,way,Thandhoni Amman kovil kulam,pond,pond,12.865881,80.241253,Chennai
+wb-way-1187887584,1187887584,way,Unnamed Wetland (wb-way-1187887584),wetland,wetland,12.973539,80.254109,Chennai
+wb-way-1187887587,1187887587,way,Unnamed Wetland (wb-way-1187887587),wetland,wetland,12.966166,80.255796,Chennai
+wb-way-1188056507,1188056507,way,Athi Villivakkam Eri,lake,water,13.104498,80.196708,Chennai
+wb-way-1188056508,1188056508,way,Unnamed Wetland (wb-way-1188056508),wetland,wetland,13.106784,80.19688,Chennai
+wb-way-1202024796,1202024796,way,Unnamed Wetland (wb-way-1202024796),wetland,wetland,13.112065,80.267796,Chennai
+wb-way-1202024801,1202024801,way,Unnamed Pond (wb-way-1202024801),pond,canal,13.120484,80.272279,Chennai
+wb-way-1202024802,1202024802,way,Unnamed Wetland (wb-way-1202024802),wetland,wetland,13.113905,80.272271,Chennai
+wb-way-1202024807,1202024807,way,Unnamed Pond (wb-way-1202024807),pond,drain,13.101988,80.261391,Chennai
+wb-way-1202245454,1202245454,way,Unnamed Reservoir (wb-way-1202245454),reservoir,reservoir,13.164106,80.208329,Chennai
+wb-way-1232617259,1232617259,way,Unnamed Wetland (wb-way-1232617259),wetland,wetland,12.907155,80.238024,Chennai
+wb-way-1232617265,1232617265,way,Unnamed Pond (wb-way-1232617265),pond,canal,12.852955,80.238288,Chennai
+wb-way-1233330594,1233330594,way,Unnamed Wetland (wb-way-1233330594),wetland,wetland,12.848836,80.232722,Chennai
+wb-way-1233330604,1233330604,way,Unnamed Lake (wb-way-1233330604),lake,lake,12.89015,80.239336,Chennai
+wb-way-1233362841,1233362841,way,Unnamed Wetland (wb-way-1233362841),wetland,wetland,12.8623,80.234909,Chennai
+wb-way-1233362842,1233362842,way,Unnamed Wetland (wb-way-1233362842),wetland,wetland,12.852538,80.232232,Chennai
+wb-way-1235085972,1235085972,way,Unnamed Wetland (wb-way-1235085972),wetland,wetland,13.045711,80.082698,Chennai
+wb-way-1235139133,1235139133,way,Masilamaneeswarar Temple Tank,pond,pond,13.136193,80.13316,Chennai
+wb-way-1235139446,1235139446,way,Unnamed Pond (wb-way-1235139446),pond,pond,13.131955,80.130559,Chennai
+wb-way-1235139518,1235139518,way,Unnamed Pond (wb-way-1235139518),pond,pond,13.122904,80.1301,Chennai
+wb-way-1236160012,1236160012,way,Poonamallee Lake,lake,lake,13.056938,80.084353,Chennai
+wb-way-1236160013,1236160013,way,Unnamed Pond (wb-way-1236160013),pond,pond,13.063796,80.078987,Chennai
+wb-way-1236160014,1236160014,way,Lake Kollappancheri,lake,lake,13.065563,80.071568,Chennai
+wb-way-1236160015,1236160015,way,Unnamed Pond (wb-way-1236160015),pond,pond,13.0681,80.074535,Chennai
+wb-way-1236160016,1236160016,way,Unnamed Pond (wb-way-1236160016),pond,pond,13.067175,80.074162,Chennai
+wb-way-1236160017,1236160017,way,Unnamed Pond (wb-way-1236160017),pond,pond,13.069291,80.073178,Chennai
+wb-way-1236160018,1236160018,way,Lake Parivakkam,lake,lake,13.061253,80.097912,Chennai
+wb-way-1236160019,1236160019,way,Unnamed Pond (wb-way-1236160019),pond,pond,13.062395,80.097986,Chennai
+wb-way-1236765219,1236765219,way,Unnamed Reservoir (wb-way-1236765219),reservoir,reservoir,12.996027,80.090317,Chennai
+wb-way-1237215477,1237215477,way,Unnamed Pond (wb-way-1237215477),pond,pond,12.889079,80.244257,Chennai
+wb-way-1237337316,1237337316,way,Unnamed Pond (wb-way-1237337316),pond,pond,13.015095,80.234625,Chennai
+wb-way-1237405953,1237405953,way,Unnamed Reservoir (wb-way-1237405953),reservoir,reservoir,12.986207,80.135417,Chennai
+wb-way-1237405955,1237405955,way,Unnamed Wetland (wb-way-1237405955),wetland,wetland,12.985069,80.137216,Chennai
+wb-way-1237405956,1237405956,way,Unnamed Reservoir (wb-way-1237405956),reservoir,reservoir,12.987286,80.141421,Chennai
+wb-way-1237456198,1237456198,way,Ayanambakkam Tank,lake,lake,13.076671,80.132593,Chennai
+wb-way-1237671544,1237671544,way,Unnamed Pond (wb-way-1237671544),pond,pond,13.109195,80.190778,Chennai
+wb-way-1237780636,1237780636,way,Unnamed Pond (wb-way-1237780636),pond,pond,13.116386,80.301316,Chennai
+wb-way-1244062681,1244062681,way,Unnamed Pond (wb-way-1244062681),pond,pond,13.100591,80.206356,Chennai
+wb-way-1249435250,1249435250,way,Ramapuram Eri,lake,pond,13.032605,80.182946,Chennai
+wb-way-1264620569,1264620569,way,Unnamed Pond (wb-way-1264620569),pond,water,13.097228,80.261874,Chennai
+wb-way-1268945378,1268945378,way,Unnamed Pond (wb-way-1268945378),pond,pond,13.037891,80.176527,Chennai
+wb-way-1270849333,1270849333,way,Nayakkar Kuttai,pond,pond,12.957572,80.198762,Chennai
+wb-way-1278121626,1278121626,way,Unnamed Pond (wb-way-1278121626),pond,water,12.854413,80.061118,Chennai
+wb-way-1289064292,1289064292,way,CRPF Nagar lake park,lake,pond,13.150757,80.077274,Chennai
+wb-way-1289065268,1289065268,way,CRPF Nagar lake 2,lake,pond,13.151888,80.077077,Chennai
+wb-way-1289065315,1289065315,way,CRPF Nagar lake 3,lake,lake,13.153597,80.07533,Chennai
+wb-way-1289269168,1289269168,way,Unnamed Wetland (wb-way-1289269168),wetland,wetland,13.189133,80.190812,Chennai
+wb-way-1290286329,1290286329,way,Unnamed Wetland (wb-way-1290286329),wetland,wetland,13.125313,80.198086,Chennai
+wb-way-1290286336,1290286336,way,Unnamed Wetland (wb-way-1290286336),wetland,wetland,13.121891,80.198871,Chennai
+wb-way-1290286338,1290286338,way,Unnamed Wetland (wb-way-1290286338),wetland,wetland,13.12117,80.198565,Chennai
+wb-way-1293433222,1293433222,way,Puthagaram Thangal,lake,lake,13.141728,80.190164,Chennai
+wb-way-1306698312,1306698312,way,Unnamed Pond (wb-way-1306698312),pond,pond,13.215858,80.097523,Chennai
+wb-way-1306698322,1306698322,way,Unnamed Pond (wb-way-1306698322),pond,pond,13.217369,80.098349,Chennai
+wb-way-1306724752,1306724752,way,Unnamed Wetland (wb-way-1306724752),wetland,wetland,13.143587,80.190623,Chennai
+wb-way-1306967685,1306967685,way,Unnamed Pond (wb-way-1306967685),pond,water,13.119239,80.199312,Chennai
+wb-way-1306967686,1306967686,way,Unnamed Wetland (wb-way-1306967686),wetland,wetland,13.118403,80.199759,Chennai
+wb-way-1315462101,1315462101,way,Unnamed Wetland (wb-way-1315462101),wetland,wetland,13.128151,80.192137,Chennai
+wb-way-1318082870,1318082870,way,Unnamed Pond (wb-way-1318082870),pond,pond,13.21946,80.25124,Chennai
+wb-way-1318241202,1318241202,way,Unnamed Pond (wb-way-1318241202),pond,water,13.133223,80.1913,Chennai
+wb-way-1318749868,1318749868,way,Unnamed Lake (wb-way-1318749868),lake,lake,13.133712,80.179473,Chennai
+wb-way-1321929235,1321929235,way,Unnamed Pond (wb-way-1321929235),pond,water,13.049879,80.253767,Chennai
+wb-way-1321929236,1321929236,way,Unnamed Pond (wb-way-1321929236),pond,water,13.049674,80.254661,Chennai
+wb-way-1344560972,1344560972,way,Unnamed Pond (wb-way-1344560972),pond,pond,13.055965,80.065421,Chennai
+wb-way-1344560973,1344560973,way,Unnamed Pond (wb-way-1344560973),pond,pond,13.056143,80.070867,Chennai
+wb-way-1344560974,1344560974,way,Unnamed Pond (wb-way-1344560974),pond,pond,12.951168,80.078151,Chennai
+wb-way-1344560975,1344560975,way,Unnamed Pond (wb-way-1344560975),pond,pond,12.949889,80.076879,Chennai
+wb-way-1344560976,1344560976,way,Unnamed Pond (wb-way-1344560976),pond,pond,12.952268,80.074935,Chennai
+wb-way-1344560977,1344560977,way,Unnamed Pond (wb-way-1344560977),pond,pond,12.952214,80.075597,Chennai
+wb-way-1344560978,1344560978,way,Unnamed Pond (wb-way-1344560978),pond,pond,12.952135,80.074341,Chennai
+wb-way-1344560979,1344560979,way,Unnamed Pond (wb-way-1344560979),pond,pond,12.951674,80.075617,Chennai
+wb-way-1344560980,1344560980,way,Unnamed Pond (wb-way-1344560980),pond,pond,12.951734,80.07623,Chennai
+wb-way-1344560981,1344560981,way,Unnamed Pond (wb-way-1344560981),pond,pond,12.951734,80.075152,Chennai
+wb-way-1344560982,1344560982,way,Unnamed Pond (wb-way-1344560982),pond,pond,12.951271,80.075958,Chennai
+wb-way-1344560983,1344560983,way,Unnamed Pond (wb-way-1344560983),pond,pond,12.952908,80.075433,Chennai
+wb-way-1344560984,1344560984,way,Unnamed Pond (wb-way-1344560984),pond,pond,12.95319,80.075476,Chennai
+wb-way-1344560985,1344560985,way,Unnamed Pond (wb-way-1344560985),pond,pond,12.953268,80.076345,Chennai
+wb-way-1344560986,1344560986,way,Unnamed Pond (wb-way-1344560986),pond,pond,12.954397,80.077341,Chennai
+wb-way-1344560987,1344560987,way,Unnamed Pond (wb-way-1344560987),pond,pond,12.954362,80.078359,Chennai
+wb-way-1344560988,1344560988,way,Unnamed Pond (wb-way-1344560988),pond,pond,12.953188,80.077625,Chennai
+wb-way-1344560989,1344560989,way,Unnamed Pond (wb-way-1344560989),pond,pond,12.954063,80.076462,Chennai
+wb-way-1344560990,1344560990,way,Unnamed Pond (wb-way-1344560990),pond,pond,12.954126,80.075697,Chennai
+wb-way-1344560991,1344560991,way,Unnamed Pond (wb-way-1344560991),pond,pond,12.955362,80.076201,Chennai
+wb-way-1344561256,1344561256,way,Unnamed Lake (wb-way-1344561256),lake,lake,13.176469,80.049883,Chennai
+wb-way-1344561377,1344561377,way,Unnamed Lake (wb-way-1344561377),lake,lake,12.957258,80.065001,Chennai
+wb-way-1344685069,1344685069,way,Unnamed Reservoir (wb-way-1344685069),reservoir,reservoir,13.203429,80.234101,Chennai
+wb-way-1352802339,1352802339,way,Unnamed Pond (wb-way-1352802339),pond,water,12.855119,80.229121,Chennai
+wb-way-1353938223,1353938223,way,Pallikaranai Sadhuppunilam,wetland,wetland,12.965135,80.233348,Chennai
+wb-way-1354435753,1354435753,way,Unnamed Wetland (wb-way-1354435753),wetland,wetland,12.949741,80.2093,Chennai
+wb-way-1354435754,1354435754,way,Unnamed Wetland (wb-way-1354435754),wetland,wetland,12.949189,80.207423,Chennai
+wb-way-1354435776,1354435776,way,Unnamed Wetland (wb-way-1354435776),wetland,wetland,12.942517,80.209764,Chennai
+wb-way-1360153776,1360153776,way,Unnamed Pond (wb-way-1360153776),pond,pond,13.148326,80.242777,Chennai
+wb-way-1360153777,1360153777,way,Unnamed Pond (wb-way-1360153777),pond,pond,13.150015,80.242999,Chennai
+wb-way-1360153778,1360153778,way,Unnamed Pond (wb-way-1360153778),pond,pond,13.148415,80.243059,Chennai
+wb-way-1364549854,1364549854,way,Unnamed Basin (wb-way-1364549854),basin,basin,12.996204,80.246599,Chennai
+wb-way-1373636274,1373636274,way,Unnamed Pond (wb-way-1373636274),pond,water,12.953193,80.234271,Chennai
+wb-way-1373908936,1373908936,way,Unnamed Wetland (wb-way-1373908936),wetland,wetland,13.125421,80.197892,Chennai
+wb-way-1374351608,1374351608,way,Unnamed Pond (wb-way-1374351608),pond,canal,12.945204,80.247499,Chennai
+wb-way-1383489973,1383489973,way,Unnamed Pond (wb-way-1383489973),pond,pond,13.026559,80.132425,Chennai
+wb-way-1390444620,1390444620,way,Unnamed Pond (wb-way-1390444620),pond,pond,12.88484,80.113386,Chennai
+wb-way-1390444621,1390444621,way,Unnamed Lake (wb-way-1390444621),lake,lake,12.849963,80.112775,Chennai
+wb-way-1390445059,1390445059,way,Unnamed Pond (wb-way-1390445059),pond,pond,13.087509,80.176342,Chennai
+wb-way-1391093783,1391093783,way,Unnamed Pond (wb-way-1391093783),pond,pond,13.10892,80.275792,Chennai
+wb-way-1408255862,1408255862,way,Unnamed Reservoir (wb-way-1408255862),reservoir,reservoir,13.226449,80.30462,Chennai
+wb-way-1408255876,1408255876,way,Unnamed Reservoir (wb-way-1408255876),reservoir,reservoir,13.218788,80.301082,Chennai
+wb-way-1408255877,1408255877,way,Unnamed Reservoir (wb-way-1408255877),reservoir,reservoir,13.228279,80.301711,Chennai
+wb-way-1408255915,1408255915,way,Unnamed Pond (wb-way-1408255915),pond,pond,13.224947,80.299303,Chennai
+wb-way-1418928206,1418928206,way,Chettiyar Agaram Lake,lake,lake,13.041928,80.145727,Chennai
+wb-way-1421179224,1421179224,way,Unnamed Wetland (wb-way-1421179224),wetland,wetland,13.186518,80.190131,Chennai
+wb-way-1421179225,1421179225,way,Unnamed Pond (wb-way-1421179225),pond,pond,13.186025,80.191305,Chennai
+wb-way-1427531921,1427531921,way,Unnamed Lake (wb-way-1427531921),lake,lake,13.102566,80.182595,Chennai
+wb-way-1428328070,1428328070,way,Krishna temple pond,pond,pond,13.048522,80.141575,Chennai
+wb-way-1434868914,1434868914,way,Unnamed Wetland (wb-way-1434868914),wetland,wetland,13.119128,80.199137,Chennai
+wb-way-1459226724,1459226724,way,Unnamed Pond (wb-way-1459226724),pond,water,12.996543,80.240323,Chennai
+wb-way-1459226726,1459226726,way,Unnamed Wetland (wb-way-1459226726),wetland,wetland,12.991449,80.23728,Chennai
+wb-way-1459226727,1459226727,way,Unnamed Wetland (wb-way-1459226727),wetland,wetland,12.99064,80.239044,Chennai
+wb-way-1459251535,1459251535,way,Unnamed Pond (wb-way-1459251535),pond,water,13.006137,80.217446,Chennai
+wb-way-1459251536,1459251536,way,Unnamed Pond (wb-way-1459251536),pond,water,13.004151,80.218078,Chennai
+wb-way-1459251537,1459251537,way,Unnamed Pond (wb-way-1459251537),pond,water,13.002532,80.214925,Chennai
+wb-way-1459251538,1459251538,way,Unnamed Pond (wb-way-1459251538),pond,water,12.998904,80.224922,Chennai
+wb-way-1459251539,1459251539,way,Unnamed Pond (wb-way-1459251539),pond,water,13.003879,80.229379,Chennai
+wb-way-1459251545,1459251545,way,Unnamed Pond (wb-way-1459251545),pond,water,13.006854,80.230785,Chennai
+wb-way-1459340017,1459340017,way,Unnamed Wetland (wb-way-1459340017),wetland,wetland,12.992434,80.240233,Chennai
+wb-way-1474984804,1474984804,way,Elcot Lake,lake,lake,12.91749,80.22414,Chennai
+wb-way-1483170100,1483170100,way,Unnamed Pond (wb-way-1483170100),pond,pond,12.854218,80.060429,Chennai
+wb-way-1486898099,1486898099,way,Unnamed Wetland (wb-way-1486898099),wetland,wetland,12.849263,80.233216,Chennai
+wb-way-1486898100,1486898100,way,Unnamed Wetland (wb-way-1486898100),wetland,wetland,12.860477,80.23773,Chennai
+wb-way-1513463506,1513463506,way,Unnamed Pond (wb-way-1513463506),pond,pond,13.123463,80.085283,Chennai
+wb-way-1513464198,1513464198,way,Unnamed Pond (wb-way-1513464198),pond,pond,13.189168,80.091588,Chennai
+wb-way-1513479471,1513479471,way,Unnamed Pond (wb-way-1513479471),pond,pond,12.849375,80.125729,Chennai
+wb-way-1513479472,1513479472,way,Unnamed Pond (wb-way-1513479472),pond,pond,12.8538,80.131886,Chennai
+wb-way-1513479473,1513479473,way,Unnamed Pond (wb-way-1513479473),pond,pond,12.852254,80.13086,Chennai
+wb-way-1534298017,1534298017,way,Unnamed Pond (wb-way-1534298017),pond,pond,13.139886,80.183155,Chennai
+wb-way-1534298018,1534298018,way,Unnamed Pond (wb-way-1534298018),pond,pond,13.134629,80.18368,Chennai
+wb-way-1534683723,1534683723,way,Unnamed Wetland (wb-way-1534683723),wetland,wetland,13.138466,80.176727,Chennai
+wb-way-1540265526,1540265526,way,Unnamed Pond (wb-way-1540265526),pond,pond,13.122015,80.119077,Chennai
+wb-way-1540268687,1540268687,way,Vaishnavi Temple Pond,pond,pond,13.129412,80.127024,Chennai
+wb-way-1540720679,1540720679,way,Unnamed Pond (wb-way-1540720679),pond,pond,13.125565,80.08785,Chennai
+wb-way-1540720680,1540720680,way,Unnamed Pond (wb-way-1540720680),pond,pond,13.124318,80.084289,Chennai
+wb-way-1540746300,1540746300,way,Unnamed Pond (wb-way-1540746300),pond,pond,12.855876,80.173122,Chennai
+wb-way-1540976879,1540976879,way,Unnamed Pond (wb-way-1540976879),pond,pond,13.150883,80.242497,Chennai
+wb-way-1543286693,1543286693,way,Unnamed Pond (wb-way-1543286693),pond,water,13.002747,80.217971,Chennai
+wb-way-1544042990,1544042990,way,Unnamed Pond (wb-way-1544042990),pond,pond,12.927301,80.250623,Chennai
+wb-way-1545658240,1545658240,way,Unnamed Pond (wb-way-1545658240),pond,wastewater,12.95736,80.231189,Chennai
+wb-way-1545658241,1545658241,way,Unnamed Pond (wb-way-1545658241),pond,wastewater,12.957407,80.231543,Chennai
+wb-way-1545658242,1545658242,way,Unnamed Pond (wb-way-1545658242),pond,wastewater,12.957084,80.230806,Chennai
+wb-way-1545658243,1545658243,way,Unnamed Pond (wb-way-1545658243),pond,wastewater,12.956858,80.230901,Chennai
+wb-way-1545658245,1545658245,way,Unnamed Pond (wb-way-1545658245),pond,wastewater,12.957813,80.235597,Chennai
+wb-way-1545658246,1545658246,way,Unnamed Pond (wb-way-1545658246),pond,wastewater,12.957479,80.232045,Chennai
+wb-way-1548870918,1548870918,way,Unnamed Pond (wb-way-1548870918),pond,pond,12.921262,80.149145,Chennai
+wb-way-1551717158,1551717158,way,Parthasarathy Temple Pond,pond,pond,13.053831,80.277893,Chennai
+wb-way-1552622051,1552622051,way,Shiva Temple Pond,pond,pond,13.04146,80.178129,Chennai
+wb-way-1553299857,1553299857,way,Menambedu lake,lake,pond,13.123083,80.167322,Chennai
+wb-relation-2336642,2336642,relation,Ennore Creek,estuary/creek,river,13.229999,80.262324,Chennai
+wb-relation-6201190,6201190,relation,Kovilambakkam Lake,lake,lake,12.944355,80.189288,Chennai
+wb-relation-9149085,9149085,relation,Chetpet Lake,lake,lake,13.07523,80.242489,Chennai
+wb-relation-11180365,11180365,relation,Avadi Lake,lake,lake,13.106508,80.104595,Chennai
+wb-relation-11915438,11915438,relation,Narayanapuram Lake,lake,reservoir,12.946091,80.202192,Chennai
+wb-relation-13671410,13671410,relation,Keelkatalai Lake,lake,lake,12.950242,80.178199,Chennai
+wb-relation-14321157,14321157,relation,Pattabiram Lake,lake,lake,13.126835,80.05284,Chennai
+wb-relation-15046539,15046539,relation,Pallikaranai Marsh,wetland,wetland,12.922806,80.220737,Chennai
+wb-relation-16916505,16916505,relation,Pallavaram Lake,lake,lake,12.959044,80.151517,Chennai
+wb-relation-17473164,17473164,relation,Vilinjiambakkam aeri,lake,lake,13.115731,80.087415,Chennai
+wb-relation-17972561,17972561,relation,Madambakkam Lake,lake,reservoir,12.909408,80.165418,Chennai
+wb-relation-19969911,19969911,relation,IIT Lake,lake,lake,12.996591,80.240256,Chennai

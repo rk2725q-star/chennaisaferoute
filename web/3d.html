@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chennai FloodSafe — 3D Flood Risk Routing</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; font-family:'Segoe UI', Roboto, Arial, sans-serif; }
+  html,body { width:100%; height:100%; overflow:hidden; background:#0b1220; }
+  #canvas-holder { position:fixed; inset:0; }
+  canvas { display:block; }
+
+  /* ---------- Top bar ---------- */
+  #topbar {
+    position:fixed; top:14px; left:50%; transform:translateX(-50%);
+    z-index:30; display:flex; gap:10px; align-items:center;
+    background:rgba(17,24,39,.92); border:1px solid rgba(255,255,255,.08);
+    padding:10px 16px; border-radius:14px; box-shadow:0 8px 30px rgba(0,0,0,.5);
+    backdrop-filter: blur(8px);
+  }
+  #topbar .logo { font-weight:800; color:#fff; font-size:15px; letter-spacing:.3px; white-space:nowrap; }
+  #topbar .logo span { color:#4fc3f7; }
+  #topbar select, #topbar button {
+    background:#1f2937; color:#e5e7eb; border:1px solid rgba(255,255,255,.1);
+    border-radius:8px; padding:7px 10px; font-size:13px; outline:none; cursor:pointer;
+  }
+  #topbar button.go { background:linear-gradient(135deg,#2563eb,#0ea5e9); border:none; font-weight:700; }
+  #topbar button.go:hover { filter:brightness(1.15); }
+  #topbar .switch-btn { background:#1e293b; border:1px solid #38bdf8; color:#7dd3fc; font-weight:600; text-decoration:none; padding:7px 12px; border-radius:8px; font-size:12px; display:flex; align-items:center; gap:6px; }
+  #topbar .switch-btn:hover { background:#0f172a; }
+
+  /* ---------- Left panel ---------- */
+  #panel {
+    position:fixed; top:80px; left:14px; bottom:14px; width:360px; z-index:25;
+    background:rgba(15,23,42,.94); border:1px solid rgba(255,255,255,.08);
+    border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.55);
+    display:flex; flex-direction:column; overflow:hidden; backdrop-filter: blur(10px);
+  }
+  #tabs { display:flex; border-bottom:1px solid rgba(255,255,255,.08); }
+  #tabs button {
+    flex:1; padding:11px 4px; background:transparent; border:none; color:#94a3b8;
+    font-size:12px; font-weight:700; cursor:pointer; border-bottom:2px solid transparent;
+  }
+  #tabs button.active { color:#4fc3f7; border-bottom-color:#4fc3f7; }
+  .tabview { flex:1; overflow-y:auto; padding:14px; display:none; }
+  .tabview.active { display:block; }
+  .tabview::-webkit-scrollbar { width:6px; } .tabview::-webkit-scrollbar-thumb { background:#334155; border-radius:3px; }
+
+  .card {
+    background:rgba(30,41,59,.7); border:1px solid rgba(255,255,255,.06);
+    border-radius:12px; padding:12px; margin-bottom:12px; color:#e2e8f0;
+  }
+  .card h3 { font-size:12px; text-transform:uppercase; letter-spacing:1px; color:#7dd3fc; margin-bottom:8px; }
+  .stat-grid { display:grid; grid-template-columns:1fr 1fr 1fr; gap:8px; }
+  .stat { background:rgba(15,23,42,.7); border-radius:10px; padding:8px; text-align:center; }
+  .stat .v { font-size:19px; font-weight:800; color:#fff; }
+  .stat .l { font-size:10px; color:#94a3b8; margin-top:2px; }
+
+  .risk-item {
+    display:flex; align-items:center; gap:10px; padding:9px 10px; margin-bottom:7px;
+    background:rgba(30,41,59,.7); border-radius:10px; cursor:pointer; border:1px solid transparent;
+    transition:.15s;
+  }
+  .risk-item:hover { border-color:#4fc3f7; transform:translateX(3px); }
+  .risk-rank { width:24px; height:24px; border-radius:50%; display:flex; align-items:center; justify-content:center;
+    font-size:12px; font-weight:800; color:#0b1220; flex-shrink:0; }
+  .risk-name { flex:1; font-size:13px; color:#e2e8f0; font-weight:600; }
+  .risk-name small { display:block; color:#94a3b8; font-weight:400; font-size:11px; }
+  .risk-badge { font-size:10px; font-weight:800; padding:3px 8px; border-radius:20px; }
+  .b-high { background:#ef4444; color:#fff; } .b-med { background:#f59e0b; color:#111; } .b-low { background:#22c55e; color:#062; }
+
+  .route-card { border-left:4px solid #3b82f6; }
+  .route-card.safe { border-left-color:#22c55e; }
+  .route-card .rt { font-weight:800; font-size:14px; color:#fff; }
+  .route-card .rm { font-size:12px; color:#94a3b8; margin-top:4px; line-height:1.5; }
+  .divert-banner {
+    background:linear-gradient(135deg,#7c2d12,#b45309); color:#fff; border-radius:10px;
+    padding:10px 12px; font-size:12px; font-weight:600; margin-bottom:12px; line-height:1.5;
+  }
+
+  .ai-msg { font-size:12.5px; color:#cbd5e1; line-height:1.65; }
+  .ai-msg b { color:#7dd3fc; }
+  .ai-chip { display:inline-block; background:#1e3a8a; color:#bfdbfe; border-radius:20px; padding:3px 10px; font-size:11px; margin:3px 3px 0 0; }
+
+  .alert-row { display:flex; align-items:center; gap:8px; margin-bottom:8px; }
+  .alert-row .an { flex:1; font-size:12px; color:#e2e8f0; }
+  .alert-row button, .btn {
+    background:linear-gradient(135deg,#dc2626,#f97316); color:#fff; border:none; border-radius:8px;
+    padding:6px 12px; font-size:11px; font-weight:700; cursor:pointer;
+  }
+  .btn.blue { background:linear-gradient(135deg,#2563eb,#0ea5e9); width:100%; padding:10px; font-size:12px; margin-bottom:10px; }
+  .btn:hover { filter:brightness(1.15); }
+  .log-entry { font-size:11px; color:#94a3b8; padding:7px 9px; background:rgba(15,23,42,.7); border-radius:8px; margin-bottom:6px; border-left:3px solid #ef4444; }
+  .log-entry.ok { border-left-color:#22c55e; }
+
+  /* ---------- Rain control ---------- */
+  #raincard {
+    position:fixed; top:80px; right:14px; z-index:25; width:250px;
+    background:rgba(15,23,42,.94); border:1px solid rgba(255,255,255,.08);
+    border-radius:14px; padding:14px; color:#e2e8f0; backdrop-filter:blur(10px);
+    box-shadow:0 10px 40px rgba(0,0,0,.5);
+  }
+  #raincard h3 { font-size:12px; color:#7dd3fc; text-transform:uppercase; letter-spacing:1px; margin-bottom:8px; }
+  #rainval { font-size:26px; font-weight:800; color:#fff; }
+  #rainval small { font-size:12px; color:#94a3b8; font-weight:400; }
+  input[type=range] { width:100%; accent-color:#0ea5e9; margin:10px 0; cursor:pointer; }
+  .presets { display:flex; gap:6px; }
+  .presets button { flex:1; background:#1f2937; border:1px solid rgba(255,255,255,.1); color:#cbd5e1; border-radius:7px; padding:6px 2px; font-size:10.5px; cursor:pointer; }
+  .presets button:hover { background:#334155; }
+
+  /* ---------- Legend ---------- */
+  #legend {
+    position:fixed; bottom:14px; right:14px; z-index:25;
+    background:rgba(15,23,42,.92); border:1px solid rgba(255,255,255,.08); border-radius:12px;
+    padding:12px 14px; color:#cbd5e1; font-size:11.5px; backdrop-filter:blur(8px);
+  }
+  #legend .li { display:flex; align-items:center; gap:8px; margin:4px 0; }
+  #legend .sw { width:22px; height:6px; border-radius:3px; }
+  #hint { position:fixed; bottom:14px; left:390px; z-index:25; color:#64748b; font-size:11px; background:rgba(15,23,42,.8); padding:7px 12px; border-radius:20px; }
+
+  @media (max-width:860px){
+    #panel { width:auto; left:8px; right:8px; top:auto; bottom:8px; height:42vh; }
+    #raincard { top:74px; right:8px; width:200px; }
+    #topbar { flex-wrap:wrap; max-width:94vw; top:8px; }
+    #legend,#hint { display:none; }
+  }
+</style>
+</head>
+<body>
+<div id="canvas-holder"></div>
+
+<div id="topbar">
+  <div class="logo">🌊 Chennai <span>FloodSafe 3D</span></div>
+  <select id="fromSel"></select>
+  <span style="color:#64748b">➜</span>
+  <select id="toSel"></select>
+  <button class="go" id="routeBtn">Find Safe Route</button>
+  <a href="/" class="switch-btn">🗺️ 2D GIS Map</a>
+</div>
+
+<div id="panel">
+  <div id="tabs">
+    <button class="active" data-t="routes">🧭 Routes</button>
+    <button data-t="risk">⚠ Risk Rank</button>
+    <button data-t="ai">🤖 AI Insights</button>
+    <button data-t="alerts">🔔 Alerts</button>
+  </div>
+  <div class="tabview active" id="tv-routes">
+    <div class="card"><h3>City Status</h3>
+      <div class="stat-grid">
+        <div class="stat"><div class="v" id="stFlood">0</div><div class="l">HIGH-RISK ROADS</div></div>
+        <div class="stat"><div class="v" id="stAvg">0%</div><div class="l">AVG RISK</div></div>
+        <div class="stat"><div class="v" id="stRain">0</div><div class="l">MM / 24H</div></div>
+      </div>
+    </div>
+    <div id="routeOut"><div class="card"><h3>Navigation</h3>
+      <div class="ai-msg">Select origin &amp; destination above, then press <b>Find Safe Route</b>. The engine runs risk-weighted Dijkstra over the Chennai road graph using rainfall, elevation, and drainage capacity.</div>
+    </div></div>
+  </div>
+  <div class="tabview" id="tv-risk">
+    <div class="card"><h3>Segments Ranked by Expected Disruption</h3>
+    <div class="ai-msg" style="margin-bottom:8px">Click a segment to fly the camera to it.</div></div>
+    <div id="riskList"></div>
+  </div>
+  <div class="tabview" id="tv-ai">
+    <div class="card"><h3>AI Situation Assessment</h3><div class="ai-msg" id="aiText"></div></div>
+    <div class="card"><h3>Recommended Actions</h3><div class="ai-msg" id="aiActions"></div></div>
+  </div>
+  <div class="tabview" id="tv-alerts">
+    <button class="btn blue" id="broadcastAll">📡 Broadcast Alerts for ALL High-Risk Segments</button>
+    <div class="card"><h3>Per-Segment Alerts</h3><div id="alertTargets"></div></div>
+    <div class="card"><h3>Alert Log</h3><div id="alertLog"><div class="log-entry ok">System online. Monitoring 24 road segments across Chennai.</div></div></div>
+  </div>
+</div>
+
+<div id="raincard">
+  <h3>☔ Rainfall Simulator</h3>
+  <div id="rainval">40 <small>mm / 24h</small></div>
+  <input type="range" id="rainSlider" min="0" max="250" value="40">
+  <div class="presets">
+    <button data-r="15">Light</button><button data-r="80">Moderate</button>
+    <button data-r="160">Heavy</button><button data-r="235">Extreme</button>
+  </div>
+</div>
+
+<div id="legend">
+  <b style="color:#e2e8f0">Road Risk</b>
+  <div class="li"><div class="sw" style="background:#22c55e"></div>Low — passable</div>
+  <div class="li"><div class="sw" style="background:#f59e0b"></div>Medium — caution</div>
+  <div class="li"><div class="sw" style="background:#ef4444"></div>High — likely flooded</div>
+  <div class="li"><div class="sw" style="background:#3b82f6"></div>Fastest route</div>
+  <div class="li"><div class="sw" style="background:#34d399"></div>Safe (diverted) route</div>
+</div>
+<div id="hint">Drag to orbit · Scroll to zoom · Right-drag to pan</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://unpkg.com/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script>
+/* =========================================================
+   Chennai FloodSafe — 3D flood-risk routing demo
+   ========================================================= */
+const WATER_Y = 0.25, KM_PER_UNIT = 0.15;
+let rainfall = 40;
+
+/* ---------- terrain elevation model ---------- */
+function terrainH(x, z){
+  let base = (70 - x) * (x > 70 ? 0.18 : 0.08);
+  base = Math.min(base, 9);
+  const dzC = z - (-20 + 6*Math.sin(x*0.05));
+  const dzA = z - (30 + 5*Math.sin(x*0.04 + 1));
+  const dip1 = 3.4*Math.exp(-dzC*dzC/16);
+  const dip2 = 3.4*Math.exp(-dzA*dzA/20);
+  const vel  = 2.6*Math.exp(-(((x-25)**2)+((z-45)**2))/350);
+  const noise = 0.65*Math.sin(x*0.13)*Math.cos(z*0.11) + 0.35*Math.sin(x*0.31 + z*0.17);
+  return base - dip1 - dip2 - vel + noise;
+}
+
+/* ---------- graph data ---------- */
+const nodes = [
+ {n:"Chennai Central", x:40, z:-25},{n:"Egmore", x:32, z:-18},{n:"Anna Nagar", x:0, z:-35},
+ {n:"Koyambedu", x:-5, z:-12},{n:"Nungambakkam", x:30, z:-6},{n:"T. Nagar", x:22, z:6},
+ {n:"Porur", x:-22, z:8},{n:"Guindy", x:18, z:26},{n:"Mylapore", x:48, z:8},
+ {n:"Marina Beach", x:60, z:-8},{n:"Adyar", x:44, z:32},{n:"Velachery", x:24, z:46},
+ {n:"Airport (MAA)", x:0, z:46},{n:"Tambaram", x:-24, z:72},{n:"Sholinganallur", x:44, z:76},
+ {n:"Perambur", x:22, z:-45}
+];
+const edges = [
+ {a:0,b:1,n:"EVR Periyar Salai",d:.6},{a:1,b:4,n:"Pantheon Road",d:.5},
+ {a:4,b:5,n:"Anna Salai (North)",d:.55},{a:5,b:7,n:"Anna Salai (South)",d:.5},
+ {a:7,b:12,n:"GST Road (North)",d:.45},{a:12,b:13,n:"GST Road (South)",d:.5},
+ {a:7,b:11,n:"Velachery Main Rd",d:.22},{a:11,b:14,n:"Velachery–OMR Link",d:.28},
+ {a:10,b:14,n:"OMR (Rajiv Gandhi Salai)",d:.6},{a:7,b:10,n:"Sardar Patel Road",d:.55},
+ {a:10,b:8,n:"LB Road",d:.4},{a:8,b:9,n:"Santhome High Rd",d:.35},
+ {a:9,b:0,n:"Kamarajar Salai",d:.5},{a:8,b:5,n:"TTK / CIT Road",d:.45},
+ {a:3,b:2,n:"Inner Ring Road",d:.6},{a:3,b:4,n:"Poonamallee High Rd",d:.5},
+ {a:2,b:0,n:"EVR High Road",d:.55},{a:6,b:3,n:"Arcot Road",d:.45},
+ {a:6,b:7,n:"Mount–Poonamallee Rd",d:.5},{a:11,b:13,n:"Tambaram–Velachery Rd",d:.32},
+ {a:0,b:15,n:"Perambur High Rd",d:.5},{a:11,b:10,n:"Taramani Link Rd",d:.3},
+ {a:6,b:12,n:"Porur–Airport Rd",d:.5},{a:5,b:3,n:"Usman Rd Corridor",d:.45}
+];
+edges.forEach(e=>{
+  const A=nodes[e.a], B=nodes[e.b];
+  e.len = Math.hypot(A.x-B.x, A.z-B.z);
+  const hm = terrainH((A.x+B.x)/2,(A.z+B.z)/2);
+  e.elev = Math.max(0, Math.min(1, ((terrainH(A.x,A.z)+terrainH(B.x,B.z))/2*0.5 + hm*0.5)/6 ));
+  e.risk = 0;
+});
+function computeRisk(e){
+  const rN = rainfall/200;
+  return Math.max(0, Math.min(1, rN * (1.15 - e.elev) * (1.35 - e.d) * 1.05));
+}
+
+/* ---------- three.js scene ---------- */
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x0e1626);
+scene.fog = new THREE.Fog(0x0e1626, 180, 420);
+const camera = new THREE.PerspectiveCamera(55, innerWidth/innerHeight, 0.5, 1200);
+camera.position.set(-60, 95, 130);
+const renderer = new THREE.WebGLRenderer({antialias:true});
+renderer.setSize(innerWidth, innerHeight);
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+renderer.shadowMap.enabled = true;
+document.getElementById('canvas-holder').appendChild(renderer.domElement);
+const controls = new THREE.OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true; controls.dampingFactor = 0.06;
+controls.maxPolarAngle = Math.PI/2.12; controls.minDistance = 25; controls.maxDistance = 320;
+controls.target.set(15,0,15);
+
+const hemi = new THREE.HemisphereLight(0xbfd8ff, 0x1a2438, 0.85); scene.add(hemi);
+const sun = new THREE.DirectionalLight(0xfff2d8, 1.1);
+sun.position.set(-80,120,-40); sun.castShadow = true;
+sun.shadow.mapSize.set(2048,2048);
+sun.shadow.camera.left=-140; sun.shadow.camera.right=140; sun.shadow.camera.top=140; sun.shadow.camera.bottom=-140;
+scene.add(sun);
+
+/* terrain */
+const TS = 240, SEG = 110;
+const tGeo = new THREE.PlaneGeometry(TS, TS, SEG, SEG);
+tGeo.rotateX(-Math.PI/2);
+const pos = tGeo.attributes.position, cols = [];
+for(let i=0;i<pos.count;i++){
+  const x=pos.getX(i), z=pos.getZ(i), h=terrainH(x,z);
+  pos.setY(i,h);
+  let c;
+  if(h < WATER_Y+0.15) c = new THREE.Color(0x24405e);
+  else if(h < 1.6) c = new THREE.Color(0x3a5a40).lerp(new THREE.Color(0x588157),(h-0.3)/1.3);
+  else c = new THREE.Color(0x588157).lerp(new THREE.Color(0x8a7f5c),Math.min(1,(h-1.6)/6));
+  cols.push(c.r,c.g,c.b);
+}
+tGeo.setAttribute('color', new THREE.Float32BufferAttribute(cols,3));
+tGeo.computeVertexNormals();
+const terrain = new THREE.Mesh(tGeo, new THREE.MeshStandardMaterial({vertexColors:true, roughness:.95}));
+terrain.receiveShadow = true; scene.add(terrain);
+
+/* water */
+const waterMat = new THREE.MeshStandardMaterial({color:0x1e6091, transparent:true, opacity:.82, roughness:.25, metalness:.35});
+const water = new THREE.Mesh(new THREE.PlaneGeometry(TS+40,TS+40), waterMat);
+water.rotation.x = -Math.PI/2; water.position.y = WATER_Y; scene.add(water);
+
+/* buildings */
+const bMat1 = new THREE.MeshStandardMaterial({color:0x8892a6, roughness:.8});
+const bMat2 = new THREE.MeshStandardMaterial({color:0x6b7688, roughness:.8});
+for(let i=0;i<230;i++){
+  const x = -70 + Math.random()*130, z = -60 + Math.random()*130;
+  const h = terrainH(x,z);
+  if(h < 1.2) continue;
+  const centerBoost = Math.exp(-(((x-30)**2)+((z-(-5))**2))/900);
+  const bh = 1.5 + Math.random()*3 + centerBoost*(4+Math.random()*8);
+  const b = new THREE.Mesh(new THREE.BoxGeometry(1.6+Math.random()*2, bh, 1.6+Math.random()*2), Math.random()>.5?bMat1:bMat2);
+  b.position.set(x, h + bh/2, z); b.rotation.y = Math.random()*Math.PI;
+  b.castShadow = true; scene.add(b);
+}
+
+/* roads (terrain-following segmented boxes) */
+function roadY(x,z){ return Math.max(terrainH(x,z)+0.45, WATER_Y+0.55); }
+edges.forEach(e=>{
+  const A=nodes[e.a], B=nodes[e.b];
+  e.mat = new THREE.MeshStandardMaterial({color:0x22c55e, emissive:0x0a3d1c, emissiveIntensity:.6});
+  const g = new THREE.Group();
+  const N = Math.max(4, Math.ceil(e.len/3.2));
+  for(let i=0;i<N;i++){
+    const t0=i/N, t1=(i+1)/N;
+    const x0=A.x+(B.x-A.x)*t0, z0=A.z+(B.z-A.z)*t0;
+    const x1=A.x+(B.x-A.x)*t1, z1=A.z+(B.z-A.z)*t1;
+    const y0=roadY(x0,z0), y1=roadY(x1,z1);
+    const len = Math.hypot(x1-x0,z1-z0,y1-y0)+0.15;
+    const m = new THREE.Mesh(new THREE.BoxGeometry(len,0.3,1.5), e.mat);
+    m.position.set((x0+x1)/2,(y0+y1)/2,(z0+z1)/2);
+    m.rotation.y = Math.atan2(-(z1-z0), x1-x0);
+    m.rotation.z = Math.atan2(y1-y0, Math.hypot(x1-x0,z1-z0));
+    g.add(m);
+  }
+  e.mesh = g; scene.add(g);
+  e.mid = new THREE.Vector3((A.x+B.x)/2, roadY((A.x+B.x)/2,(A.z+B.z)/2), (A.z+B.z)/2);
+});
+
+/* landmark markers + labels */
+function makeLabel(txt){
+  const c = document.createElement('canvas'); c.width=512; c.height=112;
+  const ctx = c.getContext('2d');
+  ctx.font = 'bold 44px Segoe UI, Arial'; ctx.textAlign='center';
+  ctx.shadowColor='rgba(0,0,0,.9)'; ctx.shadowBlur=10;
+  ctx.fillStyle='#ffffff'; ctx.fillText(txt, 256, 68);
+  const s = new THREE.Sprite(new THREE.SpriteMaterial({map:new THREE.CanvasTexture(c), transparent:true, depthTest:false}));
+  s.scale.set(16,3.5,1); return s;
+}
+nodes.forEach(nd=>{
+  const y = roadY(nd.x, nd.z);
+  const pin = new THREE.Mesh(new THREE.CylinderGeometry(0.5,0.15,2.6,10),
+     new THREE.MeshStandardMaterial({color:0xef5350, emissive:0x7a1010}));
+  pin.position.set(nd.x, y+1.4, nd.z); scene.add(pin);
+  const lbl = makeLabel(nd.n); lbl.position.set(nd.x, y+5.2, nd.z); scene.add(lbl);
+});
+
+/* rain particles */
+const RAIN_N = 4200;
+const rGeo = new THREE.BufferGeometry();
+const rPos = new Float32Array(RAIN_N*3), rVel = new Float32Array(RAIN_N);
+for(let i=0;i<RAIN_N;i++){
+  rPos[i*3]= -120+Math.random()*240; rPos[i*3+1]=Math.random()*80; rPos[i*3+2]=-120+Math.random()*240;
+  rVel[i]=0.7+Math.random()*0.9;
+}
+rGeo.setAttribute('position', new THREE.BufferAttribute(rPos,3));
+const rainMat = new THREE.PointsMaterial({color:0x9db8ff, size:0.5, transparent:true, opacity:0});
+scene.add(new THREE.Points(rGeo, rainMat));
+
+/* pulse rings for high-risk segments */
+let pulseRings = [];
+function rebuildPulses(){
+  pulseRings.forEach(r=>scene.remove(r)); pulseRings=[];
+  edges.filter(e=>e.risk>0.65).forEach(e=>{
+    const ring = new THREE.Mesh(new THREE.RingGeometry(1.2,1.7,32),
+      new THREE.MeshBasicMaterial({color:0xff4444, transparent:true, opacity:.85, side:THREE.DoubleSide}));
+    ring.rotation.x=-Math.PI/2; ring.position.copy(e.mid).y += 0.4;
+    scene.add(ring); pulseRings.push(ring);
+  });
+}
+
+/* ---------- routing ---------- */
+const adj = nodes.map(()=>[]);
+edges.forEach((e,i)=>{ adj[e.a].push({to:e.b,e:i}); adj[e.b].push({to:e.a,e:i}); });
+function dijkstra(src,dst,costFn){
+  const dist = new Array(nodes.length).fill(Infinity), prev = new Array(nodes.length).fill(-1), prevE=new Array(nodes.length).fill(-1);
+  dist[src]=0; const vis=new Array(nodes.length).fill(false);
+  for(let k=0;k<nodes.length;k++){
+    let u=-1,best=Infinity;
+    for(let i=0;i<nodes.length;i++) if(!vis[i]&&dist[i]<best){best=dist[i];u=i;}
+    if(u===-1) break; vis[u]=true;
+    adj[u].forEach(({to,e})=>{
+      const c = dist[u]+costFn(edges[e]);
+      if(c<dist[to]){dist[to]=c; prev[to]=u; prevE[to]=e;}
+    });
+  }
+  if(dist[dst]===Infinity) return null;
+  const path=[], epath=[]; let cur=dst;
+  while(cur!==src){ path.unshift(cur); epath.unshift(prevE[cur]); cur=prev[cur]; }
+  path.unshift(src);
+  return {path, epath};
+}
+let routeMeshes=[], routeMarkers=[];
+function clearRoutes(){ routeMeshes.forEach(m=>scene.remove(m)); routeMeshes=[];
+  routeMarkers.forEach(m=>scene.remove(m.mesh)); routeMarkers=[]; }
+function drawRoute(nodePath, color, lift){
+  const pts=[];
+  for(let i=0;i<nodePath.length-1;i++){
+    const A=nodes[nodePath[i]], B=nodes[nodePath[i+1]];
+    const N=10;
+    for(let j=0;j<N;j++){
+      const t=j/N, x=A.x+(B.x-A.x)*t, z=A.z+(B.z-A.z)*t;
+      pts.push(new THREE.Vector3(x, roadY(x,z)+lift, z));
+    }
+  }
+  const last=nodes[nodePath[nodePath.length-1]];
+  pts.push(new THREE.Vector3(last.x, roadY(last.x,last.z)+lift, last.z));
+  const curve = new THREE.CatmullRomCurve3(pts);
+  const tube = new THREE.Mesh(new THREE.TubeGeometry(curve, 120, 0.55, 8),
+    new THREE.MeshStandardMaterial({color, emissive:color, emissiveIntensity:.55, transparent:true, opacity:.95}));
+  scene.add(tube); routeMeshes.push(tube);
+  const marker = new THREE.Mesh(new THREE.SphereGeometry(1.1,16,16),
+    new THREE.MeshStandardMaterial({color:0xffffff, emissive:color, emissiveIntensity:1}));
+  scene.add(marker); routeMarkers.push({mesh:marker, curve, t:Math.random()});
+}
+function routeStats(r){
+  let len=0, riskSum=0, maxR=0;
+  r.epath.forEach(i=>{ len+=edges[i].len; riskSum+=edges[i].risk*edges[i].len; maxR=Math.max(maxR,edges[i].risk); });
+  const avg = riskSum/len, km = len*KM_PER_UNIT;
+  const speed = 32*(1-0.55*avg);
+  return {km, avg, maxR, eta: km/speed*60};
+}
+let activeFrom=-1, activeTo=-1;
+function findRoutes(){
+  const s=+fromSel.value, d=+toSel.value;
+  if(s===d){ routeOut.innerHTML='<div class="card"><div class="ai-msg">Origin and destination are the same.</div></div>'; return; }
+  activeFrom=s; activeTo=d;
+  clearRoutes();
+  const fast = dijkstra(s,d,e=>e.len);
+  const safe = dijkstra(s,d,e=>e.len*(1+8*e.risk*e.risk));
+  if(!fast){ return; }
+  const fs=routeStats(fast), ss=routeStats(safe);
+  const same = JSON.stringify(fast.epath)===JSON.stringify(safe.epath);
+  drawRoute(fast.path, 0x3b82f6, 0.7);
+  if(!same) drawRoute(safe.path, 0x34d399, 1.15);
+  let html='';
+  if(fs.maxR>0.65 && !same)
+    html += `<div class="divert-banner">⚠ DIVERSION ACTIVE — the fastest route crosses ${fast.epath.filter(i=>edges[i].risk>0.65).length} high-risk (likely flooded) segment(s). A safer alternative is shown in green.</div>`;
+  html += `<div class="card route-card"><div class="rt">🔵 Fastest Route</div>
+    <div class="rm">${fs.km.toFixed(1)} km · ~${Math.round(fs.eta)} min · risk exposure <b style="color:${fs.avg>0.6?'#ef4444':fs.avg>0.35?'#f59e0b':'#22c55e'}">${Math.round(fs.avg*100)}%</b><br>
+    Via: ${fast.epath.map(i=>edges[i].n).slice(0,3).join(' → ')}${fast.epath.length>3?' …':''}</div></div>`;
+  if(!same) html += `<div class="card route-card safe"><div class="rt">🟢 Safe Route (recommended)</div>
+    <div class="rm">${ss.km.toFixed(1)} km · ~${Math.round(ss.eta)} min · risk exposure <b style="color:#22c55e">${Math.round(ss.avg*100)}%</b><br>
+    Via: ${safe.epath.map(i=>edges[i].n).slice(0,3).join(' → ')}${safe.epath.length>3?' …':''}<br>
+    <span style="color:#7dd3fc">+${Math.max(0,(ss.km-fs.km)).toFixed(1)} km detour avoids flooded corridors.</span></div></div>`;
+  else html += `<div class="card route-card safe"><div class="rm">✅ The fastest route is already the safest available option under current conditions.</div></div>`;
+  routeOut.innerHTML = html;
+}
+
+/* ---------- risk update & UI ---------- */
+const riskColor = r => r>0.65?0xef4444 : r>0.35?0xf59e0b : 0x22c55e;
+const riskEm    = r => r>0.65?0x5a0f0f : r>0.35?0x5c3a05 : 0x0a3d1c;
+let goalTarget = null;
+function focusEdge(e){ goalTarget = e.mid.clone(); }
+
+function updateAll(){
+  edges.forEach(e=>{ e.risk = computeRisk(e); e.mat.color.setHex(riskColor(e.risk)); e.mat.emissive.setHex(riskEm(e.risk)); });
+  rebuildPulses();
+  const high = edges.filter(e=>e.risk>0.65);
+  const avg = edges.reduce((s,e)=>s+e.risk,0)/edges.length;
+  stFlood.textContent = high.length;
+  stFlood.style.color = high.length? '#ef4444':'#22c55e';
+  stAvg.textContent = Math.round(avg*100)+'%';
+  stRain.textContent = rainfall;
+
+  const sorted = [...edges].sort((a,b)=>b.risk-a.risk);
+  riskList.innerHTML = sorted.slice(0,10).map((e,i)=>{
+    const cls = e.risk>0.65?'b-high':e.risk>0.35?'b-med':'b-low';
+    const rc = e.risk>0.65?'#ef4444':e.risk>0.35?'#f59e0b':'#22c55e';
+    return `<div class="risk-item" onclick="focusEdge(edges[${edges.indexOf(e)}])">
+      <div class="risk-rank" style="background:${rc}">${i+1}</div>
+      <div class="risk-name">${e.n}<small>${nodes[e.a].n} ↔ ${nodes[e.b].n} · elev ${(e.elev*100|0)}% · drainage ${(e.d*100|0)}%</small></div>
+      <div class="risk-badge ${cls}">${Math.round(e.risk*100)}%</div></div>`;
+  }).join('');
+
+  const level = rainfall<40?'LIGHT':rainfall<110?'MODERATE':rainfall<190?'HEAVY':'EXTREME';
+  const top = sorted[0];
+  aiText.innerHTML = `Rainfall intensity classified as <b>${level}</b> (${rainfall} mm/24h). Model predicts <b>${high.length} road segment(s)</b> with &gt;65% disruption probability.
+   ${high.length?`Highest concern: <b>${top.n}</b> (${Math.round(top.risk*100)}% risk) — low elevation basin with only ${(top.d*100|0)}% drainage capacity. Water accumulation expected within ${rainfall>180?'1–2':'3–5'} hours of sustained rain.`
+   :'All corridors currently within safe operating thresholds. Continue monitoring radar feeds.'}
+   <br><br>${sorted.slice(0,4).filter(e=>e.risk>0.35).map(e=>`<span class="ai-chip">⚠ ${e.n}</span>`).join('')||'<span class="ai-chip" style="background:#14532d;color:#bbf7d0">✅ Network stable</span>'}`;
+  aiActions.innerHTML = rainfall<40
+    ? '• Maintain routine monitoring.<br>• Pre-position pumps near Velachery basin.<br>• Verify storm-drain intakes on OMR are clear.'
+    : rainfall<110
+    ? '• Advise commuters to prefer <b>Anna Salai / Inner Ring Road</b> corridors.<br>• Deploy traffic marshals at Velachery Main Rd.<br>• Issue yellow advisory to logistics fleets.'
+    : '• <b>Close</b> segments exceeding 80% risk; enforce diversions.<br>• Activate SDRF pumping units at Velachery &amp; Tambaram–Velachery Rd.<br>• Push cell-broadcast alerts to affected zones.<br>• Reroute freight to GST Road / Poonamallee High Rd where risk permits.';
+
+  alertTargets.innerHTML = sorted.filter(e=>e.risk>0.5).slice(0,8).map(e=>
+    `<div class="alert-row"><span class="an">${e.n} <b style="color:${e.risk>0.65?'#ef4444':'#f59e0b'}">${Math.round(e.risk*100)}%</b></span>
+     <button onclick="sendAlert('${e.n.replace(/'/g,"")}',${Math.round(e.risk*100)})">Send</button></div>`).join('')
+    || '<div class="ai-msg">No segments above alert threshold (50%).</div>';
+
+  if(activeFrom>=0) findRoutes();
+
+  const t = Math.min(1, rainfall/250);
+  rainMat.opacity = t*0.85;
+  scene.background.setHex(0x0e1626).lerp(new THREE.Color(0x080c16), t);
+  scene.fog.far = 420 - t*160;
+  sun.intensity = 1.1 - t*0.75;
+  hemi.intensity = 0.85 - t*0.35;
+}
+function sendAlert(name, pct){
+  const time = new Date().toLocaleTimeString();
+  alertLog.insertAdjacentHTML('afterbegin',
+   `<div class="log-entry">🚨 <b>${time}</b> — Flood alert broadcast for <b>${name}</b> (risk ${pct}%). SMS + app push sent to subscribers &amp; traffic police units in zone.</div>`);
+}
+broadcastAll.onclick = ()=>{
+  const high = edges.filter(e=>e.risk>0.65);
+  if(!high.length){ alertLog.insertAdjacentHTML('afterbegin','<div class="log-entry ok">✅ No high-risk segments — nothing to broadcast.</div>'); return; }
+  high.forEach(e=>sendAlert(e.n, Math.round(e.risk*100)));
+};
+
+/* ---------- UI wiring ---------- */
+nodes.forEach((nd,i)=>{
+  fromSel.insertAdjacentHTML('beforeend',`<option value="${i}">${nd.n}</option>`);
+  toSel.insertAdjacentHTML('beforeend',`<option value="${i}">${nd.n}</option>`);
+});
+fromSel.value=12; toSel.value=0;
+routeBtn.onclick = findRoutes;
+rainSlider.oninput = e=>{ rainfall=+e.target.value; rainval.innerHTML = rainfall+' <small>mm / 24h</small>'; updateAll(); };
+document.querySelectorAll('.presets button').forEach(b=>b.onclick=()=>{
+  rainfall=+b.dataset.r; rainSlider.value=rainfall; rainval.innerHTML=rainfall+' <small>mm / 24h</small>'; updateAll();
+});
+document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('#tabs button').forEach(x=>x.classList.remove('active'));
+  document.querySelectorAll('.tabview').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active'); document.getElementById('tv-'+b.dataset.t).classList.add('active');
+});
+
+/* ---------- animation loop ---------- */
+let flash=0;
+const clock = new THREE.Clock();
+function animate(){
+  requestAnimationFrame(animate);
+  const dt = Math.min(clock.getDelta(), 0.05), t = clock.elapsedTime;
+  const p = rGeo.attributes.position.array;
+  const speed = 40 + rainfall*0.4;
+  for(let i=0;i<RAIN_N;i++){
+    p[i*3+1] -= rVel[i]*speed*dt;
+    if(p[i*3+1] < 0){ p[i*3+1]=70+Math.random()*15; p[i*3]=-120+Math.random()*240; p[i*3+2]=-120+Math.random()*240; }
+  }
+  rGeo.attributes.position.needsUpdate = true;
+  water.position.y = WATER_Y + Math.sin(t*1.2)*0.05 + Math.min(1.4, rainfall/250*1.4);
+  pulseRings.forEach((r,i)=>{ const s=1+((t*1.4+i*0.4)%1)*2.2; r.scale.set(s,s,s); r.material.opacity=0.85*(1-((t*1.4+i*0.4)%1)); });
+  routeMarkers.forEach(m=>{ m.t=(m.t+dt*0.06)%1; m.mesh.position.copy(m.curve.getPointAt(m.t)); });
+  if(rainfall>170 && Math.random()<0.006) flash=1;
+  if(flash>0){ hemi.intensity = (0.85-Math.min(1,rainfall/250)*0.35)+flash*2.4; flash-=dt*4; }
+  if(goalTarget){ controls.target.lerp(goalTarget, 0.06); if(controls.target.distanceTo(goalTarget)<0.5) goalTarget=null; }
+  controls.update();
+  renderer.render(scene,camera);
+}
+addEventListener('resize',()=>{
+  camera.aspect=innerWidth/innerHeight; camera.updateProjectionMatrix();
+  renderer.setSize(innerWidth,innerHeight);
+});
+window.edges = edges; window.focusEdge = focusEdge; window.sendAlert = sendAlert;
+updateAll();
+findRoutes();
+animate();
+</script>
+</body>
+</html>
